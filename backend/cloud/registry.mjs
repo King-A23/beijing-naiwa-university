@@ -127,7 +127,9 @@ export async function handleRegistry(request,env){
     if(url.pathname==='/api/health'&&request.method==='GET')return respond(request,200,{ok:!!(await db.prepare('SELECT 1 FROM students LIMIT 1').all()).success,service:'naiwa-registry',version:'20261020-1'});
     if(url.pathname==='/api/enrollments'&&request.method==='GET')return respond(request,200,await list(url,db));
     if(!validOrigin(request))throw new RegistryError(403,'ORIGIN_DENIED','请从奶蛙大学页面提交登记。');
-    if(url.pathname==='/api/enrollment-ticket'&&request.method==='GET')return respond(request,200,await issueTicket(request,env,db));
+    // Retired after migration: never let cached pages write into the old D1 roster.
+    if(url.pathname==='/api/enrollment-ticket'||(url.pathname==='/api/enrollments'&&request.method==='POST'))
+      return respond(request,410,{code:'REGISTRY_MOVED',message:'登记处已搬到新塘，请刷新网页后重新入学。'});
     if(url.pathname==='/api/enrollments'&&request.method==='POST'){
       const result=await enroll(request,env,db);return respond(request,result.created?201:200,result);
     }

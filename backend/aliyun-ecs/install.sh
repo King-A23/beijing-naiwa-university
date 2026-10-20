@@ -18,4 +18,4 @@ caddy validate --config /etc/caddy/Caddyfile
 systemctl daemon-reload
 systemctl enable --now naiwa-registry
 systemctl reload caddy
-curl --fail --silent http://127.0.0.1:8787/api/health
+curl --fail --silent --retry 8 --retry-connrefused --retry-delay 1 http://127.0.0.1:8787/api/health

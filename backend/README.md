@@ -28,10 +28,10 @@ node --test backend/registry.test.mjs
 
 ## 线上共享登记
 
-GitHub Pages 继续托管前端及现有域名。线上入学接口运行在 Sites 的 Cloudflare Worker，数据由 D1 持久保存。项目身份、接口地址与对应源码提交见 `cloud/deployment.json`；核心服务和迁移快照见 `cloud/`，完整源码保存在该 Sites 项目的源仓库。
+GitHub Pages 继续托管前端及现有域名。线上入学接口运行在阿里云香港 ECS，使用 SQLite 持久保存，Caddy 提供 HTTPS。部署与维护说明见 `aliyun-ecs/README.md`；部署信息见 `aliyun-ecs/deployment.json`。旧 Sites/D1 后台已停止接收新登记，原有记录完整迁移到新后台。
 
 首页的 `naiwa-enrollment-api` 指向共享接口。localhost / 127.0.0.1 仍自动使用独立本地数据库，试填记录不会混入线上。不要提交 `.local/` 数据或把它导入生产数据库。
 
 线上新增短期匿名登记凭据、来源检查和提交频率限制。蛙号与请求凭据均由数据库唯一约束保护；并发重复登记返回 409，原请求重试返回原记录。前端每30秒刷新人数，展开或刷新名册时获取当前共享记录。
 
-前端静态资源发布不会重建或清空数据库。后端更新必须通过同一 Sites 项目并追加迁移；维护密钥只在 Sites 运行时保存。回退前端不影响已有登记数据。
+前端静态资源发布不会重建或清空数据库。后端更新保留 `/var/lib/naiwa`；维护密钥只保存在服务器的受限环境文件。不要回退到旧接口地址，旧后台保留只读历史数据供迁移核对。

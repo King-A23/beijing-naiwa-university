@@ -1,0 +1,7 @@
+{
+  "provider": "Sites / Cloudflare D1",
+  "project_id": "appgprj_6ad744fe9ff88191b642f591ee4773e7",
+  "api": "https://naiwa-enrollment-registry.anyuchen34.chatgpt.site/api",
+  "frontend": "https://xn--1lq90ic7f9iv6f088h.cn/",
+  "source_commit": "d53ab88cbb515b585dd34b17635f272c70105eae"
+}

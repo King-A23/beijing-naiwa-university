@@ -1,0 +1,63 @@
+.enrollment{padding-top:28px;padding-bottom:28px;border-bottom:1px solid var(--line);scroll-margin-top:24px}
+.enrollmentBar{display:flex;justify-content:space-between;align-items:center;gap:24px}
+.enrollmentIdentity{display:flex;align-items:center;gap:22px;min-width:0}
+.enrollmentAvatars{display:flex;padding-left:8px;flex-shrink:0}
+.enrollmentAvatars img{width:48px;height:48px;object-fit:cover;object-position:center 35%;border-radius:50%;border:3px solid white;margin-left:-8px;background:#e4ecf4;box-shadow:0 2px 8px #002c6112}
+.enrollmentIdentity h2{font:500 16px/1.6 -apple-system,BlinkMacSystemFont,"PingFang SC",sans-serif;letter-spacing:0;margin:0;color:var(--blue)}
+#enrollmentCount{font:600 30px/1.2 Georgia,serif;margin:0 6px;display:inline-block;min-width:20px;font-variant-numeric:tabular-nums}
+.enrollmentIdentity p{font-size:12px;color:#7a8b9d;margin:5px 0 0}
+.enrollmentActions{display:flex;align-items:center;gap:12px;flex-shrink:0}
+.enrollPrimary,.enrollSecondary{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:10px 20px;font-size:14px;line-height:1.6;border:1px solid #cad6e3;color:var(--blue);white-space:nowrap;transition:background .2s,box-shadow .2s}
+.enrollPrimary{background:var(--blue);border-color:var(--blue);color:white}
+.enrollPrimary:hover:not(:disabled){background:var(--deep)}
+#openEnrollment{background:linear-gradient(135deg,#ffeab1,#f4c75e);border-color:#e8c36c;color:#113d70;font-weight:700;gap:18px}
+#openEnrollment:hover{background:#fff0c5;box-shadow:0 3px 12px #063d7c16}
+.enrollSecondary:hover:not(:disabled){background:#f3f6f9}
+.enrollRetry{padding:5px 0;color:var(--blue);font-size:12px;text-decoration:underline;min-height:36px}
+.frogRoster{margin-top:28px;padding:24px;background:#f3f6f9;scroll-margin-top:24px}
+.rosterHead{display:flex;justify-content:space-between;align-items:flex-start;gap:16px;margin-bottom:20px}
+.rosterHead h3{font:600 23px/1.5 "Songti SC",SimSun,serif;letter-spacing:1px;color:var(--blue);margin:0}
+.rosterHead p{font-size:12px;color:#74869a;margin:4px 0 0}
+.rosterHead button{font-size:12px;min-height:44px;padding:6px 0;color:var(--blue);white-space:nowrap;text-decoration:underline;text-underline-offset:4px}
+.frogCards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+.frogCard{background:white;padding:18px 14px;display:flex;align-items:flex-start;gap:12px;border:1px solid #e2e9f0;min-width:0}
+.frogCard>img{height:58px;width:58px;border-radius:50%;object-fit:cover;object-position:center 35%;flex-shrink:0;background:#e4ecf4}
+.frogCard>div{min-width:0}.frogCard h4{font-size:15px;color:var(--blue);margin:0 0 4px;overflow-wrap:anywhere;line-height:1.7}
+.frogCard p{margin:0;font-size:11px;color:#72849a;line-height:1.8}.frogNumber{overflow-wrap:anywhere}
+.frogYears{display:flex;flex-wrap:wrap;gap:0 8px;margin-top:7px!important}.frogYears span{white-space:nowrap}
+.rosterEmpty{padding:26px 15px;text-align:center;color:#71849a;font-size:14px}.rosterEmpty strong{display:block;font:600 20px/1.7 "Songti SC",serif;color:var(--blue);margin-bottom:7px}
+.rosterStatus{font-size:13px;color:var(--blue);margin:14px 0;line-height:1.8}.rosterStatus:empty{display:none}
+.rosterFoot{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px;margin-top:18px}.rosterFoot p{font-size:12px;color:#7a8b9d;margin:0}.rosterFoot p:empty{display:none}
+.enrollmentModalOpen{overflow:hidden}
+#enrollmentDialog{padding:0;width:min(560px,94vw);max-height:92dvh;background:white;overscroll-behavior:contain}
+#enrollmentDialog::backdrop{background:#001e43a8;backdrop-filter:blur(4px)}
+.enrollDialogHead{padding:27px 32px 21px;border-bottom:1px solid var(--line);position:relative}
+.enrollDialogHead>span{font-size:10px;letter-spacing:2px;color:#8196ac}.enrollDialogHead h2{font:600 27px/1.5 "Songti SC",serif;letter-spacing:2px;margin:6px 0 0;color:var(--blue)}
+.enrollDialogHead p{font-size:13px;margin:7px 34px 0 0;color:#76899e;line-height:1.8}
+#closeEnrollment{position:absolute;right:12px;top:12px;width:44px;height:44px;font-size:29px;text-align:center;color:var(--blue)}
+#enrollmentForm{padding:24px 32px 28px}.enrollField{margin-bottom:17px}
+.enrollField label,.enrollAvatars legend{display:block;font-size:14px;font-weight:600;color:var(--blue);margin-bottom:7px}
+.enrollField input{border:1px solid #bfcddd;background:white;width:100%;padding:10px 12px;border-radius:0;font-size:16px;color:var(--ink);min-height:44px}
+.enrollField input[aria-invalid=true]{border-color:#a63c32;outline:2px solid #a63c3222;outline-offset:0}
+.enrollField small{display:block;font-size:11px;line-height:1.8;color:#7a8b9d;margin-top:5px}
+.enrollAvatars{border:0;padding:0;margin:20px 0}.enrollAvatarChoices{display:grid;grid-template-columns:repeat(4,1fr);gap:8px}
+.enrollAvatarChoices label{cursor:pointer;position:relative;min-width:0}
+.enrollAvatarChoices input{position:absolute;opacity:0;width:1px;height:1px;inset:50%}
+.enrollAvatarChoices label>span{display:flex;flex-direction:column;align-items:center;padding:10px 3px;border:1px solid #dce4ed;background:#f7f9fb;gap:6px;font-size:11px;color:#7b8da0;text-align:center;line-height:1.5;transition:background .2s,border-color .2s}
+.enrollAvatarChoices img{width:62px;height:62px;object-fit:cover;object-position:center 35%;border-radius:50%}
+.enrollAvatarChoices input:checked+span{border:2px solid var(--blue);padding:9px 2px;background:#edf3fa;color:var(--blue);font-weight:600}
+.enrollAvatarChoices input:focus-visible+span{outline:3px solid #e4ad4e;outline-offset:3px}
+.enrollYears{display:grid;grid-template-columns:1fr 1fr;background:#f3f6f9;padding:13px 18px;gap:10px;margin:18px 0}
+.enrollYears div+div{border-left:1px solid #d9e2ed;padding-left:18px}.enrollYears span{display:block;font-size:11px;color:#7a8b9d}.enrollYears b{font-size:16px;font-weight:500;color:var(--blue)}
+.enrollPublicNote{font-size:11px;color:#7a8b9d;line-height:1.9;margin:16px 0 12px}
+#enrollmentFormMessage{color:#a63c32;font-size:13px;line-height:1.8;margin:0 0 12px}#enrollmentFormMessage:empty{display:none}
+#submitEnrollment{width:100%;font-size:15px}
+.enrollmentSuccess{padding:30px 32px;text-align:center}.enrollmentSuccess>img{width:110px;height:110px;border-radius:50%;object-fit:cover;object-position:center 35%;margin:0 auto 16px;background:#e4ecf4}
+.enrollmentSuccess h3{font:600 24px/1.7 "Songti SC",serif;color:var(--blue);margin:0 0 10px;overflow-wrap:anywhere}.enrollmentSuccess>p{font-size:13px;color:#7b8c9e;line-height:1.9}
+.enrollmentSuccess dl{margin:20px 0;text-align:left;border-block:1px solid var(--line);padding:12px 0;font-size:14px;line-height:2}
+.enrollmentSuccess dl>div{display:flex;gap:18px}.enrollmentSuccess dt{color:#8191a1;min-width:75px}.enrollmentSuccess dd{margin:0;overflow-wrap:anywhere;color:var(--blue)}
+#seeMyClassmates{margin:8px auto 0}
+@media(max-width:1100px){.enrollmentAvatars img{width:42px;height:42px}.enrollmentIdentity{gap:14px}.enrollmentIdentity p{font-size:11px}.frogCards{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:760px){.enrollmentBar{flex-wrap:wrap;gap:18px}.enrollmentIdentity{width:100%;gap:18px}.enrollmentActions{width:100%}.enrollmentActions>button{flex:1}.enrollment{padding-block:24px}.frogRoster{padding:20px 16px}.frogCards{grid-template-columns:1fr}.rosterFoot{align-items:flex-start;flex-direction:column}.enrollmentIdentity h2{font-size:15px}.enrollmentAvatars img{width:42px;height:42px}}
+@media(max-width:400px){.enrollmentIdentity{gap:12px}.enrollmentAvatars img{width:34px;height:34px;border-width:2px}.enrollmentIdentity h2{font-size:13px}.enrollmentIdentity p{font-size:10px}#enrollmentCount{font-size:27px}.enrollPrimary,.enrollSecondary{padding:10px 13px;font-size:13px}.enrollDialogHead{padding:24px 20px 18px}#enrollmentForm{padding:22px 20px}.enrollDialogHead h2{font-size:25px}.enrollAvatarChoices img{width:48px;height:48px}.enrollAvatarChoices label>span{font-size:10px}.enrollmentSuccess{padding:26px 20px}}
+@media(prefers-reduced-motion:reduce){.enrollment *,.enrollmentDialog *{animation:none!important;transition:none!important;scroll-behavior:auto!important}}

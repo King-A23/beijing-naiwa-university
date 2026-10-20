@@ -230,20 +230,28 @@ if(articleTitle) {
     document.querySelector('#innerSection').textContent=categoryLabel(article.category);
     const categoryLink=make('a',categoryLabel(article.category)); categoryLink.href='news.html?category='+encodeURIComponent(article.category);
     document.querySelector('#breadcrumbCategory').append(' / ',categoryLink);
-    document.querySelector('#articleMeta').textContent='发布时间：'+article.date+'　　来源：'+article.source+'　　虚构校园栏目';
+    document.querySelector('#articleMeta').textContent='发布时间：'+article.date+'　　来源：'+article.source;
     article.paragraphs.forEach(p=>body.append(make('p',p)));
     if(article.image) {
-      const figure=make('figure'),img=make('img');img.src='assets/'+article.image;img.alt='北京邮电大学校园影像，作为奶蛙校园故事配图';
-      figure.append(img,make('figcaption','校园影像引用：北京邮电大学公开素材'));body.insertBefore(figure,body.children[1]||null);
+      const figure=make('figure',undefined,article.imageFit==='contain'?'documentFigure':''),img=make('img');img.src='assets/'+article.image;img.alt=article.imageAlt||'北京邮电大学校园影像';
+      img.decoding='async';
+      figure.append(img,make('figcaption',article.imageCaption||'校园影像引用：北京邮电大学公开素材'));body.insertBefore(figure,body.children[1]||null);
     }
     (article.sections||[]).forEach(s=>{const section=make('section',undefined,'articleSection');section.append(make('h2',s.title),make('p',s.text));body.append(section);});
+    (article.illustrations||[]).forEach(item=>{
+      const figure=make('figure',undefined,'documentFigure'+(item.portrait?' portraitFigure':''));
+      const img=make('img');img.src='assets/'+item.src;img.alt=item.alt;img.loading='lazy';img.decoding='async';
+      const caption=make('figcaption',item.caption);
+      if(item.download){const download=make('a','保存奶蛙证件照 ↓','storyLink');download.href=img.getAttribute('src');download.download=item.download;caption.append(make('br'),download);}
+      figure.append(img,caption);body.append(figure);
+    });
     if(article.widget) renderWidget(article.widget,body);
     if(article.faq) {
       const faq=make('section',undefined,'articleFaq');faq.append(make('h2','新蛙常问'));
       article.faq.forEach(item=>{const details=make('details');details.append(make('summary',item.q),make('p',item.a));faq.append(details);});body.append(faq);
     }
     if(article.links) {
-      const links=make('div',undefined,'sourceLinks');article.links.forEach(item=>{const link=make('a',item.label);link.href=item.href;links.append(link);});body.append(links);
+      const links=make('div',undefined,'sourceLinks');article.links.forEach(item=>{const link=make('a',item.label);link.href=item.href;if(item.download)link.download=item.download;links.append(link);});body.append(links);
     }
     const related=document.querySelector('#relatedReading');
     const recommendations=(article.related||[]).map(id=>content.find(a=>a.id===id)).filter(Boolean);
@@ -330,11 +338,11 @@ function renderWidget(kind,body) {
     const button=make('button','给本蛙配一餐');
     button.onclick=()=>{const pool=(select.value==='all'?[...meals.rice,...meals.noodle]:meals[select.value]).filter(v=>v!==previous);previous=pool[Math.floor(Math.random()*pool.length)];status.textContent=previous;button.textContent='换一份奶蛙补给';animate(status,[{opacity:.3,transform:'translateY(5px)'},{opacity:1,transform:'translateY(0)'}]);};
     status.textContent='全塘开饭信号已发出。先选米饭或面食，本蛙今天不再纠结。';
-    const actions=make('div',undefined,'widgetActions');actions.append(button);panel.append(label,select,actions,status,make('small','虚构菜单灵感；请按自己的口味、饮食需求和实际供应选择。'));
+    const actions=make('div',undefined,'widgetActions');actions.append(button);panel.append(label,select,actions,status,make('small','奶蛙补给口诀：口味合适，按时开饭，吃饱再与难题同频。'));
   }
   if(kind==='checklist') {
     panel.append(make('h2','新蛙入塘 · 四条基础链路'));
-    const tasks=['认塘：核对自己的真实课表与教室','试课：读一篇四院导读，选个想学的问题','同频：和室友约好作息、声音与公共空间','补给：给吃饭、散步和睡觉留出时间'];
+    const tasks=['认塘：核对自己的课表与教室','试课：读一篇四院导读，选个想学的问题','同频：和室友约好作息、声音与公共空间','补给：给吃饭、散步和睡觉留出时间'];
     const key='naiwa-firstweek-v1';let saved=[],stored=true;
     try {const parsed=JSON.parse(localStorage.getItem(key)||'[]');if(Array.isArray(parsed))saved=parsed.filter(i=>Number.isInteger(i)&&i>=0&&i<tasks.length);} catch {stored=false;}
     const group=make('div',undefined,'campusChecklist');

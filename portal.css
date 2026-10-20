@@ -12,6 +12,17 @@
 .utility .officialJump:focus-visible{outline:3px solid white;outline-offset:4px}
 @media(max-width:600px){.utility>div{width:100%;gap:14px;justify-content:flex-end}.utility>div>a:not(.officialJump){display:none}.utility .officialJump{padding:8px 12px;font-size:12px;margin-right:2px}}
 
+/* Naiwa keepsakes use the existing article, card and gallery layouts. */
+.portraitPhoto img{object-position:center 15%}
+.cardPhoto.documentPhoto{background:#f3f6f9}
+.cardPhoto.documentPhoto img{object-fit:contain;padding:8px}
+#articleBody .documentFigure img{height:auto;max-height:none;object-fit:contain}
+#articleBody .portraitFigure{max-width:320px;margin:32px auto}
+.galleryGrid .documentFigure .galleryZoom{background:#f3f6f9}
+.galleryGrid .documentFigure img{object-fit:contain;padding:12px}
+.sourceLinks a[download]{justify-self:start;display:inline-block;padding:10px 18px;background:var(--blue);color:white;text-decoration:none;min-height:44px}
+.sourceLinks a[download]:hover{background:var(--deep)}
+
 /* Incremental interaction details. The original palette and page grids stay above. */
 .skipLink{position:fixed;left:16px;top:12px;z-index:20;padding:10px 18px;background:white;color:var(--blue);transform:translateY(-180%)}
 .skipLink:focus{transform:none}

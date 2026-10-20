@@ -1,0 +1,9 @@
+api.xn--1lq90ic7f9iv6f088h.cn {
+    request_body {
+        max_size 8KB
+    }
+    header X-Content-Type-Options nosniff
+    reverse_proxy 127.0.0.1:8787 {
+        header_up X-Naiwa-Source-IP {remote_host}
+    }
+}

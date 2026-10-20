@@ -1,0 +1,28 @@
+[Unit]
+Description=Naiwa shared enrollment registry
+After=network.target
+
+[Service]
+Type=simple
+User=naiwa
+Group=naiwa
+WorkingDirectory=/opt/naiwa-registry
+EnvironmentFile=/etc/naiwa-registry.env
+ExecStart=/usr/local/bin/node /opt/naiwa-registry/server.mjs
+Restart=on-failure
+RestartSec=3
+StateDirectory=naiwa
+StateDirectoryMode=0700
+UMask=0077
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+ProtectKernelTunables=true
+ProtectKernelModules=true
+ProtectControlGroups=true
+RestrictSUIDSGID=true
+ReadWritePaths=/var/lib/naiwa
+
+[Install]
+WantedBy=multi-user.target

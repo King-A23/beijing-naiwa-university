@@ -12,6 +12,10 @@
 .utility .officialJump:focus-visible{outline:3px solid white;outline-offset:4px}
 @media(max-width:600px){.utility>div{width:100%;gap:14px;justify-content:flex-end}.utility>div>a:not(.officialJump){display:none}.utility .officialJump{padding:8px 12px;font-size:12px;margin-right:2px}}
 
+/* Keep the look-back pose visible within the original hero frame. */
+.hero.naiwaScene>img{object-position:80% 80%}
+@media(min-width:651px) and (max-width:1100px){.hero.naiwaScene h1{max-width:65%}}
+
 /* Naiwa keepsakes use the existing article, card and gallery layouts. */
 .portraitPhoto img{object-position:center 15%}
 .cardPhoto.documentPhoto{background:#f3f6f9}

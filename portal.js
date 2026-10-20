@@ -83,7 +83,7 @@ searchForm?.addEventListener('submit', e => {
 
 // A calm, user-controllable carousel; no timers run offscreen or in the background.
 const slides = [
-  ['hero.jpg','BEIJING NAIWA UNIVERSITY · 2026','传蛙万里　与梦想同频','新蛙按时入塘，搭子记得回呱。','article.html?id=firstweek','领取入塘手册','校园校门'],
+  ['hero-naiwa.jpg','BEIJING NAIWA UNIVERSITY · 2026','传蛙万里　与梦想同频','新蛙按时入塘，搭子记得回呱。','article.html?id=firstweek','领取入塘手册','校门前背着书包、侧身回眸的奶蛙'],
   ['avenue.jpg','LIFE IN THE POND · 奶蛙巡塘','荷风起时　奶蛙出没','同频钟塔报时，青荷大道陪你赶早八。','gallery.html','开始奶蛙巡塘','校园林荫道'],
   ['campus.jpg','FOUR SCHOOLS · 四院合呱','一声呱起　四院同频','从“荷叶食堂见”，到同频搭子的一个 ACK。','article.html?id=protocol','接力发送一声呱','校园钟塔']
 ];
@@ -120,6 +120,8 @@ if (hero) {
     if (ticket !== revision) return;
     image.src = nextImage.src;
     image.alt = alt + '，北京邮电大学校园影像引用';
+    hero.classList.toggle('naiwaScene', current === 0);
+    hero.querySelector('.photoCredit').textContent = current === 0 ? '校园底图：北京邮电大学 · 奶蛙插图' : '校园影像引用：北京邮电大学';
     document.querySelector('#heroKicker').textContent = kicker;
     document.querySelector('#heroTitle').replaceChildren(...title.split('　').map(t => make('span', t)));
     document.querySelector('#heroSub').textContent = sub;

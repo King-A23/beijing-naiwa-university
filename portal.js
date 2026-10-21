@@ -47,7 +47,8 @@ function markNavigation() {
   const isHome = location.pathname.endsWith('/') || location.pathname.endsWith('/index.html');
   const target = isHome ? (location.hash.slice(1) || 'top') : article ? categoryTargets[article.category] : location.pathname.endsWith('gallery.html') ? 'life' : null;
   nav?.querySelectorAll('a').forEach(a => {
-    const active = !!target && (a.hash === '#' + target || (target === 'admissions' && a.href.includes('id=admissions')));
+    const section = target==='top'?'home':['about','schools','exchange'].includes(target)?'about':'news';
+    const active = a.dataset.portalNav ? (isHome ? a.dataset.portalNav===section : a.dataset.portalNav===(article?.category==='奶蛙概况'||article?.category==='院系介绍'?'about':'news')) : !!target && (a.hash === '#' + target || (target === 'admissions' && a.href.includes('id=admissions')));
     a.classList.toggle('active', active);
     if (active) a.setAttribute('aria-current', isHome ? 'location' : 'page');
     else a.removeAttribute('aria-current');
@@ -84,8 +85,8 @@ searchForm?.addEventListener('submit', e => {
 // A calm, user-controllable carousel; no timers run offscreen or in the background.
 const slides = [
   ['hero-naiwa.jpg','BEIJING NAIWA UNIVERSITY · 2026','传蛙万里　与梦想同频','新蛙按时入塘，搭子记得回呱。','article.html?id=firstweek','领取入塘手册','校门前背着书包、侧身回眸的奶蛙'],
-  ['avenue.jpg','LIFE IN THE POND · 奶蛙巡塘','荷风起时　奶蛙出没','同频钟塔报时，青荷大道陪你赶早八。','gallery.html','开始奶蛙巡塘','校园林荫道'],
-  ['campus.jpg','FOUR SCHOOLS · 四院合呱','一声呱起　四院同频','从“荷叶食堂见”，到同频搭子的一个 ACK。','article.html?id=protocol','接力发送一声呱','校园钟塔']
+  ['avenue.jpg','LIFE IN THE POND · 3D校园','荷风起时　奶蛙出没','从南门走过湖桥，亲自看看这片校园。','campus.html#explore','开启3D巡塘','校园林荫道'],
+  ['campus.jpg','FOUR SCHOOLS · 四院合呱','一声呱起　四院同频','从“荷叶食堂见”，到同频搭子的一个 ACK。','campus.html#course/signal/encoding','翻开通信讲义','校园钟塔']
 ];
 const hero = document.querySelector('.hero');
 if (hero) {

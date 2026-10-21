@@ -1,0 +1,3203 @@
+{
+  "version": 2,
+  "coordinateSystem": "right-handed: x east, y up, z south",
+  "uvConvention": "Building, ground and bank UVs: one UV unit per metre. Foliage uses embedded 2x2 RGBA atlas.",
+  "treeAssets": {
+    "deciduous": {
+      "url": "assets/campus/v2/tree.glb",
+      "lodUrl": "assets/campus/v2/tree-lod.glb",
+      "lodDistance": 48,
+      "cullDistance": 245,
+      "trunkRadius": 0.25,
+      "alphaCutoff": 0.45,
+      "leafMaterial": "leaf-broadleaf-alpha"
+    }
+  },
+  "treeInstances": [
+    {
+      "id": "tree-000",
+      "species": "deciduous",
+      "x": -11.0,
+      "y": 0.0,
+      "z": -340.0,
+      "rotationY": -1.7376,
+      "scale": 0.861
+    },
+    {
+      "id": "tree-001",
+      "species": "deciduous",
+      "x": -11.0,
+      "y": 0.0,
+      "z": -324.0,
+      "rotationY": -4.00195,
+      "scale": 0.953
+    },
+    {
+      "id": "tree-002",
+      "species": "deciduous",
+      "x": -11.0,
+      "y": 0.0,
+      "z": -308.0,
+      "rotationY": -2.88563,
+      "scale": 0.866
+    },
+    {
+      "id": "tree-003",
+      "species": "deciduous",
+      "x": -11.0,
+      "y": 0.0,
+      "z": -292.0,
+      "rotationY": -1.7712,
+      "scale": 0.913
+    },
+    {
+      "id": "tree-004",
+      "species": "deciduous",
+      "x": -11.0,
+      "y": 0.0,
+      "z": -276.0,
+      "rotationY": -6.02399,
+      "scale": 0.993
+    },
+    {
+      "id": "tree-005",
+      "species": "deciduous",
+      "x": -11.0,
+      "y": 0.0,
+      "z": -260.0,
+      "rotationY": -6.00605,
+      "scale": 0.994
+    },
+    {
+      "id": "tree-006",
+      "species": "deciduous",
+      "x": -11.0,
+      "y": 0.0,
+      "z": -244.0,
+      "rotationY": -5.80723,
+      "scale": 0.9
+    },
+    {
+      "id": "tree-007",
+      "species": "deciduous",
+      "x": -11.0,
+      "y": 0.0,
+      "z": -228.0,
+      "rotationY": -1.18898,
+      "scale": 0.959
+    },
+    {
+      "id": "tree-008",
+      "species": "deciduous",
+      "x": -11.0,
+      "y": 0.0,
+      "z": -196.0,
+      "rotationY": -5.73053,
+      "scale": 1.075
+    },
+    {
+      "id": "tree-009",
+      "species": "deciduous",
+      "x": -11.0,
+      "y": 0.0,
+      "z": -180.0,
+      "rotationY": -1.68549,
+      "scale": 0.852
+    },
+    {
+      "id": "tree-010",
+      "species": "deciduous",
+      "x": -11.0,
+      "y": 0.0,
+      "z": -164.0,
+      "rotationY": -2.14753,
+      "scale": 1.081
+    },
+    {
+      "id": "tree-011",
+      "species": "deciduous",
+      "x": -11.0,
+      "y": 0.0,
+      "z": -148.0,
+      "rotationY": -0.05422,
+      "scale": 0.922
+    },
+    {
+      "id": "tree-012",
+      "species": "deciduous",
+      "x": -11.0,
+      "y": 0.0,
+      "z": -132.0,
+      "rotationY": -3.88978,
+      "scale": 0.862
+    },
+    {
+      "id": "tree-013",
+      "species": "deciduous",
+      "x": -11.0,
+      "y": 0.0,
+      "z": -68.0,
+      "rotationY": -6.27373,
+      "scale": 1.145
+    },
+    {
+      "id": "tree-014",
+      "species": "deciduous",
+      "x": -11.0,
+      "y": 0.0,
+      "z": -52.0,
+      "rotationY": -0.15023,
+      "scale": 1.001
+    },
+    {
+      "id": "tree-015",
+      "species": "deciduous",
+      "x": -11.0,
+      "y": 0.0,
+      "z": -36.0,
+      "rotationY": -4.94739,
+      "scale": 0.947
+    },
+    {
+      "id": "tree-016",
+      "species": "deciduous",
+      "x": -11.0,
+      "y": 0.0,
+      "z": -20.0,
+      "rotationY": -4.01754,
+      "scale": 1.1
+    },
+    {
+      "id": "tree-017",
+      "species": "deciduous",
+      "x": 11.0,
+      "y": 0.0,
+      "z": -340.0,
+      "rotationY": -3.31273,
+      "scale": 0.919
+    },
+    {
+      "id": "tree-018",
+      "species": "deciduous",
+      "x": 11.0,
+      "y": 0.0,
+      "z": -324.0,
+      "rotationY": -3.93958,
+      "scale": 0.993
+    },
+    {
+      "id": "tree-019",
+      "species": "deciduous",
+      "x": 11.0,
+      "y": 0.0,
+      "z": -244.0,
+      "rotationY": -5.94815,
+      "scale": 0.929
+    },
+    {
+      "id": "tree-020",
+      "species": "deciduous",
+      "x": 11.0,
+      "y": 0.0,
+      "z": -228.0,
+      "rotationY": -1.0188,
+      "scale": 1.118
+    },
+    {
+      "id": "tree-021",
+      "species": "deciduous",
+      "x": 11.0,
+      "y": 0.0,
+      "z": -196.0,
+      "rotationY": -5.48629,
+      "scale": 0.937
+    },
+    {
+      "id": "tree-022",
+      "species": "deciduous",
+      "x": 11.0,
+      "y": 0.0,
+      "z": -180.0,
+      "rotationY": -5.93072,
+      "scale": 0.933
+    },
+    {
+      "id": "tree-023",
+      "species": "deciduous",
+      "x": 11.0,
+      "y": 0.0,
+      "z": -164.0,
+      "rotationY": -4.37292,
+      "scale": 1.005
+    },
+    {
+      "id": "tree-024",
+      "species": "deciduous",
+      "x": 11.0,
+      "y": 0.0,
+      "z": -148.0,
+      "rotationY": -1.34504,
+      "scale": 1.061
+    },
+    {
+      "id": "tree-025",
+      "species": "deciduous",
+      "x": 11.0,
+      "y": 0.0,
+      "z": -132.0,
+      "rotationY": -1.60185,
+      "scale": 0.936
+    },
+    {
+      "id": "tree-026",
+      "species": "deciduous",
+      "x": 11.0,
+      "y": 0.0,
+      "z": -68.0,
+      "rotationY": -4.36119,
+      "scale": 1.055
+    },
+    {
+      "id": "tree-027",
+      "species": "deciduous",
+      "x": 11.0,
+      "y": 0.0,
+      "z": -52.0,
+      "rotationY": -5.56965,
+      "scale": 0.89
+    },
+    {
+      "id": "tree-028",
+      "species": "deciduous",
+      "x": 11.0,
+      "y": 0.0,
+      "z": -36.0,
+      "rotationY": -1.5157,
+      "scale": 0.976
+    },
+    {
+      "id": "tree-029",
+      "species": "deciduous",
+      "x": 11.0,
+      "y": 0.0,
+      "z": -20.0,
+      "rotationY": -6.15424,
+      "scale": 0.981
+    },
+    {
+      "id": "tree-030",
+      "species": "deciduous",
+      "x": -144.0,
+      "y": 0.0,
+      "z": -340.0,
+      "rotationY": -3.92535,
+      "scale": 1.018
+    },
+    {
+      "id": "tree-031",
+      "species": "deciduous",
+      "x": -144.0,
+      "y": 0.0,
+      "z": -324.0,
+      "rotationY": -6.04435,
+      "scale": 1.126
+    },
+    {
+      "id": "tree-032",
+      "species": "deciduous",
+      "x": -144.0,
+      "y": 0.0,
+      "z": -308.0,
+      "rotationY": -2.62421,
+      "scale": 1.078
+    },
+    {
+      "id": "tree-033",
+      "species": "deciduous",
+      "x": -144.0,
+      "y": 0.0,
+      "z": -292.0,
+      "rotationY": -5.66091,
+      "scale": 1.027
+    },
+    {
+      "id": "tree-034",
+      "species": "deciduous",
+      "x": -144.0,
+      "y": 0.0,
+      "z": -276.0,
+      "rotationY": -3.64528,
+      "scale": 1.087
+    },
+    {
+      "id": "tree-035",
+      "species": "deciduous",
+      "x": -144.0,
+      "y": 0.0,
+      "z": -260.0,
+      "rotationY": -2.31517,
+      "scale": 0.954
+    },
+    {
+      "id": "tree-036",
+      "species": "deciduous",
+      "x": -144.0,
+      "y": 0.0,
+      "z": -244.0,
+      "rotationY": -3.53949,
+      "scale": 1.071
+    },
+    {
+      "id": "tree-037",
+      "species": "deciduous",
+      "x": -144.0,
+      "y": 0.0,
+      "z": -228.0,
+      "rotationY": -4.46189,
+      "scale": 0.855
+    },
+    {
+      "id": "tree-038",
+      "species": "deciduous",
+      "x": -144.0,
+      "y": 0.0,
+      "z": -196.0,
+      "rotationY": -5.01229,
+      "scale": 1.121
+    },
+    {
+      "id": "tree-039",
+      "species": "deciduous",
+      "x": -144.0,
+      "y": 0.0,
+      "z": -180.0,
+      "rotationY": -5.7209,
+      "scale": 1.119
+    },
+    {
+      "id": "tree-040",
+      "species": "deciduous",
+      "x": -144.0,
+      "y": 0.0,
+      "z": -164.0,
+      "rotationY": -4.95816,
+      "scale": 1.01
+    },
+    {
+      "id": "tree-041",
+      "species": "deciduous",
+      "x": -144.0,
+      "y": 0.0,
+      "z": -148.0,
+      "rotationY": -0.6176,
+      "scale": 0.964
+    },
+    {
+      "id": "tree-042",
+      "species": "deciduous",
+      "x": -144.0,
+      "y": 0.0,
+      "z": -132.0,
+      "rotationY": -1.96107,
+      "scale": 0.956
+    },
+    {
+      "id": "tree-043",
+      "species": "deciduous",
+      "x": -144.0,
+      "y": 0.0,
+      "z": -84.0,
+      "rotationY": -4.32982,
+      "scale": 1.13
+    },
+    {
+      "id": "tree-044",
+      "species": "deciduous",
+      "x": -144.0,
+      "y": 0.0,
+      "z": -68.0,
+      "rotationY": -3.90882,
+      "scale": 1.012
+    },
+    {
+      "id": "tree-045",
+      "species": "deciduous",
+      "x": -144.0,
+      "y": 0.0,
+      "z": -52.0,
+      "rotationY": -3.35682,
+      "scale": 0.887
+    },
+    {
+      "id": "tree-046",
+      "species": "deciduous",
+      "x": -144.0,
+      "y": 0.0,
+      "z": -36.0,
+      "rotationY": -2.47656,
+      "scale": 1.06
+    },
+    {
+      "id": "tree-047",
+      "species": "deciduous",
+      "x": -144.0,
+      "y": 0.0,
+      "z": -20.0,
+      "rotationY": -2.55652,
+      "scale": 0.924
+    },
+    {
+      "id": "tree-048",
+      "species": "deciduous",
+      "x": -122.0,
+      "y": 0.0,
+      "z": -340.0,
+      "rotationY": -4.30575,
+      "scale": 0.947
+    },
+    {
+      "id": "tree-049",
+      "species": "deciduous",
+      "x": -122.0,
+      "y": 0.0,
+      "z": -324.0,
+      "rotationY": -0.56886,
+      "scale": 0.893
+    },
+    {
+      "id": "tree-050",
+      "species": "deciduous",
+      "x": -122.0,
+      "y": 0.0,
+      "z": -308.0,
+      "rotationY": -4.37166,
+      "scale": 0.944
+    },
+    {
+      "id": "tree-051",
+      "species": "deciduous",
+      "x": -122.0,
+      "y": 0.0,
+      "z": -292.0,
+      "rotationY": -4.14309,
+      "scale": 1.078
+    },
+    {
+      "id": "tree-052",
+      "species": "deciduous",
+      "x": -122.0,
+      "y": 0.0,
+      "z": -276.0,
+      "rotationY": -2.29716,
+      "scale": 1.13
+    },
+    {
+      "id": "tree-053",
+      "species": "deciduous",
+      "x": -122.0,
+      "y": 0.0,
+      "z": -260.0,
+      "rotationY": -3.06508,
+      "scale": 0.859
+    },
+    {
+      "id": "tree-054",
+      "species": "deciduous",
+      "x": -122.0,
+      "y": 0.0,
+      "z": -244.0,
+      "rotationY": -1.12701,
+      "scale": 0.983
+    },
+    {
+      "id": "tree-055",
+      "species": "deciduous",
+      "x": -122.0,
+      "y": 0.0,
+      "z": -228.0,
+      "rotationY": -2.14423,
+      "scale": 1.05
+    },
+    {
+      "id": "tree-056",
+      "species": "deciduous",
+      "x": -122.0,
+      "y": 0.0,
+      "z": -196.0,
+      "rotationY": -2.05743,
+      "scale": 0.922
+    },
+    {
+      "id": "tree-057",
+      "species": "deciduous",
+      "x": -122.0,
+      "y": 0.0,
+      "z": -180.0,
+      "rotationY": -0.04853,
+      "scale": 1.133
+    },
+    {
+      "id": "tree-058",
+      "species": "deciduous",
+      "x": -122.0,
+      "y": 0.0,
+      "z": -164.0,
+      "rotationY": -1.75736,
+      "scale": 0.958
+    },
+    {
+      "id": "tree-059",
+      "species": "deciduous",
+      "x": -122.0,
+      "y": 0.0,
+      "z": -148.0,
+      "rotationY": -2.71719,
+      "scale": 0.91
+    },
+    {
+      "id": "tree-060",
+      "species": "deciduous",
+      "x": -122.0,
+      "y": 0.0,
+      "z": -132.0,
+      "rotationY": -5.77338,
+      "scale": 0.916
+    },
+    {
+      "id": "tree-061",
+      "species": "deciduous",
+      "x": -122.0,
+      "y": 0.0,
+      "z": -84.0,
+      "rotationY": -4.38625,
+      "scale": 1.0
+    },
+    {
+      "id": "tree-062",
+      "species": "deciduous",
+      "x": -122.0,
+      "y": 0.0,
+      "z": -68.0,
+      "rotationY": -2.91936,
+      "scale": 0.899
+    },
+    {
+      "id": "tree-063",
+      "species": "deciduous",
+      "x": -225.0,
+      "y": 0.0,
+      "z": -340.0,
+      "rotationY": -5.29595,
+      "scale": 1.032
+    },
+    {
+      "id": "tree-064",
+      "species": "deciduous",
+      "x": -225.0,
+      "y": 0.0,
+      "z": -324.0,
+      "rotationY": -2.88795,
+      "scale": 0.925
+    },
+    {
+      "id": "tree-065",
+      "species": "deciduous",
+      "x": -225.0,
+      "y": 0.0,
+      "z": -308.0,
+      "rotationY": -5.22554,
+      "scale": 1.106
+    },
+    {
+      "id": "tree-066",
+      "species": "deciduous",
+      "x": -225.0,
+      "y": 0.0,
+      "z": -292.0,
+      "rotationY": -3.38029,
+      "scale": 0.918
+    },
+    {
+      "id": "tree-067",
+      "species": "deciduous",
+      "x": -225.0,
+      "y": 0.0,
+      "z": -276.0,
+      "rotationY": -2.48368,
+      "scale": 1.078
+    },
+    {
+      "id": "tree-068",
+      "species": "deciduous",
+      "x": -225.0,
+      "y": 0.0,
+      "z": -260.0,
+      "rotationY": -4.16747,
+      "scale": 1.052
+    },
+    {
+      "id": "tree-069",
+      "species": "deciduous",
+      "x": -225.0,
+      "y": 0.0,
+      "z": -244.0,
+      "rotationY": -3.48014,
+      "scale": 1.142
+    },
+    {
+      "id": "tree-070",
+      "species": "deciduous",
+      "x": -225.0,
+      "y": 0.0,
+      "z": -228.0,
+      "rotationY": -2.20056,
+      "scale": 1.054
+    },
+    {
+      "id": "tree-071",
+      "species": "deciduous",
+      "x": -225.0,
+      "y": 0.0,
+      "z": -196.0,
+      "rotationY": -2.02485,
+      "scale": 1.07
+    },
+    {
+      "id": "tree-072",
+      "species": "deciduous",
+      "x": -225.0,
+      "y": 0.0,
+      "z": -180.0,
+      "rotationY": -2.26723,
+      "scale": 1.0
+    },
+    {
+      "id": "tree-073",
+      "species": "deciduous",
+      "x": -225.0,
+      "y": 0.0,
+      "z": -164.0,
+      "rotationY": -0.85396,
+      "scale": 0.942
+    },
+    {
+      "id": "tree-074",
+      "species": "deciduous",
+      "x": -225.0,
+      "y": 0.0,
+      "z": -148.0,
+      "rotationY": -3.41994,
+      "scale": 0.918
+    },
+    {
+      "id": "tree-075",
+      "species": "deciduous",
+      "x": -225.0,
+      "y": 0.0,
+      "z": -132.0,
+      "rotationY": -0.28846,
+      "scale": 0.926
+    },
+    {
+      "id": "tree-076",
+      "species": "deciduous",
+      "x": -225.0,
+      "y": 0.0,
+      "z": -84.0,
+      "rotationY": -1.79467,
+      "scale": 1.091
+    },
+    {
+      "id": "tree-077",
+      "species": "deciduous",
+      "x": -225.0,
+      "y": 0.0,
+      "z": -68.0,
+      "rotationY": -3.76231,
+      "scale": 1.131
+    },
+    {
+      "id": "tree-078",
+      "species": "deciduous",
+      "x": -225.0,
+      "y": 0.0,
+      "z": -52.0,
+      "rotationY": -5.48584,
+      "scale": 0.967
+    },
+    {
+      "id": "tree-079",
+      "species": "deciduous",
+      "x": -225.0,
+      "y": 0.0,
+      "z": -36.0,
+      "rotationY": -2.0167,
+      "scale": 1.119
+    },
+    {
+      "id": "tree-080",
+      "species": "deciduous",
+      "x": -225.0,
+      "y": 0.0,
+      "z": -20.0,
+      "rotationY": -4.02717,
+      "scale": 0.888
+    },
+    {
+      "id": "tree-081",
+      "species": "deciduous",
+      "x": -203.0,
+      "y": 0.0,
+      "z": -292.0,
+      "rotationY": -3.82334,
+      "scale": 1.103
+    },
+    {
+      "id": "tree-082",
+      "species": "deciduous",
+      "x": -203.0,
+      "y": 0.0,
+      "z": -228.0,
+      "rotationY": -2.59133,
+      "scale": 1.085
+    },
+    {
+      "id": "tree-083",
+      "species": "deciduous",
+      "x": -203.0,
+      "y": 0.0,
+      "z": -196.0,
+      "rotationY": -1.65373,
+      "scale": 1.035
+    },
+    {
+      "id": "tree-084",
+      "species": "deciduous",
+      "x": -203.0,
+      "y": 0.0,
+      "z": -180.0,
+      "rotationY": -2.38566,
+      "scale": 0.972
+    },
+    {
+      "id": "tree-085",
+      "species": "deciduous",
+      "x": -203.0,
+      "y": 0.0,
+      "z": -132.0,
+      "rotationY": -2.51046,
+      "scale": 0.965
+    },
+    {
+      "id": "tree-086",
+      "species": "deciduous",
+      "x": 122.0,
+      "y": 0.0,
+      "z": -340.0,
+      "rotationY": -1.06705,
+      "scale": 1.092
+    },
+    {
+      "id": "tree-087",
+      "species": "deciduous",
+      "x": 122.0,
+      "y": 0.0,
+      "z": -324.0,
+      "rotationY": -1.60016,
+      "scale": 0.912
+    },
+    {
+      "id": "tree-088",
+      "species": "deciduous",
+      "x": 122.0,
+      "y": 0.0,
+      "z": -308.0,
+      "rotationY": -3.28454,
+      "scale": 1.141
+    },
+    {
+      "id": "tree-089",
+      "species": "deciduous",
+      "x": 122.0,
+      "y": 0.0,
+      "z": -292.0,
+      "rotationY": -5.24894,
+      "scale": 0.866
+    },
+    {
+      "id": "tree-090",
+      "species": "deciduous",
+      "x": 122.0,
+      "y": 0.0,
+      "z": -276.0,
+      "rotationY": -5.15943,
+      "scale": 1.112
+    },
+    {
+      "id": "tree-091",
+      "species": "deciduous",
+      "x": 122.0,
+      "y": 0.0,
+      "z": -260.0,
+      "rotationY": -4.61593,
+      "scale": 0.958
+    },
+    {
+      "id": "tree-092",
+      "species": "deciduous",
+      "x": 122.0,
+      "y": 0.0,
+      "z": -244.0,
+      "rotationY": -0.86253,
+      "scale": 0.942
+    },
+    {
+      "id": "tree-093",
+      "species": "deciduous",
+      "x": 122.0,
+      "y": 0.0,
+      "z": -228.0,
+      "rotationY": -5.23413,
+      "scale": 1.11
+    },
+    {
+      "id": "tree-094",
+      "species": "deciduous",
+      "x": 122.0,
+      "y": 0.0,
+      "z": -196.0,
+      "rotationY": -5.528,
+      "scale": 0.913
+    },
+    {
+      "id": "tree-095",
+      "species": "deciduous",
+      "x": 122.0,
+      "y": 0.0,
+      "z": -180.0,
+      "rotationY": -1.93782,
+      "scale": 0.857
+    },
+    {
+      "id": "tree-096",
+      "species": "deciduous",
+      "x": 122.0,
+      "y": 0.0,
+      "z": -164.0,
+      "rotationY": -1.07469,
+      "scale": 0.854
+    },
+    {
+      "id": "tree-097",
+      "species": "deciduous",
+      "x": 122.0,
+      "y": 0.0,
+      "z": -148.0,
+      "rotationY": -4.49769,
+      "scale": 0.899
+    },
+    {
+      "id": "tree-098",
+      "species": "deciduous",
+      "x": 122.0,
+      "y": 0.0,
+      "z": -132.0,
+      "rotationY": -1.19414,
+      "scale": 0.939
+    },
+    {
+      "id": "tree-099",
+      "species": "deciduous",
+      "x": 122.0,
+      "y": 0.0,
+      "z": -84.0,
+      "rotationY": -1.96012,
+      "scale": 0.905
+    },
+    {
+      "id": "tree-100",
+      "species": "deciduous",
+      "x": 122.0,
+      "y": 0.0,
+      "z": -68.0,
+      "rotationY": -3.81304,
+      "scale": 1.109
+    },
+    {
+      "id": "tree-101",
+      "species": "deciduous",
+      "x": 122.0,
+      "y": 0.0,
+      "z": -52.0,
+      "rotationY": -4.30394,
+      "scale": 0.881
+    },
+    {
+      "id": "tree-102",
+      "species": "deciduous",
+      "x": 122.0,
+      "y": 0.0,
+      "z": -36.0,
+      "rotationY": -2.81771,
+      "scale": 1.011
+    },
+    {
+      "id": "tree-103",
+      "species": "deciduous",
+      "x": 122.0,
+      "y": 0.0,
+      "z": -20.0,
+      "rotationY": -4.09347,
+      "scale": 1.008
+    },
+    {
+      "id": "tree-104",
+      "species": "deciduous",
+      "x": 144.0,
+      "y": 0.0,
+      "z": -340.0,
+      "rotationY": -3.17478,
+      "scale": 1.09
+    },
+    {
+      "id": "tree-105",
+      "species": "deciduous",
+      "x": 144.0,
+      "y": 0.0,
+      "z": -324.0,
+      "rotationY": -2.93608,
+      "scale": 1.041
+    },
+    {
+      "id": "tree-106",
+      "species": "deciduous",
+      "x": 144.0,
+      "y": 0.0,
+      "z": -308.0,
+      "rotationY": -2.44089,
+      "scale": 1.04
+    },
+    {
+      "id": "tree-107",
+      "species": "deciduous",
+      "x": 144.0,
+      "y": 0.0,
+      "z": -292.0,
+      "rotationY": -3.24625,
+      "scale": 0.974
+    },
+    {
+      "id": "tree-108",
+      "species": "deciduous",
+      "x": 144.0,
+      "y": 0.0,
+      "z": -276.0,
+      "rotationY": -1.74992,
+      "scale": 1.065
+    },
+    {
+      "id": "tree-109",
+      "species": "deciduous",
+      "x": 144.0,
+      "y": 0.0,
+      "z": -228.0,
+      "rotationY": -3.08847,
+      "scale": 1.127
+    },
+    {
+      "id": "tree-110",
+      "species": "deciduous",
+      "x": 144.0,
+      "y": 0.0,
+      "z": -196.0,
+      "rotationY": -4.33789,
+      "scale": 1.107
+    },
+    {
+      "id": "tree-111",
+      "species": "deciduous",
+      "x": 144.0,
+      "y": 0.0,
+      "z": -180.0,
+      "rotationY": -4.28797,
+      "scale": 1.137
+    },
+    {
+      "id": "tree-112",
+      "species": "deciduous",
+      "x": 144.0,
+      "y": 0.0,
+      "z": -164.0,
+      "rotationY": -2.55012,
+      "scale": 0.978
+    },
+    {
+      "id": "tree-113",
+      "species": "deciduous",
+      "x": 144.0,
+      "y": 0.0,
+      "z": -148.0,
+      "rotationY": -4.73671,
+      "scale": 1.032
+    },
+    {
+      "id": "tree-114",
+      "species": "deciduous",
+      "x": 144.0,
+      "y": 0.0,
+      "z": -132.0,
+      "rotationY": -0.81248,
+      "scale": 1.102
+    },
+    {
+      "id": "tree-115",
+      "species": "deciduous",
+      "x": 144.0,
+      "y": 0.0,
+      "z": -84.0,
+      "rotationY": -0.67948,
+      "scale": 0.869
+    },
+    {
+      "id": "tree-116",
+      "species": "deciduous",
+      "x": 144.0,
+      "y": 0.0,
+      "z": -68.0,
+      "rotationY": -0.35457,
+      "scale": 0.875
+    },
+    {
+      "id": "tree-117",
+      "species": "deciduous",
+      "x": 144.0,
+      "y": 0.0,
+      "z": -52.0,
+      "rotationY": -1.56781,
+      "scale": 0.853
+    },
+    {
+      "id": "tree-118",
+      "species": "deciduous",
+      "x": 144.0,
+      "y": 0.0,
+      "z": -36.0,
+      "rotationY": -4.3055,
+      "scale": 0.884
+    },
+    {
+      "id": "tree-119",
+      "species": "deciduous",
+      "x": 144.0,
+      "y": 0.0,
+      "z": -20.0,
+      "rotationY": -6.0674,
+      "scale": 1.035
+    },
+    {
+      "id": "tree-120",
+      "species": "deciduous",
+      "x": -44,
+      "y": 0,
+      "z": -65,
+      "rotationY": 2.34358,
+      "scale": 0.783
+    },
+    {
+      "id": "tree-121",
+      "species": "deciduous",
+      "x": -31,
+      "y": 0,
+      "z": -66,
+      "rotationY": 2.39423,
+      "scale": 0.906
+    },
+    {
+      "id": "tree-122",
+      "species": "deciduous",
+      "x": 27,
+      "y": 0,
+      "z": -64,
+      "rotationY": 3.22089,
+      "scale": 1.024
+    },
+    {
+      "id": "tree-123",
+      "species": "deciduous",
+      "x": 44,
+      "y": 0,
+      "z": -70,
+      "rotationY": 4.8527,
+      "scale": 1.093
+    },
+    {
+      "id": "tree-124",
+      "species": "deciduous",
+      "x": -52,
+      "y": 0,
+      "z": -92,
+      "rotationY": 5.20549,
+      "scale": 0.974
+    },
+    {
+      "id": "tree-125",
+      "species": "deciduous",
+      "x": 55,
+      "y": 0,
+      "z": -95,
+      "rotationY": 0.64827,
+      "scale": 0.958
+    },
+    {
+      "id": "tree-126",
+      "species": "deciduous",
+      "x": -30,
+      "y": 0,
+      "z": -106,
+      "rotationY": 2.92912,
+      "scale": 0.934
+    },
+    {
+      "id": "tree-127",
+      "species": "deciduous",
+      "x": 31,
+      "y": 0,
+      "z": -104,
+      "rotationY": 5.55607,
+      "scale": 1.079
+    },
+    {
+      "id": "tree-128",
+      "species": "deciduous",
+      "x": -30,
+      "y": 0,
+      "z": -40,
+      "rotationY": 3.8523,
+      "scale": 0.916
+    },
+    {
+      "id": "tree-129",
+      "species": "deciduous",
+      "x": -35,
+      "y": 0,
+      "z": -22,
+      "rotationY": 0.1081,
+      "scale": 1.067
+    },
+    {
+      "id": "tree-130",
+      "species": "deciduous",
+      "x": 33,
+      "y": 0,
+      "z": -27,
+      "rotationY": 5.67324,
+      "scale": 1.082
+    },
+    {
+      "id": "tree-131",
+      "species": "deciduous",
+      "x": 44,
+      "y": 0,
+      "z": -23,
+      "rotationY": 5.51103,
+      "scale": 1.047
+    },
+    {
+      "id": "tree-132",
+      "species": "deciduous",
+      "x": -68,
+      "y": 0,
+      "z": -215,
+      "rotationY": 4.9522,
+      "scale": 0.856
+    },
+    {
+      "id": "tree-133",
+      "species": "deciduous",
+      "x": -81,
+      "y": 0,
+      "z": -217,
+      "rotationY": 2.78475,
+      "scale": 0.822
+    },
+    {
+      "id": "tree-134",
+      "species": "deciduous",
+      "x": -95,
+      "y": 0,
+      "z": -217,
+      "rotationY": 1.41882,
+      "scale": 0.88
+    },
+    {
+      "id": "tree-135",
+      "species": "deciduous",
+      "x": -111,
+      "y": 0,
+      "z": -217,
+      "rotationY": 0.88808,
+      "scale": 1.09
+    },
+    {
+      "id": "tree-136",
+      "species": "deciduous",
+      "x": 26,
+      "y": 0,
+      "z": -218,
+      "rotationY": 0.9439,
+      "scale": 0.866
+    },
+    {
+      "id": "tree-137",
+      "species": "deciduous",
+      "x": 82,
+      "y": 0,
+      "z": -216,
+      "rotationY": 6.08946,
+      "scale": 1.026
+    },
+    {
+      "id": "tree-138",
+      "species": "deciduous",
+      "x": 115,
+      "y": 0,
+      "z": -243,
+      "rotationY": 0.14017,
+      "scale": 0.842
+    },
+    {
+      "id": "tree-139",
+      "species": "deciduous",
+      "x": 117,
+      "y": 0,
+      "z": -261,
+      "rotationY": 3.50446,
+      "scale": 0.842
+    },
+    {
+      "id": "tree-140",
+      "species": "deciduous",
+      "x": 117,
+      "y": 0,
+      "z": -305,
+      "rotationY": 4.28847,
+      "scale": 0.888
+    },
+    {
+      "id": "tree-141",
+      "species": "deciduous",
+      "x": -330,
+      "y": 0,
+      "z": -221,
+      "rotationY": 2.69956,
+      "scale": 1.114
+    },
+    {
+      "id": "tree-142",
+      "species": "deciduous",
+      "x": -317,
+      "y": 0,
+      "z": -220,
+      "rotationY": 6.18237,
+      "scale": 0.832
+    },
+    {
+      "id": "tree-143",
+      "species": "deciduous",
+      "x": -302,
+      "y": 0,
+      "z": -220,
+      "rotationY": 4.78463,
+      "scale": 0.909
+    },
+    {
+      "id": "tree-144",
+      "species": "deciduous",
+      "x": -287,
+      "y": 0,
+      "z": -219,
+      "rotationY": 6.0834,
+      "scale": 0.852
+    }
+  ],
+  "pond": {
+    "name": "Core landscape lake",
+    "nameConfidence": "Official 2021 source calls it 核心区景观湖; 雁来湖 name unverified",
+    "outline": [
+      [
+        -55.0,
+        -102.0
+      ],
+      [
+        -53.976,
+        -103.08
+      ],
+      [
+        -51.568,
+        -102.84
+      ],
+      [
+        -48.472,
+        -101.76
+      ],
+      [
+        -45.384,
+        -100.32
+      ],
+      [
+        -43.0,
+        -99.0
+      ],
+      [
+        -41.544,
+        -97.64
+      ],
+      [
+        -40.552,
+        -95.92
+      ],
+      [
+        -39.688,
+        -94.08
+      ],
+      [
+        -38.616,
+        -92.36
+      ],
+      [
+        -37.0,
+        -91.0
+      ],
+      [
+        -34.584,
+        -90.16
+      ],
+      [
+        -31.592,
+        -89.68
+      ],
+      [
+        -28.408,
+        -89.32
+      ],
+      [
+        -25.416,
+        -88.84
+      ],
+      [
+        -23.0,
+        -88.0
+      ],
+      [
+        -21.352,
+        -86.576
+      ],
+      [
+        -20.216,
+        -84.728
+      ],
+      [
+        -19.304,
+        -82.792
+      ],
+      [
+        -18.328,
+        -81.104
+      ],
+      [
+        -17.0,
+        -80.0
+      ],
+      [
+        -15.208,
+        -79.592
+      ],
+      [
+        -13.144,
+        -79.656
+      ],
+      [
+        -10.976,
+        -80.024
+      ],
+      [
+        -8.872,
+        -80.528
+      ],
+      [
+        -7.0,
+        -81.0
+      ],
+      [
+        -5.504,
+        -81.584
+      ],
+      [
+        -4.272,
+        -82.392
+      ],
+      [
+        -3.088,
+        -83.208
+      ],
+      [
+        -1.736,
+        -83.816
+      ],
+      [
+        0.0,
+        -84.0
+      ],
+      [
+        2.28,
+        -83.488
+      ],
+      [
+        4.96,
+        -82.424
+      ],
+      [
+        7.8,
+        -81.216
+      ],
+      [
+        10.56,
+        -80.272
+      ],
+      [
+        13.0,
+        -80.0
+      ],
+      [
+        15.04,
+        -80.624
+      ],
+      [
+        16.84,
+        -81.872
+      ],
+      [
+        18.52,
+        -83.408
+      ],
+      [
+        20.2,
+        -84.896
+      ],
+      [
+        22.0,
+        -86.0
+      ],
+      [
+        23.92,
+        -86.528
+      ],
+      [
+        25.88,
+        -86.704
+      ],
+      [
+        27.88,
+        -86.816
+      ],
+      [
+        29.92,
+        -87.152
+      ],
+      [
+        32.0,
+        -88.0
+      ],
+      [
+        34.136,
+        -89.6
+      ],
+      [
+        36.328,
+        -91.76
+      ],
+      [
+        38.552,
+        -94.12
+      ],
+      [
+        40.784,
+        -96.32
+      ],
+      [
+        43.0,
+        -98.0
+      ],
+      [
+        45.472,
+        -99.32
+      ],
+      [
+        48.216,
+        -100.52
+      ],
+      [
+        50.824,
+        -101.36
+      ],
+      [
+        52.888,
+        -101.6
+      ],
+      [
+        54.0,
+        -101.0
+      ],
+      [
+        54.016,
+        -99.24
+      ],
+      [
+        53.208,
+        -96.48
+      ],
+      [
+        51.792,
+        -93.2
+      ],
+      [
+        49.984,
+        -89.88
+      ],
+      [
+        48.0,
+        -87.0
+      ],
+      [
+        45.76,
+        -84.496
+      ],
+      [
+        43.12,
+        -82.048
+      ],
+      [
+        40.2,
+        -79.752
+      ],
+      [
+        37.12,
+        -77.704
+      ],
+      [
+        34.0,
+        -76.0
+      ],
+      [
+        30.744,
+        -74.768
+      ],
+      [
+        27.272,
+        -73.944
+      ],
+      [
+        23.728,
+        -73.336
+      ],
+      [
+        20.256,
+        -72.752
+      ],
+      [
+        17.0,
+        -72.0
+      ],
+      [
+        13.96,
+        -70.904
+      ],
+      [
+        11.04,
+        -69.592
+      ],
+      [
+        8.24,
+        -68.328
+      ],
+      [
+        5.56,
+        -67.376
+      ],
+      [
+        3.0,
+        -67.0
+      ],
+      [
+        0.592,
+        -67.472
+      ],
+      [
+        -1.664,
+        -68.616
+      ],
+      [
+        -3.816,
+        -70.024
+      ],
+      [
+        -5.912,
+        -71.288
+      ],
+      [
+        -8.0,
+        -72.0
+      ],
+      [
+        -10.032,
+        -71.888
+      ],
+      [
+        -11.976,
+        -71.224
+      ],
+      [
+        -13.904,
+        -70.416
+      ],
+      [
+        -15.888,
+        -69.872
+      ],
+      [
+        -18.0,
+        -70.0
+      ],
+      [
+        -20.24,
+        -71.056
+      ],
+      [
+        -22.56,
+        -72.768
+      ],
+      [
+        -24.96,
+        -74.752
+      ],
+      [
+        -27.44,
+        -76.624
+      ],
+      [
+        -30.0,
+        -78.0
+      ],
+      [
+        -32.72,
+        -78.464
+      ],
+      [
+        -35.6,
+        -78.272
+      ],
+      [
+        -38.52,
+        -78.048
+      ],
+      [
+        -41.36,
+        -78.416
+      ],
+      [
+        -44.0,
+        -80.0
+      ],
+      [
+        -46.76,
+        -83.52
+      ],
+      [
+        -49.72,
+        -88.56
+      ],
+      [
+        -52.4,
+        -94.04
+      ],
+      [
+        -54.32,
+        -98.88
+      ]
+    ],
+    "waterY": 0.06,
+    "waterMeshName": "water-pond__water",
+    "bedY": -0.4,
+    "shoreHeight": 0.3,
+    "bridge": {
+      "minX": -5.5,
+      "maxX": 5.5,
+      "minZ": -100,
+      "maxZ": -66,
+      "deckY": 0.22
+    },
+    "referenceConfidence": "Plan outline inferred from 2024.08 schematic map; stone revetment and shallow bed observed in 2021 photos; precise bridge and current vegetation not surveyed"
+  },
+  "extraColliders": [
+    {
+      "id": "lake-v2-0--55",
+      "minX": -55,
+      "maxX": -49,
+      "minZ": -103,
+      "maxZ": -101,
+      "height": 0.4
+    },
+    {
+      "id": "lake-v2-1--55",
+      "minX": -55,
+      "maxX": -45,
+      "minZ": -101,
+      "maxZ": -99,
+      "height": 0.4
+    },
+    {
+      "id": "lake-v2-1-47",
+      "minX": 47,
+      "maxX": 54,
+      "minZ": -101,
+      "maxZ": -99,
+      "height": 0.4
+    },
+    {
+      "id": "lake-v2-2--54",
+      "minX": -54,
+      "maxX": -42,
+      "minZ": -99,
+      "maxZ": -97,
+      "height": 0.4
+    },
+    {
+      "id": "lake-v2-2-43",
+      "minX": 43,
+      "maxX": 54,
+      "minZ": -99,
+      "maxZ": -97,
+      "height": 0.4
+    },
+    {
+      "id": "lake-v2-3--53",
+      "minX": -53,
+      "maxX": -41,
+      "minZ": -97,
+      "maxZ": -95,
+      "height": 0.4
+    },
+    {
+      "id": "lake-v2-3-40",
+      "minX": 40,
+      "maxX": 53,
+      "minZ": -97,
+      "maxZ": -95,
+      "height": 0.4
+    },
+    {
+      "id": "lake-v2-4--52",
+      "minX": -52,
+      "maxX": -40,
+      "minZ": -95,
+      "maxZ": -93,
+      "height": 0.4
+    },
+    {
+      "id": "lake-v2-4-38",
+      "minX": 38,
+      "maxX": 52,
+      "minZ": -95,
+      "maxZ": -93,
+      "height": 0.4
+    },
+    {
+      "id": "lake-v2-5--51",
+      "minX": -51,
+      "maxX": -38,
+      "minZ": -93,
+      "maxZ": -91,
+      "height": 0.4
+    },
+    {
+      "id": "lake-v2-5-37",
+      "minX": 37,
+      "maxX": 51,
+      "minZ": -93,
+      "maxZ": -91,
+      "height": 0.4
+    },
+    {
+      "id": "lake-v2-6--50",
+      "minX": -50,
+      "maxX": -34,
+      "minZ": -91,
+      "maxZ": -89,
+      "height": 0.4
+    },
+    {
+      "id": "lake-v2-6-35",
+      "minX": 35,
+      "maxX": 50,
+      "minZ": -91,
+      "maxZ": -89,
+      "height": 0.4
+    },
+    {
+      "id": "lake-v2-7--49",
+      "minX": -49,
+      "maxX": -23,
+      "minZ": -89,
+      "maxZ": -87,
+      "height": 0.4
+    },
+    {
+      "id": "lake-v2-7-32",
+      "minX": 32,
+      "maxX": 49,
+      "minZ": -89,
+      "maxZ": -87,
+      "height": 0.4
+    },
+    {
+      "id": "lake-v2-8--48",
+      "minX": -48,
+      "maxX": -21,
+      "minZ": -87,
+      "maxZ": -85,
+      "height": 0.4
+    },
+    {
+      "id": "lake-v2-8-22",
+      "minX": 22,
+      "maxX": 47,
+      "minZ": -87,
+      "maxZ": -85,
+      "height": 0.4
+    },
+    {
+      "id": "lake-v2-9--47",
+      "minX": -47,
+      "maxX": -20,
+      "minZ": -85,
+      "maxZ": -83,
+      "height": 0.4
+    },
+    {
+      "id": "lake-v2-9-19",
+      "minX": 19,
+      "maxX": 45,
+      "minZ": -85,
+      "maxZ": -83,
+      "height": 0.4
+    },
+    {
+      "id": "lake-v2-10--46",
+      "minX": -46,
+      "maxX": -19,
+      "minZ": -83,
+      "maxZ": -81,
+      "height": 0.4
+    },
+    {
+      "id": "lake-v2-10-17",
+      "minX": 17,
+      "maxX": 43,
+      "minZ": -83,
+      "maxZ": -81,
+      "height": 0.4
+    },
+    {
+      "id": "lake-v2-11--44",
+      "minX": -44,
+      "maxX": -17,
+      "minZ": -81,
+      "maxZ": -79,
+      "height": 0.4
+    },
+    {
+      "id": "lake-v2-11--11",
+      "minX": -11,
+      "maxX": -6,
+      "minZ": -81,
+      "maxZ": -79,
+      "height": 0.4
+    },
+    {
+      "id": "lake-v2-11-6",
+      "minX": 6,
+      "maxX": 41,
+      "minZ": -81,
+      "maxZ": -79,
+      "height": 0.4
+    },
+    {
+      "id": "lake-v2-12--30",
+      "minX": -30,
+      "maxX": -6,
+      "minZ": -79,
+      "maxZ": -77,
+      "height": 0.4
+    },
+    {
+      "id": "lake-v2-12-6",
+      "minX": 6,
+      "maxX": 38,
+      "minZ": -79,
+      "maxZ": -77,
+      "height": 0.4
+    },
+    {
+      "id": "lake-v2-13--27",
+      "minX": -27,
+      "maxX": -6,
+      "minZ": -77,
+      "maxZ": -75,
+      "height": 0.4
+    },
+    {
+      "id": "lake-v2-13-6",
+      "minX": 6,
+      "maxX": 34,
+      "minZ": -77,
+      "maxZ": -75,
+      "height": 0.4
+    },
+    {
+      "id": "lake-v2-14--24",
+      "minX": -24,
+      "maxX": -6,
+      "minZ": -75,
+      "maxZ": -73,
+      "height": 0.4
+    },
+    {
+      "id": "lake-v2-14-6",
+      "minX": 6,
+      "maxX": 28,
+      "minZ": -75,
+      "maxZ": -73,
+      "height": 0.4
+    },
+    {
+      "id": "lake-v2-15--22",
+      "minX": -22,
+      "maxX": -6,
+      "minZ": -73,
+      "maxZ": -71,
+      "height": 0.4
+    },
+    {
+      "id": "lake-v2-15-6",
+      "minX": 6,
+      "maxX": 17,
+      "minZ": -73,
+      "maxZ": -71,
+      "height": 0.4
+    },
+    {
+      "id": "lake-v2-16--18",
+      "minX": -18,
+      "maxX": -15,
+      "minZ": -71,
+      "maxZ": -69,
+      "height": 0.4
+    },
+    {
+      "id": "lake-v2-16-6",
+      "minX": 6,
+      "maxX": 12,
+      "minZ": -71,
+      "maxZ": -69,
+      "height": 0.4
+    },
+    {
+      "id": "lake-v2-17-6",
+      "minX": 6,
+      "maxX": 7,
+      "minZ": -69,
+      "maxZ": -67,
+      "height": 0.4
+    },
+    {
+      "id": "tree-000-trunk",
+      "minX": -11.21525,
+      "maxX": -10.78475,
+      "minZ": -340.21525,
+      "maxZ": -339.78475,
+      "height": 3
+    },
+    {
+      "id": "tree-001-trunk",
+      "minX": -11.23825,
+      "maxX": -10.76175,
+      "minZ": -324.23825,
+      "maxZ": -323.76175,
+      "height": 3
+    },
+    {
+      "id": "tree-002-trunk",
+      "minX": -11.2165,
+      "maxX": -10.7835,
+      "minZ": -308.2165,
+      "maxZ": -307.7835,
+      "height": 3
+    },
+    {
+      "id": "tree-003-trunk",
+      "minX": -11.22825,
+      "maxX": -10.77175,
+      "minZ": -292.22825,
+      "maxZ": -291.77175,
+      "height": 3
+    },
+    {
+      "id": "tree-004-trunk",
+      "minX": -11.24825,
+      "maxX": -10.75175,
+      "minZ": -276.24825,
+      "maxZ": -275.75175,
+      "height": 3
+    },
+    {
+      "id": "tree-005-trunk",
+      "minX": -11.2485,
+      "maxX": -10.7515,
+      "minZ": -260.2485,
+      "maxZ": -259.7515,
+      "height": 3
+    },
+    {
+      "id": "tree-006-trunk",
+      "minX": -11.225,
+      "maxX": -10.775,
+      "minZ": -244.225,
+      "maxZ": -243.775,
+      "height": 3
+    },
+    {
+      "id": "tree-007-trunk",
+      "minX": -11.23975,
+      "maxX": -10.76025,
+      "minZ": -228.23975,
+      "maxZ": -227.76025,
+      "height": 3
+    },
+    {
+      "id": "tree-008-trunk",
+      "minX": -11.26875,
+      "maxX": -10.73125,
+      "minZ": -196.26875,
+      "maxZ": -195.73125,
+      "height": 3
+    },
+    {
+      "id": "tree-009-trunk",
+      "minX": -11.213,
+      "maxX": -10.787,
+      "minZ": -180.213,
+      "maxZ": -179.787,
+      "height": 3
+    },
+    {
+      "id": "tree-010-trunk",
+      "minX": -11.27025,
+      "maxX": -10.72975,
+      "minZ": -164.27025,
+      "maxZ": -163.72975,
+      "height": 3
+    },
+    {
+      "id": "tree-011-trunk",
+      "minX": -11.2305,
+      "maxX": -10.7695,
+      "minZ": -148.2305,
+      "maxZ": -147.7695,
+      "height": 3
+    },
+    {
+      "id": "tree-012-trunk",
+      "minX": -11.2155,
+      "maxX": -10.7845,
+      "minZ": -132.2155,
+      "maxZ": -131.7845,
+      "height": 3
+    },
+    {
+      "id": "tree-013-trunk",
+      "minX": -11.28625,
+      "maxX": -10.71375,
+      "minZ": -68.28625,
+      "maxZ": -67.71375,
+      "height": 3
+    },
+    {
+      "id": "tree-014-trunk",
+      "minX": -11.25025,
+      "maxX": -10.74975,
+      "minZ": -52.25025,
+      "maxZ": -51.74975,
+      "height": 3
+    },
+    {
+      "id": "tree-015-trunk",
+      "minX": -11.23675,
+      "maxX": -10.76325,
+      "minZ": -36.23675,
+      "maxZ": -35.76325,
+      "height": 3
+    },
+    {
+      "id": "tree-016-trunk",
+      "minX": -11.275,
+      "maxX": -10.725,
+      "minZ": -20.275,
+      "maxZ": -19.725,
+      "height": 3
+    },
+    {
+      "id": "tree-017-trunk",
+      "minX": 10.77025,
+      "maxX": 11.22975,
+      "minZ": -340.22975,
+      "maxZ": -339.77025,
+      "height": 3
+    },
+    {
+      "id": "tree-018-trunk",
+      "minX": 10.75175,
+      "maxX": 11.24825,
+      "minZ": -324.24825,
+      "maxZ": -323.75175,
+      "height": 3
+    },
+    {
+      "id": "tree-019-trunk",
+      "minX": 10.76775,
+      "maxX": 11.23225,
+      "minZ": -244.23225,
+      "maxZ": -243.76775,
+      "height": 3
+    },
+    {
+      "id": "tree-020-trunk",
+      "minX": 10.7205,
+      "maxX": 11.2795,
+      "minZ": -228.2795,
+      "maxZ": -227.7205,
+      "height": 3
+    },
+    {
+      "id": "tree-021-trunk",
+      "minX": 10.76575,
+      "maxX": 11.23425,
+      "minZ": -196.23425,
+      "maxZ": -195.76575,
+      "height": 3
+    },
+    {
+      "id": "tree-022-trunk",
+      "minX": 10.76675,
+      "maxX": 11.23325,
+      "minZ": -180.23325,
+      "maxZ": -179.76675,
+      "height": 3
+    },
+    {
+      "id": "tree-023-trunk",
+      "minX": 10.74875,
+      "maxX": 11.25125,
+      "minZ": -164.25125,
+      "maxZ": -163.74875,
+      "height": 3
+    },
+    {
+      "id": "tree-024-trunk",
+      "minX": 10.73475,
+      "maxX": 11.26525,
+      "minZ": -148.26525,
+      "maxZ": -147.73475,
+      "height": 3
+    },
+    {
+      "id": "tree-025-trunk",
+      "minX": 10.766,
+      "maxX": 11.234,
+      "minZ": -132.234,
+      "maxZ": -131.766,
+      "height": 3
+    },
+    {
+      "id": "tree-026-trunk",
+      "minX": 10.73625,
+      "maxX": 11.26375,
+      "minZ": -68.26375,
+      "maxZ": -67.73625,
+      "height": 3
+    },
+    {
+      "id": "tree-027-trunk",
+      "minX": 10.7775,
+      "maxX": 11.2225,
+      "minZ": -52.2225,
+      "maxZ": -51.7775,
+      "height": 3
+    },
+    {
+      "id": "tree-028-trunk",
+      "minX": 10.756,
+      "maxX": 11.244,
+      "minZ": -36.244,
+      "maxZ": -35.756,
+      "height": 3
+    },
+    {
+      "id": "tree-029-trunk",
+      "minX": 10.75475,
+      "maxX": 11.24525,
+      "minZ": -20.24525,
+      "maxZ": -19.75475,
+      "height": 3
+    },
+    {
+      "id": "tree-030-trunk",
+      "minX": -144.2545,
+      "maxX": -143.7455,
+      "minZ": -340.2545,
+      "maxZ": -339.7455,
+      "height": 3
+    },
+    {
+      "id": "tree-031-trunk",
+      "minX": -144.2815,
+      "maxX": -143.7185,
+      "minZ": -324.2815,
+      "maxZ": -323.7185,
+      "height": 3
+    },
+    {
+      "id": "tree-032-trunk",
+      "minX": -144.2695,
+      "maxX": -143.7305,
+      "minZ": -308.2695,
+      "maxZ": -307.7305,
+      "height": 3
+    },
+    {
+      "id": "tree-033-trunk",
+      "minX": -144.25675,
+      "maxX": -143.74325,
+      "minZ": -292.25675,
+      "maxZ": -291.74325,
+      "height": 3
+    },
+    {
+      "id": "tree-034-trunk",
+      "minX": -144.27175,
+      "maxX": -143.72825,
+      "minZ": -276.27175,
+      "maxZ": -275.72825,
+      "height": 3
+    },
+    {
+      "id": "tree-035-trunk",
+      "minX": -144.2385,
+      "maxX": -143.7615,
+      "minZ": -260.2385,
+      "maxZ": -259.7615,
+      "height": 3
+    },
+    {
+      "id": "tree-036-trunk",
+      "minX": -144.26775,
+      "maxX": -143.73225,
+      "minZ": -244.26775,
+      "maxZ": -243.73225,
+      "height": 3
+    },
+    {
+      "id": "tree-037-trunk",
+      "minX": -144.21375,
+      "maxX": -143.78625,
+      "minZ": -228.21375,
+      "maxZ": -227.78625,
+      "height": 3
+    },
+    {
+      "id": "tree-038-trunk",
+      "minX": -144.28025,
+      "maxX": -143.71975,
+      "minZ": -196.28025,
+      "maxZ": -195.71975,
+      "height": 3
+    },
+    {
+      "id": "tree-039-trunk",
+      "minX": -144.27975,
+      "maxX": -143.72025,
+      "minZ": -180.27975,
+      "maxZ": -179.72025,
+      "height": 3
+    },
+    {
+      "id": "tree-040-trunk",
+      "minX": -144.2525,
+      "maxX": -143.7475,
+      "minZ": -164.2525,
+      "maxZ": -163.7475,
+      "height": 3
+    },
+    {
+      "id": "tree-041-trunk",
+      "minX": -144.241,
+      "maxX": -143.759,
+      "minZ": -148.241,
+      "maxZ": -147.759,
+      "height": 3
+    },
+    {
+      "id": "tree-042-trunk",
+      "minX": -144.239,
+      "maxX": -143.761,
+      "minZ": -132.239,
+      "maxZ": -131.761,
+      "height": 3
+    },
+    {
+      "id": "tree-043-trunk",
+      "minX": -144.2825,
+      "maxX": -143.7175,
+      "minZ": -84.2825,
+      "maxZ": -83.7175,
+      "height": 3
+    },
+    {
+      "id": "tree-044-trunk",
+      "minX": -144.253,
+      "maxX": -143.747,
+      "minZ": -68.253,
+      "maxZ": -67.747,
+      "height": 3
+    },
+    {
+      "id": "tree-045-trunk",
+      "minX": -144.22175,
+      "maxX": -143.77825,
+      "minZ": -52.22175,
+      "maxZ": -51.77825,
+      "height": 3
+    },
+    {
+      "id": "tree-046-trunk",
+      "minX": -144.265,
+      "maxX": -143.735,
+      "minZ": -36.265,
+      "maxZ": -35.735,
+      "height": 3
+    },
+    {
+      "id": "tree-047-trunk",
+      "minX": -144.231,
+      "maxX": -143.769,
+      "minZ": -20.231,
+      "maxZ": -19.769,
+      "height": 3
+    },
+    {
+      "id": "tree-048-trunk",
+      "minX": -122.23675,
+      "maxX": -121.76325,
+      "minZ": -340.23675,
+      "maxZ": -339.76325,
+      "height": 3
+    },
+    {
+      "id": "tree-049-trunk",
+      "minX": -122.22325,
+      "maxX": -121.77675,
+      "minZ": -324.22325,
+      "maxZ": -323.77675,
+      "height": 3
+    },
+    {
+      "id": "tree-050-trunk",
+      "minX": -122.236,
+      "maxX": -121.764,
+      "minZ": -308.236,
+      "maxZ": -307.764,
+      "height": 3
+    },
+    {
+      "id": "tree-051-trunk",
+      "minX": -122.2695,
+      "maxX": -121.7305,
+      "minZ": -292.2695,
+      "maxZ": -291.7305,
+      "height": 3
+    },
+    {
+      "id": "tree-052-trunk",
+      "minX": -122.2825,
+      "maxX": -121.7175,
+      "minZ": -276.2825,
+      "maxZ": -275.7175,
+      "height": 3
+    },
+    {
+      "id": "tree-053-trunk",
+      "minX": -122.21475,
+      "maxX": -121.78525,
+      "minZ": -260.21475,
+      "maxZ": -259.78525,
+      "height": 3
+    },
+    {
+      "id": "tree-054-trunk",
+      "minX": -122.24575,
+      "maxX": -121.75425,
+      "minZ": -244.24575,
+      "maxZ": -243.75425,
+      "height": 3
+    },
+    {
+      "id": "tree-055-trunk",
+      "minX": -122.2625,
+      "maxX": -121.7375,
+      "minZ": -228.2625,
+      "maxZ": -227.7375,
+      "height": 3
+    },
+    {
+      "id": "tree-056-trunk",
+      "minX": -122.2305,
+      "maxX": -121.7695,
+      "minZ": -196.2305,
+      "maxZ": -195.7695,
+      "height": 3
+    },
+    {
+      "id": "tree-057-trunk",
+      "minX": -122.28325,
+      "maxX": -121.71675,
+      "minZ": -180.28325,
+      "maxZ": -179.71675,
+      "height": 3
+    },
+    {
+      "id": "tree-058-trunk",
+      "minX": -122.2395,
+      "maxX": -121.7605,
+      "minZ": -164.2395,
+      "maxZ": -163.7605,
+      "height": 3
+    },
+    {
+      "id": "tree-059-trunk",
+      "minX": -122.2275,
+      "maxX": -121.7725,
+      "minZ": -148.2275,
+      "maxZ": -147.7725,
+      "height": 3
+    },
+    {
+      "id": "tree-060-trunk",
+      "minX": -122.229,
+      "maxX": -121.771,
+      "minZ": -132.229,
+      "maxZ": -131.771,
+      "height": 3
+    },
+    {
+      "id": "tree-061-trunk",
+      "minX": -122.25,
+      "maxX": -121.75,
+      "minZ": -84.25,
+      "maxZ": -83.75,
+      "height": 3
+    },
+    {
+      "id": "tree-062-trunk",
+      "minX": -122.22475,
+      "maxX": -121.77525,
+      "minZ": -68.22475,
+      "maxZ": -67.77525,
+      "height": 3
+    },
+    {
+      "id": "tree-063-trunk",
+      "minX": -225.258,
+      "maxX": -224.742,
+      "minZ": -340.258,
+      "maxZ": -339.742,
+      "height": 3
+    },
+    {
+      "id": "tree-064-trunk",
+      "minX": -225.23125,
+      "maxX": -224.76875,
+      "minZ": -324.23125,
+      "maxZ": -323.76875,
+      "height": 3
+    },
+    {
+      "id": "tree-065-trunk",
+      "minX": -225.2765,
+      "maxX": -224.7235,
+      "minZ": -308.2765,
+      "maxZ": -307.7235,
+      "height": 3
+    },
+    {
+      "id": "tree-066-trunk",
+      "minX": -225.2295,
+      "maxX": -224.7705,
+      "minZ": -292.2295,
+      "maxZ": -291.7705,
+      "height": 3
+    },
+    {
+      "id": "tree-067-trunk",
+      "minX": -225.2695,
+      "maxX": -224.7305,
+      "minZ": -276.2695,
+      "maxZ": -275.7305,
+      "height": 3
+    },
+    {
+      "id": "tree-068-trunk",
+      "minX": -225.263,
+      "maxX": -224.737,
+      "minZ": -260.263,
+      "maxZ": -259.737,
+      "height": 3
+    },
+    {
+      "id": "tree-069-trunk",
+      "minX": -225.2855,
+      "maxX": -224.7145,
+      "minZ": -244.2855,
+      "maxZ": -243.7145,
+      "height": 3
+    },
+    {
+      "id": "tree-070-trunk",
+      "minX": -225.2635,
+      "maxX": -224.7365,
+      "minZ": -228.2635,
+      "maxZ": -227.7365,
+      "height": 3
+    },
+    {
+      "id": "tree-071-trunk",
+      "minX": -225.2675,
+      "maxX": -224.7325,
+      "minZ": -196.2675,
+      "maxZ": -195.7325,
+      "height": 3
+    },
+    {
+      "id": "tree-072-trunk",
+      "minX": -225.25,
+      "maxX": -224.75,
+      "minZ": -180.25,
+      "maxZ": -179.75,
+      "height": 3
+    },
+    {
+      "id": "tree-073-trunk",
+      "minX": -225.2355,
+      "maxX": -224.7645,
+      "minZ": -164.2355,
+      "maxZ": -163.7645,
+      "height": 3
+    },
+    {
+      "id": "tree-074-trunk",
+      "minX": -225.2295,
+      "maxX": -224.7705,
+      "minZ": -148.2295,
+      "maxZ": -147.7705,
+      "height": 3
+    },
+    {
+      "id": "tree-075-trunk",
+      "minX": -225.2315,
+      "maxX": -224.7685,
+      "minZ": -132.2315,
+      "maxZ": -131.7685,
+      "height": 3
+    },
+    {
+      "id": "tree-076-trunk",
+      "minX": -225.27275,
+      "maxX": -224.72725,
+      "minZ": -84.27275,
+      "maxZ": -83.72725,
+      "height": 3
+    },
+    {
+      "id": "tree-077-trunk",
+      "minX": -225.28275,
+      "maxX": -224.71725,
+      "minZ": -68.28275,
+      "maxZ": -67.71725,
+      "height": 3
+    },
+    {
+      "id": "tree-078-trunk",
+      "minX": -225.24175,
+      "maxX": -224.75825,
+      "minZ": -52.24175,
+      "maxZ": -51.75825,
+      "height": 3
+    },
+    {
+      "id": "tree-079-trunk",
+      "minX": -225.27975,
+      "maxX": -224.72025,
+      "minZ": -36.27975,
+      "maxZ": -35.72025,
+      "height": 3
+    },
+    {
+      "id": "tree-080-trunk",
+      "minX": -225.222,
+      "maxX": -224.778,
+      "minZ": -20.222,
+      "maxZ": -19.778,
+      "height": 3
+    },
+    {
+      "id": "tree-081-trunk",
+      "minX": -203.27575,
+      "maxX": -202.72425,
+      "minZ": -292.27575,
+      "maxZ": -291.72425,
+      "height": 3
+    },
+    {
+      "id": "tree-082-trunk",
+      "minX": -203.27125,
+      "maxX": -202.72875,
+      "minZ": -228.27125,
+      "maxZ": -227.72875,
+      "height": 3
+    },
+    {
+      "id": "tree-083-trunk",
+      "minX": -203.25875,
+      "maxX": -202.74125,
+      "minZ": -196.25875,
+      "maxZ": -195.74125,
+      "height": 3
+    },
+    {
+      "id": "tree-084-trunk",
+      "minX": -203.243,
+      "maxX": -202.757,
+      "minZ": -180.243,
+      "maxZ": -179.757,
+      "height": 3
+    },
+    {
+      "id": "tree-085-trunk",
+      "minX": -203.24125,
+      "maxX": -202.75875,
+      "minZ": -132.24125,
+      "maxZ": -131.75875,
+      "height": 3
+    },
+    {
+      "id": "tree-086-trunk",
+      "minX": 121.727,
+      "maxX": 122.273,
+      "minZ": -340.273,
+      "maxZ": -339.727,
+      "height": 3
+    },
+    {
+      "id": "tree-087-trunk",
+      "minX": 121.772,
+      "maxX": 122.228,
+      "minZ": -324.228,
+      "maxZ": -323.772,
+      "height": 3
+    },
+    {
+      "id": "tree-088-trunk",
+      "minX": 121.71475,
+      "maxX": 122.28525,
+      "minZ": -308.28525,
+      "maxZ": -307.71475,
+      "height": 3
+    },
+    {
+      "id": "tree-089-trunk",
+      "minX": 121.7835,
+      "maxX": 122.2165,
+      "minZ": -292.2165,
+      "maxZ": -291.7835,
+      "height": 3
+    },
+    {
+      "id": "tree-090-trunk",
+      "minX": 121.722,
+      "maxX": 122.278,
+      "minZ": -276.278,
+      "maxZ": -275.722,
+      "height": 3
+    },
+    {
+      "id": "tree-091-trunk",
+      "minX": 121.7605,
+      "maxX": 122.2395,
+      "minZ": -260.2395,
+      "maxZ": -259.7605,
+      "height": 3
+    },
+    {
+      "id": "tree-092-trunk",
+      "minX": 121.7645,
+      "maxX": 122.2355,
+      "minZ": -244.2355,
+      "maxZ": -243.7645,
+      "height": 3
+    },
+    {
+      "id": "tree-093-trunk",
+      "minX": 121.7225,
+      "maxX": 122.2775,
+      "minZ": -228.2775,
+      "maxZ": -227.7225,
+      "height": 3
+    },
+    {
+      "id": "tree-094-trunk",
+      "minX": 121.77175,
+      "maxX": 122.22825,
+      "minZ": -196.22825,
+      "maxZ": -195.77175,
+      "height": 3
+    },
+    {
+      "id": "tree-095-trunk",
+      "minX": 121.78575,
+      "maxX": 122.21425,
+      "minZ": -180.21425,
+      "maxZ": -179.78575,
+      "height": 3
+    },
+    {
+      "id": "tree-096-trunk",
+      "minX": 121.7865,
+      "maxX": 122.2135,
+      "minZ": -164.2135,
+      "maxZ": -163.7865,
+      "height": 3
+    },
+    {
+      "id": "tree-097-trunk",
+      "minX": 121.77525,
+      "maxX": 122.22475,
+      "minZ": -148.22475,
+      "maxZ": -147.77525,
+      "height": 3
+    },
+    {
+      "id": "tree-098-trunk",
+      "minX": 121.76525,
+      "maxX": 122.23475,
+      "minZ": -132.23475,
+      "maxZ": -131.76525,
+      "height": 3
+    },
+    {
+      "id": "tree-099-trunk",
+      "minX": 121.77375,
+      "maxX": 122.22625,
+      "minZ": -84.22625,
+      "maxZ": -83.77375,
+      "height": 3
+    },
+    {
+      "id": "tree-100-trunk",
+      "minX": 121.72275,
+      "maxX": 122.27725,
+      "minZ": -68.27725,
+      "maxZ": -67.72275,
+      "height": 3
+    },
+    {
+      "id": "tree-101-trunk",
+      "minX": 121.77975,
+      "maxX": 122.22025,
+      "minZ": -52.22025,
+      "maxZ": -51.77975,
+      "height": 3
+    },
+    {
+      "id": "tree-102-trunk",
+      "minX": 121.74725,
+      "maxX": 122.25275,
+      "minZ": -36.25275,
+      "maxZ": -35.74725,
+      "height": 3
+    },
+    {
+      "id": "tree-103-trunk",
+      "minX": 121.748,
+      "maxX": 122.252,
+      "minZ": -20.252,
+      "maxZ": -19.748,
+      "height": 3
+    },
+    {
+      "id": "tree-104-trunk",
+      "minX": 143.7275,
+      "maxX": 144.2725,
+      "minZ": -340.2725,
+      "maxZ": -339.7275,
+      "height": 3
+    },
+    {
+      "id": "tree-105-trunk",
+      "minX": 143.73975,
+      "maxX": 144.26025,
+      "minZ": -324.26025,
+      "maxZ": -323.73975,
+      "height": 3
+    },
+    {
+      "id": "tree-106-trunk",
+      "minX": 143.74,
+      "maxX": 144.26,
+      "minZ": -308.26,
+      "maxZ": -307.74,
+      "height": 3
+    },
+    {
+      "id": "tree-107-trunk",
+      "minX": 143.7565,
+      "maxX": 144.2435,
+      "minZ": -292.2435,
+      "maxZ": -291.7565,
+      "height": 3
+    },
+    {
+      "id": "tree-108-trunk",
+      "minX": 143.73375,
+      "maxX": 144.26625,
+      "minZ": -276.26625,
+      "maxZ": -275.73375,
+      "height": 3
+    },
+    {
+      "id": "tree-109-trunk",
+      "minX": 143.71825,
+      "maxX": 144.28175,
+      "minZ": -228.28175,
+      "maxZ": -227.71825,
+      "height": 3
+    },
+    {
+      "id": "tree-110-trunk",
+      "minX": 143.72325,
+      "maxX": 144.27675,
+      "minZ": -196.27675,
+      "maxZ": -195.72325,
+      "height": 3
+    },
+    {
+      "id": "tree-111-trunk",
+      "minX": 143.71575,
+      "maxX": 144.28425,
+      "minZ": -180.28425,
+      "maxZ": -179.71575,
+      "height": 3
+    },
+    {
+      "id": "tree-112-trunk",
+      "minX": 143.7555,
+      "maxX": 144.2445,
+      "minZ": -164.2445,
+      "maxZ": -163.7555,
+      "height": 3
+    },
+    {
+      "id": "tree-113-trunk",
+      "minX": 143.742,
+      "maxX": 144.258,
+      "minZ": -148.258,
+      "maxZ": -147.742,
+      "height": 3
+    },
+    {
+      "id": "tree-114-trunk",
+      "minX": 143.7245,
+      "maxX": 144.2755,
+      "minZ": -132.2755,
+      "maxZ": -131.7245,
+      "height": 3
+    },
+    {
+      "id": "tree-115-trunk",
+      "minX": 143.78275,
+      "maxX": 144.21725,
+      "minZ": -84.21725,
+      "maxZ": -83.78275,
+      "height": 3
+    },
+    {
+      "id": "tree-116-trunk",
+      "minX": 143.78125,
+      "maxX": 144.21875,
+      "minZ": -68.21875,
+      "maxZ": -67.78125,
+      "height": 3
+    },
+    {
+      "id": "tree-117-trunk",
+      "minX": 143.78675,
+      "maxX": 144.21325,
+      "minZ": -52.21325,
+      "maxZ": -51.78675,
+      "height": 3
+    },
+    {
+      "id": "tree-118-trunk",
+      "minX": 143.779,
+      "maxX": 144.221,
+      "minZ": -36.221,
+      "maxZ": -35.779,
+      "height": 3
+    },
+    {
+      "id": "tree-119-trunk",
+      "minX": 143.74125,
+      "maxX": 144.25875,
+      "minZ": -20.25875,
+      "maxZ": -19.74125,
+      "height": 3
+    },
+    {
+      "id": "tree-120-trunk",
+      "minX": -44.19575,
+      "maxX": -43.80425,
+      "minZ": -65.19575,
+      "maxZ": -64.80425,
+      "height": 3
+    },
+    {
+      "id": "tree-121-trunk",
+      "minX": -31.2265,
+      "maxX": -30.7735,
+      "minZ": -66.2265,
+      "maxZ": -65.7735,
+      "height": 3
+    },
+    {
+      "id": "tree-122-trunk",
+      "minX": 26.744,
+      "maxX": 27.256,
+      "minZ": -64.256,
+      "maxZ": -63.744,
+      "height": 3
+    },
+    {
+      "id": "tree-123-trunk",
+      "minX": 43.72675,
+      "maxX": 44.27325,
+      "minZ": -70.27325,
+      "maxZ": -69.72675,
+      "height": 3
+    },
+    {
+      "id": "tree-124-trunk",
+      "minX": -52.2435,
+      "maxX": -51.7565,
+      "minZ": -92.2435,
+      "maxZ": -91.7565,
+      "height": 3
+    },
+    {
+      "id": "tree-125-trunk",
+      "minX": 54.7605,
+      "maxX": 55.2395,
+      "minZ": -95.2395,
+      "maxZ": -94.7605,
+      "height": 3
+    },
+    {
+      "id": "tree-126-trunk",
+      "minX": -30.2335,
+      "maxX": -29.7665,
+      "minZ": -106.2335,
+      "maxZ": -105.7665,
+      "height": 3
+    },
+    {
+      "id": "tree-127-trunk",
+      "minX": 30.73025,
+      "maxX": 31.26975,
+      "minZ": -104.26975,
+      "maxZ": -103.73025,
+      "height": 3
+    },
+    {
+      "id": "tree-128-trunk",
+      "minX": -30.229,
+      "maxX": -29.771,
+      "minZ": -40.229,
+      "maxZ": -39.771,
+      "height": 3
+    },
+    {
+      "id": "tree-129-trunk",
+      "minX": -35.26675,
+      "maxX": -34.73325,
+      "minZ": -22.26675,
+      "maxZ": -21.73325,
+      "height": 3
+    },
+    {
+      "id": "tree-130-trunk",
+      "minX": 32.7295,
+      "maxX": 33.2705,
+      "minZ": -27.2705,
+      "maxZ": -26.7295,
+      "height": 3
+    },
+    {
+      "id": "tree-131-trunk",
+      "minX": 43.73825,
+      "maxX": 44.26175,
+      "minZ": -23.26175,
+      "maxZ": -22.73825,
+      "height": 3
+    },
+    {
+      "id": "tree-132-trunk",
+      "minX": -68.214,
+      "maxX": -67.786,
+      "minZ": -215.214,
+      "maxZ": -214.786,
+      "height": 3
+    },
+    {
+      "id": "tree-133-trunk",
+      "minX": -81.2055,
+      "maxX": -80.7945,
+      "minZ": -217.2055,
+      "maxZ": -216.7945,
+      "height": 3
+    },
+    {
+      "id": "tree-134-trunk",
+      "minX": -95.22,
+      "maxX": -94.78,
+      "minZ": -217.22,
+      "maxZ": -216.78,
+      "height": 3
+    },
+    {
+      "id": "tree-135-trunk",
+      "minX": -111.2725,
+      "maxX": -110.7275,
+      "minZ": -217.2725,
+      "maxZ": -216.7275,
+      "height": 3
+    },
+    {
+      "id": "tree-136-trunk",
+      "minX": 25.7835,
+      "maxX": 26.2165,
+      "minZ": -218.2165,
+      "maxZ": -217.7835,
+      "height": 3
+    },
+    {
+      "id": "tree-137-trunk",
+      "minX": 81.7435,
+      "maxX": 82.2565,
+      "minZ": -216.2565,
+      "maxZ": -215.7435,
+      "height": 3
+    },
+    {
+      "id": "tree-138-trunk",
+      "minX": 114.7895,
+      "maxX": 115.2105,
+      "minZ": -243.2105,
+      "maxZ": -242.7895,
+      "height": 3
+    },
+    {
+      "id": "tree-139-trunk",
+      "minX": 116.7895,
+      "maxX": 117.2105,
+      "minZ": -261.2105,
+      "maxZ": -260.7895,
+      "height": 3
+    },
+    {
+      "id": "tree-140-trunk",
+      "minX": 116.778,
+      "maxX": 117.222,
+      "minZ": -305.222,
+      "maxZ": -304.778,
+      "height": 3
+    },
+    {
+      "id": "tree-141-trunk",
+      "minX": -330.2785,
+      "maxX": -329.7215,
+      "minZ": -221.2785,
+      "maxZ": -220.7215,
+      "height": 3
+    },
+    {
+      "id": "tree-142-trunk",
+      "minX": -317.208,
+      "maxX": -316.792,
+      "minZ": -220.208,
+      "maxZ": -219.792,
+      "height": 3
+    },
+    {
+      "id": "tree-143-trunk",
+      "minX": -302.22725,
+      "maxX": -301.77275,
+      "minZ": -220.22725,
+      "maxZ": -219.77275,
+      "height": 3
+    },
+    {
+      "id": "tree-144-trunk",
+      "minX": -287.213,
+      "maxX": -286.787,
+      "minZ": -219.213,
+      "maxZ": -218.787,
+      "height": 3
+    }
+  ],
+  "materialHints": {
+    "glass": {
+      "metallic": 0,
+      "roughness": 0.13,
+      "ior": 1.5,
+      "opaque": true
+    },
+    "leaf": {
+      "alphaTest": true,
+      "cutoff": 0.45,
+      "doubleSided": true,
+      "translucency": 0.22
+    },
+    "bricks": {
+      "uvMetres": true
+    },
+    "stone": {
+      "uvMetres": true
+    }
+  }
+}

@@ -2,6 +2,14 @@
   'use strict';
   const section=document.querySelector('#enrollment');
   if(!section)return;
+  if(location.protocol==='file:'){
+    document.querySelector('#enrollmentSummary').textContent='请先运行 npm start，并通过终端显示的本地地址进入校园。';
+    for(const id of ['openEnrollment','toggleRoster','retryEnrollmentCount']){const button=document.getElementById(id);if(button)button.disabled=true;}
+    return;
+  }
+  document.querySelector('#openEnrollment')?.addEventListener('click',event=>{
+    event.stopImmediatePropagation();location.href='campus.html#auth/register';
+  });
   const localPreview=['127.0.0.1','localhost','[::1]'].includes(location.hostname);
   const api=(localPreview?'/api':document.querySelector('meta[name="naiwa-enrollment-api"]')?.content||'/api').replace(/\/$/,'');
   const sharedService=new URL(api,location.href).origin!==location.origin;
@@ -80,7 +88,7 @@
   }
   toggle.addEventListener('click',()=>{
     if(roster.hidden){revealRoster();if(knownTotal!==null)loadRoster();}
-    else{roster.hidden=true;toggle.setAttribute('aria-expanded','false');toggle.textContent='查看入学蛙友 ↓';}
+    else{roster.hidden=true;toggle.setAttribute('aria-expanded','false');toggle.textContent='查看学生名册 ↓';}
   });
   more.addEventListener('click',()=>loadRoster(false));refresh.addEventListener('click',()=>loadRoster());
   document.querySelector('#retryEnrollmentCount').addEventListener('click',()=>loadRoster());

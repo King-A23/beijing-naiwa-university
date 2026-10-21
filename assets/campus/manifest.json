@@ -1,0 +1,726 @@
+{
+  "version": 1,
+  "units": "metres",
+  "coordinateSystem": "right-handed: x east, y up, z south",
+  "origin": "South gate centre; map PDF p44 mapped using (pixelX-587)*1.2, (pixelY-743)*1.2; scale estimated",
+  "bounds": {
+    "minX": -360,
+    "maxX": 240,
+    "minZ": -370,
+    "maxZ": 20
+  },
+  "spawn": {
+    "x": 0,
+    "y": 0,
+    "z": -14
+  },
+  "landmarks": [
+    {
+      "id": "south-gate",
+      "name": "南门",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": -14
+      },
+      "kind": "gate",
+      "description": "南门主轴入口；沿主路跨过湖桥即可前往教学区。"
+    },
+    {
+      "id": "west-gate",
+      "name": "沙河西门",
+      "position": {
+        "x": -343,
+        "y": 0,
+        "z": -210
+      },
+      "kind": "gate",
+      "description": "白色镂空门楼与红砖校名墙，依据北邮公开西门照片建模。"
+    },
+    {
+      "id": "teaching",
+      "name": "教学实验综合楼",
+      "position": {
+        "x": 58,
+        "y": 0,
+        "z": -112
+      },
+      "kind": "courses",
+      "description": "红砖C形教学实验楼，在此进入课程目录与学习。"
+    },
+    {
+      "id": "library",
+      "name": "沙河图书馆",
+      "position": {
+        "x": 52,
+        "y": 0,
+        "z": -214
+      },
+      "kind": "library",
+      "description": "弧形玻璃立面、红砖基座与架空柱廊；查阅讲义资源。"
+    },
+    {
+      "id": "principal",
+      "name": "捧腹奶蛙校长",
+      "position": {
+        "x": -20,
+        "y": 0,
+        "z": -35
+      },
+      "kind": "principal",
+      "description": "校长在南门绿地旁迎接新同学。"
+    },
+    {
+      "id": "dorm",
+      "name": "学生公寓",
+      "position": {
+        "x": -177,
+        "y": 0,
+        "z": -125
+      },
+      "kind": "dorm",
+      "description": "西侧学生生活区，以院落式公寓组团构成。"
+    },
+    {
+      "id": "canteen",
+      "name": "学生餐厅",
+      "position": {
+        "x": -92,
+        "y": 0,
+        "z": -12
+      },
+      "kind": "canteen",
+      "description": "南区学生餐厅与门前休息空间。"
+    },
+    {
+      "id": "sports",
+      "name": "西北运动场",
+      "position": {
+        "x": -270,
+        "y": 0,
+        "z": -223
+      },
+      "kind": "sports",
+      "description": "运动场、跑道及球场位于校园西北侧。"
+    },
+    {
+      "id": "classroom-s1",
+      "name": "智慧教学楼 S1",
+      "position": {
+        "x": 184,
+        "y": 0,
+        "z": -169
+      },
+      "kind": "courses",
+      "description": "浅灰砖与外挑窗盒的智慧教学楼，位于综合楼东侧。"
+    }
+  ],
+  "colliders": [
+    {
+      "id": "south-gate-wall",
+      "minX": -35.0,
+      "maxX": -9.0,
+      "minZ": 1.8,
+      "maxZ": 4.2,
+      "height": 3.85
+    },
+    {
+      "id": "south-gate-wall",
+      "minX": 9.0,
+      "maxX": 35.0,
+      "minZ": 1.8,
+      "maxZ": 4.2,
+      "height": 3.85
+    },
+    {
+      "id": "west-gate-pier",
+      "minX": -354.0,
+      "maxX": -350.0,
+      "minZ": -223.5,
+      "maxZ": -218.5,
+      "height": 12
+    },
+    {
+      "id": "west-gate-pier",
+      "minX": -354.0,
+      "maxX": -350.0,
+      "minZ": -201.5,
+      "maxZ": -196.5,
+      "height": 12
+    },
+    {
+      "id": "west-gate-sign-wall",
+      "minX": -357.0,
+      "maxX": -355.0,
+      "minZ": -248.0,
+      "maxZ": -226.0,
+      "height": 3.3
+    },
+    {
+      "id": "west-gate-lodge",
+      "minX": -347.0,
+      "maxX": -335.0,
+      "minZ": -235.0,
+      "maxZ": -223.0,
+      "height": 6.5
+    },
+    {
+      "id": "S-north-wing",
+      "minX": 22.0,
+      "maxX": 108.0,
+      "minZ": -197.0,
+      "maxZ": -177.0,
+      "height": 22.5
+    },
+    {
+      "id": "S-east-spine",
+      "minX": 92.0,
+      "maxX": 110.0,
+      "minZ": -197.0,
+      "maxZ": -123.0,
+      "height": 26.5
+    },
+    {
+      "id": "S-south-wing",
+      "minX": 22.0,
+      "maxX": 108.0,
+      "minZ": -142.0,
+      "maxZ": -122.0,
+      "height": 19.5
+    },
+    {
+      "id": "S-lecture-theatre",
+      "minX": 47.0,
+      "maxX": 89.0,
+      "minZ": -176.0,
+      "maxZ": -144.0,
+      "height": 11.5
+    },
+    {
+      "id": "library-reading-block",
+      "minX": 52.0,
+      "maxX": 82.0,
+      "minZ": -319.0,
+      "maxZ": -251.0,
+      "height": 23.5
+    },
+    {
+      "id": "library-shell",
+      "minX": 78.174,
+      "maxX": 100.174,
+      "minZ": -265.717,
+      "maxZ": -243.717,
+      "height": 26
+    },
+    {
+      "id": "library-shell",
+      "minX": 67.0,
+      "maxX": 89.0,
+      "minZ": -255.895,
+      "maxZ": -233.895,
+      "height": 26
+    },
+    {
+      "id": "library-shell",
+      "minX": 53.293,
+      "maxX": 75.293,
+      "minZ": -250.668,
+      "maxZ": -228.668,
+      "height": 26
+    },
+    {
+      "id": "library-shell",
+      "minX": 38.707,
+      "maxX": 60.707,
+      "minZ": -250.668,
+      "maxZ": -228.668,
+      "height": 26
+    },
+    {
+      "id": "library-shell",
+      "minX": 25.0,
+      "maxX": 47.0,
+      "minZ": -255.895,
+      "maxZ": -233.895,
+      "height": 26
+    },
+    {
+      "id": "library-shell",
+      "minX": 13.826,
+      "maxX": 35.826,
+      "minZ": -265.717,
+      "maxZ": -243.717,
+      "height": 26
+    },
+    {
+      "id": "library-shell",
+      "minX": 6.533,
+      "maxX": 28.533,
+      "minZ": -278.951,
+      "maxZ": -256.951,
+      "height": 26
+    },
+    {
+      "id": "library-shell",
+      "minX": 4.0,
+      "maxX": 26.0,
+      "minZ": -294.0,
+      "maxZ": -272.0,
+      "height": 26
+    },
+    {
+      "id": "library-shell",
+      "minX": 6.533,
+      "maxX": 28.533,
+      "minZ": -309.049,
+      "maxZ": -287.049,
+      "height": 26
+    },
+    {
+      "id": "library-shell",
+      "minX": 13.826,
+      "maxX": 35.826,
+      "minZ": -322.283,
+      "maxZ": -300.283,
+      "height": 26
+    },
+    {
+      "id": "library-shell",
+      "minX": 25.0,
+      "maxX": 47.0,
+      "minZ": -332.105,
+      "maxZ": -310.105,
+      "height": 26
+    },
+    {
+      "id": "library-shell",
+      "minX": 38.707,
+      "maxX": 60.707,
+      "minZ": -337.332,
+      "maxZ": -315.332,
+      "height": 26
+    },
+    {
+      "id": "library-shell",
+      "minX": 53.293,
+      "maxX": 75.293,
+      "minZ": -337.332,
+      "maxZ": -315.332,
+      "height": 26
+    },
+    {
+      "id": "library-shell",
+      "minX": 67.0,
+      "maxX": 89.0,
+      "minZ": -332.105,
+      "maxZ": -310.105,
+      "height": 26
+    },
+    {
+      "id": "library-shell",
+      "minX": 78.174,
+      "maxX": 100.174,
+      "minZ": -322.283,
+      "maxZ": -300.283,
+      "height": 26
+    },
+    {
+      "id": "library-column",
+      "minX": 101.24,
+      "maxX": 102.64,
+      "minZ": -306.934,
+      "maxZ": -305.534,
+      "height": 25
+    },
+    {
+      "id": "library-column",
+      "minX": 106.3,
+      "maxX": 107.7,
+      "minZ": -283.7,
+      "maxZ": -282.3,
+      "height": 25
+    },
+    {
+      "id": "library-column",
+      "minX": 101.24,
+      "maxX": 102.64,
+      "minZ": -260.466,
+      "maxZ": -259.066,
+      "height": 25
+    },
+    {
+      "id": "S1",
+      "minX": 154.5,
+      "maxX": 217.5,
+      "minZ": -196.0,
+      "maxZ": -176.0,
+      "height": 16.5
+    },
+    {
+      "id": "S1-east",
+      "minX": 206.0,
+      "maxX": 218.0,
+      "minZ": -181.0,
+      "maxZ": -153.0,
+      "height": 16.5
+    },
+    {
+      "id": "S2",
+      "minX": 157.0,
+      "maxX": 193.0,
+      "minZ": -138.0,
+      "maxZ": -122.0,
+      "height": 16.5
+    },
+    {
+      "id": "humanities",
+      "minX": 207.0,
+      "maxX": 219.0,
+      "minZ": -161.0,
+      "maxZ": -129.0,
+      "height": 16.5
+    },
+    {
+      "id": "S3",
+      "minX": 163.5,
+      "maxX": 218.5,
+      "minZ": -96.0,
+      "maxZ": -80.0,
+      "height": 16.5
+    },
+    {
+      "id": "science-west",
+      "minX": 152.0,
+      "maxX": 166.0,
+      "minZ": -56.0,
+      "maxZ": -16.0,
+      "height": 18.5
+    },
+    {
+      "id": "science-east",
+      "minX": 209.0,
+      "maxX": 223.0,
+      "minZ": -56.0,
+      "maxZ": -16.0,
+      "height": 18.5
+    },
+    {
+      "id": "science-link",
+      "minX": 153.0,
+      "maxX": 223.0,
+      "minZ": -23.0,
+      "maxZ": -11.0,
+      "height": 18.5
+    },
+    {
+      "id": "cyber-west",
+      "minX": 148.0,
+      "maxX": 162.0,
+      "minZ": -337.5,
+      "maxZ": -272.5,
+      "height": 20.5
+    },
+    {
+      "id": "cyber-north",
+      "minX": 149.0,
+      "maxX": 221.0,
+      "minZ": -340.0,
+      "maxZ": -326.0,
+      "height": 20.5
+    },
+    {
+      "id": "cyber-east",
+      "minX": 210.0,
+      "maxX": 224.0,
+      "minZ": -337.5,
+      "maxZ": -272.5,
+      "height": 20.5
+    },
+    {
+      "id": "media",
+      "minX": 143.0,
+      "maxX": 173.0,
+      "minZ": -269.0,
+      "maxZ": -239.0,
+      "height": 20.5
+    },
+    {
+      "id": "info",
+      "minX": 198.0,
+      "maxX": 228.0,
+      "minZ": -272.0,
+      "maxZ": -240.0,
+      "height": 22.5
+    },
+    {
+      "id": "admin",
+      "minX": -58.0,
+      "maxX": -16.0,
+      "minZ": -340.5,
+      "maxZ": -305.5,
+      "height": 20.5
+    },
+    {
+      "id": "student-centre",
+      "minX": -59.0,
+      "maxX": -17.0,
+      "minZ": -288.5,
+      "maxZ": -245.5,
+      "height": 14.5
+    },
+    {
+      "id": "public-class-north",
+      "minX": -116.0,
+      "maxX": -26.0,
+      "minZ": -195.0,
+      "maxZ": -177.0,
+      "height": 20.5
+    },
+    {
+      "id": "public-class-west",
+      "minX": -116.0,
+      "maxX": -100.0,
+      "minZ": -193.5,
+      "maxZ": -128.5,
+      "height": 20.5
+    },
+    {
+      "id": "public-class-south",
+      "minX": -116.0,
+      "maxX": -34.0,
+      "minZ": -145.0,
+      "maxZ": -127.0,
+      "height": 20.5
+    },
+    {
+      "id": "dorm-1-west",
+      "minX": -204.0,
+      "maxX": -192.0,
+      "minZ": -339.0,
+      "maxZ": -297.0,
+      "height": 22.5
+    },
+    {
+      "id": "dorm-1-east",
+      "minX": -161.0,
+      "maxX": -149.0,
+      "minZ": -339.0,
+      "maxZ": -297.0,
+      "height": 22.5
+    },
+    {
+      "id": "dorm-1-link",
+      "minX": -198.0,
+      "maxX": -155.0,
+      "minZ": -340.0,
+      "maxZ": -332.0,
+      "height": 18.5
+    },
+    {
+      "id": "dorm-2-west",
+      "minX": -204.0,
+      "maxX": -192.0,
+      "minZ": -281.0,
+      "maxZ": -239.0,
+      "height": 22.5
+    },
+    {
+      "id": "dorm-2-east",
+      "minX": -161.0,
+      "maxX": -149.0,
+      "minZ": -281.0,
+      "maxZ": -239.0,
+      "height": 22.5
+    },
+    {
+      "id": "dorm-2-link",
+      "minX": -198.0,
+      "maxX": -155.0,
+      "minZ": -282.0,
+      "maxZ": -274.0,
+      "height": 18.5
+    },
+    {
+      "id": "dorm-3-west",
+      "minX": -204.0,
+      "maxX": -192.0,
+      "minZ": -176.0,
+      "maxZ": -134.0,
+      "height": 22.5
+    },
+    {
+      "id": "dorm-3-east",
+      "minX": -161.0,
+      "maxX": -149.0,
+      "minZ": -176.0,
+      "maxZ": -134.0,
+      "height": 22.5
+    },
+    {
+      "id": "dorm-3-link",
+      "minX": -198.0,
+      "maxX": -155.0,
+      "minZ": -177.0,
+      "maxZ": -169.0,
+      "height": 18.5
+    },
+    {
+      "id": "dorm-4-west",
+      "minX": -204.0,
+      "maxX": -192.0,
+      "minZ": -110.0,
+      "maxZ": -68.0,
+      "height": 22.5
+    },
+    {
+      "id": "dorm-4-east",
+      "minX": -161.0,
+      "maxX": -149.0,
+      "minZ": -110.0,
+      "maxZ": -68.0,
+      "height": 22.5
+    },
+    {
+      "id": "dorm-4-link",
+      "minX": -198.0,
+      "maxX": -155.0,
+      "minZ": -111.0,
+      "maxZ": -103.0,
+      "height": 18.5
+    },
+    {
+      "id": "dorm-5-west",
+      "minX": -204.0,
+      "maxX": -192.0,
+      "minZ": -54.0,
+      "maxZ": -12.0,
+      "height": 22.5
+    },
+    {
+      "id": "dorm-5-east",
+      "minX": -161.0,
+      "maxX": -149.0,
+      "minZ": -54.0,
+      "maxZ": -12.0,
+      "height": 22.5
+    },
+    {
+      "id": "dorm-5-link",
+      "minX": -198.0,
+      "maxX": -155.0,
+      "minZ": -55.0,
+      "maxZ": -47.0,
+      "height": 18.5
+    },
+    {
+      "id": "south-canteen",
+      "minX": -123.0,
+      "maxX": -61.0,
+      "minZ": -53.5,
+      "maxZ": -18.5,
+      "height": 12.5
+    },
+    {
+      "id": "faculty-canteen",
+      "minX": -119.0,
+      "maxX": -77.0,
+      "minZ": -282.0,
+      "maxZ": -246.0,
+      "height": 12.5
+    },
+    {
+      "id": "flavour-canteen",
+      "minX": -119.0,
+      "maxX": -77.0,
+      "minZ": -339.0,
+      "maxZ": -307.0,
+      "height": 12.5
+    },
+    {
+      "id": "lake-west",
+      "minX": -50.0,
+      "maxX": -4.0,
+      "minZ": -97.5,
+      "maxZ": -74.5,
+      "height": 0.2
+    },
+    {
+      "id": "lake-east",
+      "minX": 8.0,
+      "maxX": 50.0,
+      "minZ": -98.5,
+      "maxZ": -77.5,
+      "height": 0.2
+    },
+    {
+      "id": "bridge-rail-west",
+      "minX": -5.510000000000001,
+      "maxX": -5.29,
+      "minZ": -99,
+      "maxZ": -67,
+      "height": 1.14
+    },
+    {
+      "id": "bridge-rail-east",
+      "minX": 5.29,
+      "maxX": 5.510000000000001,
+      "minZ": -99,
+      "maxZ": -67,
+      "height": 1.14
+    }
+  ],
+  "assets": {
+    "zones": [
+      {
+        "id": "core",
+        "url": "assets/campus/core.glb"
+      },
+      {
+        "id": "academic",
+        "url": "assets/campus/academic.glb"
+      },
+      {
+        "id": "residential",
+        "url": "assets/campus/residential.glb"
+      },
+      {
+        "id": "sports",
+        "url": "assets/campus/sports.glb"
+      }
+    ],
+    "student": "assets/campus/character-student.glb",
+    "graduate": "assets/campus/character-graduate.glb",
+    "principal": "assets/campus/principal.glb",
+    "map": "assets/campus/campus-map.svg"
+  },
+  "animations": [
+    "Idle",
+    "Walk",
+    "Run",
+    "Wave"
+  ],
+  "character": {
+    "height": 1.28,
+    "forward": "+Z",
+    "footY": 0,
+    "animations": [
+      "Idle",
+      "Walk",
+      "Run",
+      "Wave"
+    ],
+    "rig": "NaiwaRig_v1",
+    "graduateHeight": 1.317,
+    "principalHeight": 1.4592,
+    "boneCount": 16
+  },
+  "principalPosition": {
+    "x": -20,
+    "y": 0,
+    "z": -35
+  },
+  "referenceDate": "2026-10-21",
+  "fidelity": "Reference-informed stylization; schematic layout, estimated dimensions, exterior only",
+  "referenceManifest": "modeling/sources.json",
+  "referenceComparison": ".local/modeling/reference-comparison.html"
+}

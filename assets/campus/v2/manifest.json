@@ -1,0 +1,2162 @@
+{
+  "version": 2,
+  "units": "metres",
+  "coordinateSystem": "right-handed: x east, y up, z south",
+  "origin": "South gate centre; map PDF p44 mapped using (pixelX-587)*1.2, (pixelY-743)*1.2; scale estimated",
+  "bounds": {
+    "minX": -360,
+    "maxX": 240,
+    "minZ": -370,
+    "maxZ": 20
+  },
+  "spawn": {
+    "x": 0,
+    "y": 0,
+    "z": -14
+  },
+  "landmarks": [
+    {
+      "id": "south-gate",
+      "name": "南门",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": -14
+      },
+      "kind": "gate",
+      "description": "南门主轴入口；沿主路跨过湖桥即可前往教学区。"
+    },
+    {
+      "id": "west-gate",
+      "name": "沙河西门",
+      "position": {
+        "x": -343,
+        "y": 0,
+        "z": -210
+      },
+      "kind": "gate",
+      "description": "白色镂空门楼与红砖校名墙，依据北邮公开西门照片建模。"
+    },
+    {
+      "id": "teaching",
+      "name": "教学实验综合楼",
+      "position": {
+        "x": 58,
+        "y": 0,
+        "z": -112
+      },
+      "kind": "courses",
+      "description": "红砖C形教学实验楼，在此进入课程目录与学习。"
+    },
+    {
+      "id": "library",
+      "name": "沙河图书馆",
+      "position": {
+        "x": 52,
+        "y": 0,
+        "z": -214
+      },
+      "kind": "library",
+      "description": "弧形玻璃立面、红砖基座与架空柱廊；查阅讲义资源。"
+    },
+    {
+      "id": "principal",
+      "name": "捧腹奶蛙校长",
+      "position": {
+        "x": -20,
+        "y": 0,
+        "z": -35
+      },
+      "kind": "principal",
+      "description": "校长在南门绿地旁迎接新同学。"
+    },
+    {
+      "id": "dorm",
+      "name": "学生公寓",
+      "position": {
+        "x": -177,
+        "y": 0,
+        "z": -125
+      },
+      "kind": "dorm",
+      "description": "西侧学生生活区，以院落式公寓组团构成。"
+    },
+    {
+      "id": "canteen",
+      "name": "学生餐厅",
+      "position": {
+        "x": -92,
+        "y": 0,
+        "z": -12
+      },
+      "kind": "canteen",
+      "description": "南区学生餐厅与门前休息空间。"
+    },
+    {
+      "id": "sports",
+      "name": "西北运动场",
+      "position": {
+        "x": -270,
+        "y": 0,
+        "z": -223
+      },
+      "kind": "sports",
+      "description": "运动场、跑道及球场位于校园西北侧。"
+    },
+    {
+      "id": "classroom-s1",
+      "name": "智慧教学楼 S1",
+      "position": {
+        "x": 184,
+        "y": 0,
+        "z": -169
+      },
+      "kind": "courses",
+      "description": "浅灰砖与外挑窗盒的智慧教学楼，位于综合楼东侧。"
+    },
+    {
+      "id": "pond",
+      "name": "景观湖",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": -61
+      },
+      "kind": "landscape",
+      "description": "参考沙河景观湖实景的石砌缓岸、浅滩和黄绿水色；湖岸轮廓与桥的尺寸依据示意图估算。"
+    }
+  ],
+  "colliders": [
+    {
+      "id": "south-gate-wall",
+      "minX": -35.0,
+      "maxX": -9.0,
+      "minZ": 1.8,
+      "maxZ": 4.2,
+      "height": 3.85
+    },
+    {
+      "id": "south-gate-wall",
+      "minX": 9.0,
+      "maxX": 35.0,
+      "minZ": 1.8,
+      "maxZ": 4.2,
+      "height": 3.85
+    },
+    {
+      "id": "west-gate-pier",
+      "minX": -354.0,
+      "maxX": -350.0,
+      "minZ": -223.5,
+      "maxZ": -218.5,
+      "height": 12
+    },
+    {
+      "id": "west-gate-pier",
+      "minX": -354.0,
+      "maxX": -350.0,
+      "minZ": -201.5,
+      "maxZ": -196.5,
+      "height": 12
+    },
+    {
+      "id": "west-gate-sign-wall",
+      "minX": -357.0,
+      "maxX": -355.0,
+      "minZ": -248.0,
+      "maxZ": -226.0,
+      "height": 3.3
+    },
+    {
+      "id": "west-gate-lodge",
+      "minX": -347.0,
+      "maxX": -335.0,
+      "minZ": -235.0,
+      "maxZ": -223.0,
+      "height": 6.5
+    },
+    {
+      "id": "S-north-wing",
+      "minX": 22.0,
+      "maxX": 108.0,
+      "minZ": -197.0,
+      "maxZ": -177.0,
+      "height": 22.5
+    },
+    {
+      "id": "S-east-spine",
+      "minX": 92.0,
+      "maxX": 110.0,
+      "minZ": -197.0,
+      "maxZ": -123.0,
+      "height": 26.5
+    },
+    {
+      "id": "S-south-wing",
+      "minX": 22.0,
+      "maxX": 108.0,
+      "minZ": -142.0,
+      "maxZ": -122.0,
+      "height": 19.5
+    },
+    {
+      "id": "S-lecture-theatre",
+      "minX": 47.0,
+      "maxX": 89.0,
+      "minZ": -176.0,
+      "maxZ": -144.0,
+      "height": 11.5
+    },
+    {
+      "id": "library-reading-block",
+      "minX": 52.0,
+      "maxX": 82.0,
+      "minZ": -319.0,
+      "maxZ": -251.0,
+      "height": 23.5
+    },
+    {
+      "id": "library-shell",
+      "minX": 78.174,
+      "maxX": 100.174,
+      "minZ": -265.717,
+      "maxZ": -243.717,
+      "height": 26
+    },
+    {
+      "id": "library-shell",
+      "minX": 67.0,
+      "maxX": 89.0,
+      "minZ": -255.895,
+      "maxZ": -233.895,
+      "height": 26
+    },
+    {
+      "id": "library-shell",
+      "minX": 53.293,
+      "maxX": 75.293,
+      "minZ": -250.668,
+      "maxZ": -228.668,
+      "height": 26
+    },
+    {
+      "id": "library-shell",
+      "minX": 38.707,
+      "maxX": 60.707,
+      "minZ": -250.668,
+      "maxZ": -228.668,
+      "height": 26
+    },
+    {
+      "id": "library-shell",
+      "minX": 25.0,
+      "maxX": 47.0,
+      "minZ": -255.895,
+      "maxZ": -233.895,
+      "height": 26
+    },
+    {
+      "id": "library-shell",
+      "minX": 13.826,
+      "maxX": 35.826,
+      "minZ": -265.717,
+      "maxZ": -243.717,
+      "height": 26
+    },
+    {
+      "id": "library-shell",
+      "minX": 6.533,
+      "maxX": 28.533,
+      "minZ": -278.951,
+      "maxZ": -256.951,
+      "height": 26
+    },
+    {
+      "id": "library-shell",
+      "minX": 4.0,
+      "maxX": 26.0,
+      "minZ": -294.0,
+      "maxZ": -272.0,
+      "height": 26
+    },
+    {
+      "id": "library-shell",
+      "minX": 6.533,
+      "maxX": 28.533,
+      "minZ": -309.049,
+      "maxZ": -287.049,
+      "height": 26
+    },
+    {
+      "id": "library-shell",
+      "minX": 13.826,
+      "maxX": 35.826,
+      "minZ": -322.283,
+      "maxZ": -300.283,
+      "height": 26
+    },
+    {
+      "id": "library-shell",
+      "minX": 25.0,
+      "maxX": 47.0,
+      "minZ": -332.105,
+      "maxZ": -310.105,
+      "height": 26
+    },
+    {
+      "id": "library-shell",
+      "minX": 38.707,
+      "maxX": 60.707,
+      "minZ": -337.332,
+      "maxZ": -315.332,
+      "height": 26
+    },
+    {
+      "id": "library-shell",
+      "minX": 53.293,
+      "maxX": 75.293,
+      "minZ": -337.332,
+      "maxZ": -315.332,
+      "height": 26
+    },
+    {
+      "id": "library-shell",
+      "minX": 67.0,
+      "maxX": 89.0,
+      "minZ": -332.105,
+      "maxZ": -310.105,
+      "height": 26
+    },
+    {
+      "id": "library-shell",
+      "minX": 78.174,
+      "maxX": 100.174,
+      "minZ": -322.283,
+      "maxZ": -300.283,
+      "height": 26
+    },
+    {
+      "id": "library-column",
+      "minX": 101.24,
+      "maxX": 102.64,
+      "minZ": -306.934,
+      "maxZ": -305.534,
+      "height": 25
+    },
+    {
+      "id": "library-column",
+      "minX": 106.3,
+      "maxX": 107.7,
+      "minZ": -283.7,
+      "maxZ": -282.3,
+      "height": 25
+    },
+    {
+      "id": "library-column",
+      "minX": 101.24,
+      "maxX": 102.64,
+      "minZ": -260.466,
+      "maxZ": -259.066,
+      "height": 25
+    },
+    {
+      "id": "S1",
+      "minX": 154.5,
+      "maxX": 217.5,
+      "minZ": -196.0,
+      "maxZ": -176.0,
+      "height": 16.5
+    },
+    {
+      "id": "S1-east",
+      "minX": 206.0,
+      "maxX": 218.0,
+      "minZ": -181.0,
+      "maxZ": -153.0,
+      "height": 16.5
+    },
+    {
+      "id": "S2",
+      "minX": 157.0,
+      "maxX": 193.0,
+      "minZ": -138.0,
+      "maxZ": -122.0,
+      "height": 16.5
+    },
+    {
+      "id": "humanities",
+      "minX": 207.0,
+      "maxX": 219.0,
+      "minZ": -161.0,
+      "maxZ": -129.0,
+      "height": 16.5
+    },
+    {
+      "id": "S3",
+      "minX": 163.5,
+      "maxX": 218.5,
+      "minZ": -96.0,
+      "maxZ": -80.0,
+      "height": 16.5
+    },
+    {
+      "id": "science-west",
+      "minX": 152.0,
+      "maxX": 166.0,
+      "minZ": -56.0,
+      "maxZ": -16.0,
+      "height": 18.5
+    },
+    {
+      "id": "science-east",
+      "minX": 209.0,
+      "maxX": 223.0,
+      "minZ": -56.0,
+      "maxZ": -16.0,
+      "height": 18.5
+    },
+    {
+      "id": "science-link",
+      "minX": 153.0,
+      "maxX": 223.0,
+      "minZ": -23.0,
+      "maxZ": -11.0,
+      "height": 18.5
+    },
+    {
+      "id": "cyber-west",
+      "minX": 148.0,
+      "maxX": 162.0,
+      "minZ": -337.5,
+      "maxZ": -272.5,
+      "height": 20.5
+    },
+    {
+      "id": "cyber-north",
+      "minX": 149.0,
+      "maxX": 221.0,
+      "minZ": -340.0,
+      "maxZ": -326.0,
+      "height": 20.5
+    },
+    {
+      "id": "cyber-east",
+      "minX": 210.0,
+      "maxX": 224.0,
+      "minZ": -337.5,
+      "maxZ": -272.5,
+      "height": 20.5
+    },
+    {
+      "id": "media",
+      "minX": 143.0,
+      "maxX": 173.0,
+      "minZ": -269.0,
+      "maxZ": -239.0,
+      "height": 20.5
+    },
+    {
+      "id": "info",
+      "minX": 198.0,
+      "maxX": 228.0,
+      "minZ": -272.0,
+      "maxZ": -240.0,
+      "height": 22.5
+    },
+    {
+      "id": "admin",
+      "minX": -58.0,
+      "maxX": -16.0,
+      "minZ": -340.5,
+      "maxZ": -305.5,
+      "height": 20.5
+    },
+    {
+      "id": "student-centre",
+      "minX": -59.0,
+      "maxX": -17.0,
+      "minZ": -288.5,
+      "maxZ": -245.5,
+      "height": 14.5
+    },
+    {
+      "id": "public-class-north",
+      "minX": -116.0,
+      "maxX": -26.0,
+      "minZ": -195.0,
+      "maxZ": -177.0,
+      "height": 20.5
+    },
+    {
+      "id": "public-class-west",
+      "minX": -116.0,
+      "maxX": -100.0,
+      "minZ": -193.5,
+      "maxZ": -128.5,
+      "height": 20.5
+    },
+    {
+      "id": "public-class-south",
+      "minX": -116.0,
+      "maxX": -34.0,
+      "minZ": -145.0,
+      "maxZ": -127.0,
+      "height": 20.5
+    },
+    {
+      "id": "dorm-1-west",
+      "minX": -204.0,
+      "maxX": -192.0,
+      "minZ": -339.0,
+      "maxZ": -297.0,
+      "height": 22.5
+    },
+    {
+      "id": "dorm-1-east",
+      "minX": -161.0,
+      "maxX": -149.0,
+      "minZ": -339.0,
+      "maxZ": -297.0,
+      "height": 22.5
+    },
+    {
+      "id": "dorm-1-link",
+      "minX": -198.0,
+      "maxX": -155.0,
+      "minZ": -340.0,
+      "maxZ": -332.0,
+      "height": 18.5
+    },
+    {
+      "id": "dorm-2-west",
+      "minX": -204.0,
+      "maxX": -192.0,
+      "minZ": -281.0,
+      "maxZ": -239.0,
+      "height": 22.5
+    },
+    {
+      "id": "dorm-2-east",
+      "minX": -161.0,
+      "maxX": -149.0,
+      "minZ": -281.0,
+      "maxZ": -239.0,
+      "height": 22.5
+    },
+    {
+      "id": "dorm-2-link",
+      "minX": -198.0,
+      "maxX": -155.0,
+      "minZ": -282.0,
+      "maxZ": -274.0,
+      "height": 18.5
+    },
+    {
+      "id": "dorm-3-west",
+      "minX": -204.0,
+      "maxX": -192.0,
+      "minZ": -176.0,
+      "maxZ": -134.0,
+      "height": 22.5
+    },
+    {
+      "id": "dorm-3-east",
+      "minX": -161.0,
+      "maxX": -149.0,
+      "minZ": -176.0,
+      "maxZ": -134.0,
+      "height": 22.5
+    },
+    {
+      "id": "dorm-3-link",
+      "minX": -198.0,
+      "maxX": -155.0,
+      "minZ": -177.0,
+      "maxZ": -169.0,
+      "height": 18.5
+    },
+    {
+      "id": "dorm-4-west",
+      "minX": -204.0,
+      "maxX": -192.0,
+      "minZ": -110.0,
+      "maxZ": -68.0,
+      "height": 22.5
+    },
+    {
+      "id": "dorm-4-east",
+      "minX": -161.0,
+      "maxX": -149.0,
+      "minZ": -110.0,
+      "maxZ": -68.0,
+      "height": 22.5
+    },
+    {
+      "id": "dorm-4-link",
+      "minX": -198.0,
+      "maxX": -155.0,
+      "minZ": -111.0,
+      "maxZ": -103.0,
+      "height": 18.5
+    },
+    {
+      "id": "dorm-5-west",
+      "minX": -204.0,
+      "maxX": -192.0,
+      "minZ": -54.0,
+      "maxZ": -12.0,
+      "height": 22.5
+    },
+    {
+      "id": "dorm-5-east",
+      "minX": -161.0,
+      "maxX": -149.0,
+      "minZ": -54.0,
+      "maxZ": -12.0,
+      "height": 22.5
+    },
+    {
+      "id": "dorm-5-link",
+      "minX": -198.0,
+      "maxX": -155.0,
+      "minZ": -55.0,
+      "maxZ": -47.0,
+      "height": 18.5
+    },
+    {
+      "id": "south-canteen",
+      "minX": -123.0,
+      "maxX": -61.0,
+      "minZ": -53.5,
+      "maxZ": -18.5,
+      "height": 12.5
+    },
+    {
+      "id": "faculty-canteen",
+      "minX": -119.0,
+      "maxX": -77.0,
+      "minZ": -282.0,
+      "maxZ": -246.0,
+      "height": 12.5
+    },
+    {
+      "id": "flavour-canteen",
+      "minX": -119.0,
+      "maxX": -77.0,
+      "minZ": -339.0,
+      "maxZ": -307.0,
+      "height": 12.5
+    },
+    {
+      "id": "bridge-rail-west",
+      "minX": -5.510000000000001,
+      "maxX": -5.29,
+      "minZ": -99,
+      "maxZ": -67,
+      "height": 1.14
+    },
+    {
+      "id": "bridge-rail-east",
+      "minX": 5.29,
+      "maxX": 5.510000000000001,
+      "minZ": -99,
+      "maxZ": -67,
+      "height": 1.14
+    },
+    {
+      "id": "lake-v2-0--55",
+      "minX": -55,
+      "maxX": -49,
+      "minZ": -103,
+      "maxZ": -101,
+      "height": 0.4
+    },
+    {
+      "id": "lake-v2-1--55",
+      "minX": -55,
+      "maxX": -45,
+      "minZ": -101,
+      "maxZ": -99,
+      "height": 0.4
+    },
+    {
+      "id": "lake-v2-1-47",
+      "minX": 47,
+      "maxX": 54,
+      "minZ": -101,
+      "maxZ": -99,
+      "height": 0.4
+    },
+    {
+      "id": "lake-v2-2--54",
+      "minX": -54,
+      "maxX": -42,
+      "minZ": -99,
+      "maxZ": -97,
+      "height": 0.4
+    },
+    {
+      "id": "lake-v2-2-43",
+      "minX": 43,
+      "maxX": 54,
+      "minZ": -99,
+      "maxZ": -97,
+      "height": 0.4
+    },
+    {
+      "id": "lake-v2-3--53",
+      "minX": -53,
+      "maxX": -41,
+      "minZ": -97,
+      "maxZ": -95,
+      "height": 0.4
+    },
+    {
+      "id": "lake-v2-3-40",
+      "minX": 40,
+      "maxX": 53,
+      "minZ": -97,
+      "maxZ": -95,
+      "height": 0.4
+    },
+    {
+      "id": "lake-v2-4--52",
+      "minX": -52,
+      "maxX": -40,
+      "minZ": -95,
+      "maxZ": -93,
+      "height": 0.4
+    },
+    {
+      "id": "lake-v2-4-38",
+      "minX": 38,
+      "maxX": 52,
+      "minZ": -95,
+      "maxZ": -93,
+      "height": 0.4
+    },
+    {
+      "id": "lake-v2-5--51",
+      "minX": -51,
+      "maxX": -38,
+      "minZ": -93,
+      "maxZ": -91,
+      "height": 0.4
+    },
+    {
+      "id": "lake-v2-5-37",
+      "minX": 37,
+      "maxX": 51,
+      "minZ": -93,
+      "maxZ": -91,
+      "height": 0.4
+    },
+    {
+      "id": "lake-v2-6--50",
+      "minX": -50,
+      "maxX": -34,
+      "minZ": -91,
+      "maxZ": -89,
+      "height": 0.4
+    },
+    {
+      "id": "lake-v2-6-35",
+      "minX": 35,
+      "maxX": 50,
+      "minZ": -91,
+      "maxZ": -89,
+      "height": 0.4
+    },
+    {
+      "id": "lake-v2-7--49",
+      "minX": -49,
+      "maxX": -23,
+      "minZ": -89,
+      "maxZ": -87,
+      "height": 0.4
+    },
+    {
+      "id": "lake-v2-7-32",
+      "minX": 32,
+      "maxX": 49,
+      "minZ": -89,
+      "maxZ": -87,
+      "height": 0.4
+    },
+    {
+      "id": "lake-v2-8--48",
+      "minX": -48,
+      "maxX": -21,
+      "minZ": -87,
+      "maxZ": -85,
+      "height": 0.4
+    },
+    {
+      "id": "lake-v2-8-22",
+      "minX": 22,
+      "maxX": 47,
+      "minZ": -87,
+      "maxZ": -85,
+      "height": 0.4
+    },
+    {
+      "id": "lake-v2-9--47",
+      "minX": -47,
+      "maxX": -20,
+      "minZ": -85,
+      "maxZ": -83,
+      "height": 0.4
+    },
+    {
+      "id": "lake-v2-9-19",
+      "minX": 19,
+      "maxX": 45,
+      "minZ": -85,
+      "maxZ": -83,
+      "height": 0.4
+    },
+    {
+      "id": "lake-v2-10--46",
+      "minX": -46,
+      "maxX": -19,
+      "minZ": -83,
+      "maxZ": -81,
+      "height": 0.4
+    },
+    {
+      "id": "lake-v2-10-17",
+      "minX": 17,
+      "maxX": 43,
+      "minZ": -83,
+      "maxZ": -81,
+      "height": 0.4
+    },
+    {
+      "id": "lake-v2-11--44",
+      "minX": -44,
+      "maxX": -17,
+      "minZ": -81,
+      "maxZ": -79,
+      "height": 0.4
+    },
+    {
+      "id": "lake-v2-11--11",
+      "minX": -11,
+      "maxX": -6,
+      "minZ": -81,
+      "maxZ": -79,
+      "height": 0.4
+    },
+    {
+      "id": "lake-v2-11-6",
+      "minX": 6,
+      "maxX": 41,
+      "minZ": -81,
+      "maxZ": -79,
+      "height": 0.4
+    },
+    {
+      "id": "lake-v2-12--30",
+      "minX": -30,
+      "maxX": -6,
+      "minZ": -79,
+      "maxZ": -77,
+      "height": 0.4
+    },
+    {
+      "id": "lake-v2-12-6",
+      "minX": 6,
+      "maxX": 38,
+      "minZ": -79,
+      "maxZ": -77,
+      "height": 0.4
+    },
+    {
+      "id": "lake-v2-13--27",
+      "minX": -27,
+      "maxX": -6,
+      "minZ": -77,
+      "maxZ": -75,
+      "height": 0.4
+    },
+    {
+      "id": "lake-v2-13-6",
+      "minX": 6,
+      "maxX": 34,
+      "minZ": -77,
+      "maxZ": -75,
+      "height": 0.4
+    },
+    {
+      "id": "lake-v2-14--24",
+      "minX": -24,
+      "maxX": -6,
+      "minZ": -75,
+      "maxZ": -73,
+      "height": 0.4
+    },
+    {
+      "id": "lake-v2-14-6",
+      "minX": 6,
+      "maxX": 28,
+      "minZ": -75,
+      "maxZ": -73,
+      "height": 0.4
+    },
+    {
+      "id": "lake-v2-15--22",
+      "minX": -22,
+      "maxX": -6,
+      "minZ": -73,
+      "maxZ": -71,
+      "height": 0.4
+    },
+    {
+      "id": "lake-v2-15-6",
+      "minX": 6,
+      "maxX": 17,
+      "minZ": -73,
+      "maxZ": -71,
+      "height": 0.4
+    },
+    {
+      "id": "lake-v2-16--18",
+      "minX": -18,
+      "maxX": -15,
+      "minZ": -71,
+      "maxZ": -69,
+      "height": 0.4
+    },
+    {
+      "id": "lake-v2-16-6",
+      "minX": 6,
+      "maxX": 12,
+      "minZ": -71,
+      "maxZ": -69,
+      "height": 0.4
+    },
+    {
+      "id": "lake-v2-17-6",
+      "minX": 6,
+      "maxX": 7,
+      "minZ": -69,
+      "maxZ": -67,
+      "height": 0.4
+    },
+    {
+      "id": "tree-000-trunk",
+      "minX": -11.21525,
+      "maxX": -10.78475,
+      "minZ": -340.21525,
+      "maxZ": -339.78475,
+      "height": 3
+    },
+    {
+      "id": "tree-001-trunk",
+      "minX": -11.23825,
+      "maxX": -10.76175,
+      "minZ": -324.23825,
+      "maxZ": -323.76175,
+      "height": 3
+    },
+    {
+      "id": "tree-002-trunk",
+      "minX": -11.2165,
+      "maxX": -10.7835,
+      "minZ": -308.2165,
+      "maxZ": -307.7835,
+      "height": 3
+    },
+    {
+      "id": "tree-003-trunk",
+      "minX": -11.22825,
+      "maxX": -10.77175,
+      "minZ": -292.22825,
+      "maxZ": -291.77175,
+      "height": 3
+    },
+    {
+      "id": "tree-004-trunk",
+      "minX": -11.24825,
+      "maxX": -10.75175,
+      "minZ": -276.24825,
+      "maxZ": -275.75175,
+      "height": 3
+    },
+    {
+      "id": "tree-005-trunk",
+      "minX": -11.2485,
+      "maxX": -10.7515,
+      "minZ": -260.2485,
+      "maxZ": -259.7515,
+      "height": 3
+    },
+    {
+      "id": "tree-006-trunk",
+      "minX": -11.225,
+      "maxX": -10.775,
+      "minZ": -244.225,
+      "maxZ": -243.775,
+      "height": 3
+    },
+    {
+      "id": "tree-007-trunk",
+      "minX": -11.23975,
+      "maxX": -10.76025,
+      "minZ": -228.23975,
+      "maxZ": -227.76025,
+      "height": 3
+    },
+    {
+      "id": "tree-008-trunk",
+      "minX": -11.26875,
+      "maxX": -10.73125,
+      "minZ": -196.26875,
+      "maxZ": -195.73125,
+      "height": 3
+    },
+    {
+      "id": "tree-009-trunk",
+      "minX": -11.213,
+      "maxX": -10.787,
+      "minZ": -180.213,
+      "maxZ": -179.787,
+      "height": 3
+    },
+    {
+      "id": "tree-010-trunk",
+      "minX": -11.27025,
+      "maxX": -10.72975,
+      "minZ": -164.27025,
+      "maxZ": -163.72975,
+      "height": 3
+    },
+    {
+      "id": "tree-011-trunk",
+      "minX": -11.2305,
+      "maxX": -10.7695,
+      "minZ": -148.2305,
+      "maxZ": -147.7695,
+      "height": 3
+    },
+    {
+      "id": "tree-012-trunk",
+      "minX": -11.2155,
+      "maxX": -10.7845,
+      "minZ": -132.2155,
+      "maxZ": -131.7845,
+      "height": 3
+    },
+    {
+      "id": "tree-013-trunk",
+      "minX": -11.28625,
+      "maxX": -10.71375,
+      "minZ": -68.28625,
+      "maxZ": -67.71375,
+      "height": 3
+    },
+    {
+      "id": "tree-014-trunk",
+      "minX": -11.25025,
+      "maxX": -10.74975,
+      "minZ": -52.25025,
+      "maxZ": -51.74975,
+      "height": 3
+    },
+    {
+      "id": "tree-015-trunk",
+      "minX": -11.23675,
+      "maxX": -10.76325,
+      "minZ": -36.23675,
+      "maxZ": -35.76325,
+      "height": 3
+    },
+    {
+      "id": "tree-016-trunk",
+      "minX": -11.275,
+      "maxX": -10.725,
+      "minZ": -20.275,
+      "maxZ": -19.725,
+      "height": 3
+    },
+    {
+      "id": "tree-017-trunk",
+      "minX": 10.77025,
+      "maxX": 11.22975,
+      "minZ": -340.22975,
+      "maxZ": -339.77025,
+      "height": 3
+    },
+    {
+      "id": "tree-018-trunk",
+      "minX": 10.75175,
+      "maxX": 11.24825,
+      "minZ": -324.24825,
+      "maxZ": -323.75175,
+      "height": 3
+    },
+    {
+      "id": "tree-019-trunk",
+      "minX": 10.76775,
+      "maxX": 11.23225,
+      "minZ": -244.23225,
+      "maxZ": -243.76775,
+      "height": 3
+    },
+    {
+      "id": "tree-020-trunk",
+      "minX": 10.7205,
+      "maxX": 11.2795,
+      "minZ": -228.2795,
+      "maxZ": -227.7205,
+      "height": 3
+    },
+    {
+      "id": "tree-021-trunk",
+      "minX": 10.76575,
+      "maxX": 11.23425,
+      "minZ": -196.23425,
+      "maxZ": -195.76575,
+      "height": 3
+    },
+    {
+      "id": "tree-022-trunk",
+      "minX": 10.76675,
+      "maxX": 11.23325,
+      "minZ": -180.23325,
+      "maxZ": -179.76675,
+      "height": 3
+    },
+    {
+      "id": "tree-023-trunk",
+      "minX": 10.74875,
+      "maxX": 11.25125,
+      "minZ": -164.25125,
+      "maxZ": -163.74875,
+      "height": 3
+    },
+    {
+      "id": "tree-024-trunk",
+      "minX": 10.73475,
+      "maxX": 11.26525,
+      "minZ": -148.26525,
+      "maxZ": -147.73475,
+      "height": 3
+    },
+    {
+      "id": "tree-025-trunk",
+      "minX": 10.766,
+      "maxX": 11.234,
+      "minZ": -132.234,
+      "maxZ": -131.766,
+      "height": 3
+    },
+    {
+      "id": "tree-026-trunk",
+      "minX": 10.73625,
+      "maxX": 11.26375,
+      "minZ": -68.26375,
+      "maxZ": -67.73625,
+      "height": 3
+    },
+    {
+      "id": "tree-027-trunk",
+      "minX": 10.7775,
+      "maxX": 11.2225,
+      "minZ": -52.2225,
+      "maxZ": -51.7775,
+      "height": 3
+    },
+    {
+      "id": "tree-028-trunk",
+      "minX": 10.756,
+      "maxX": 11.244,
+      "minZ": -36.244,
+      "maxZ": -35.756,
+      "height": 3
+    },
+    {
+      "id": "tree-029-trunk",
+      "minX": 10.75475,
+      "maxX": 11.24525,
+      "minZ": -20.24525,
+      "maxZ": -19.75475,
+      "height": 3
+    },
+    {
+      "id": "tree-030-trunk",
+      "minX": -144.2545,
+      "maxX": -143.7455,
+      "minZ": -340.2545,
+      "maxZ": -339.7455,
+      "height": 3
+    },
+    {
+      "id": "tree-031-trunk",
+      "minX": -144.2815,
+      "maxX": -143.7185,
+      "minZ": -324.2815,
+      "maxZ": -323.7185,
+      "height": 3
+    },
+    {
+      "id": "tree-032-trunk",
+      "minX": -144.2695,
+      "maxX": -143.7305,
+      "minZ": -308.2695,
+      "maxZ": -307.7305,
+      "height": 3
+    },
+    {
+      "id": "tree-033-trunk",
+      "minX": -144.25675,
+      "maxX": -143.74325,
+      "minZ": -292.25675,
+      "maxZ": -291.74325,
+      "height": 3
+    },
+    {
+      "id": "tree-034-trunk",
+      "minX": -144.27175,
+      "maxX": -143.72825,
+      "minZ": -276.27175,
+      "maxZ": -275.72825,
+      "height": 3
+    },
+    {
+      "id": "tree-035-trunk",
+      "minX": -144.2385,
+      "maxX": -143.7615,
+      "minZ": -260.2385,
+      "maxZ": -259.7615,
+      "height": 3
+    },
+    {
+      "id": "tree-036-trunk",
+      "minX": -144.26775,
+      "maxX": -143.73225,
+      "minZ": -244.26775,
+      "maxZ": -243.73225,
+      "height": 3
+    },
+    {
+      "id": "tree-037-trunk",
+      "minX": -144.21375,
+      "maxX": -143.78625,
+      "minZ": -228.21375,
+      "maxZ": -227.78625,
+      "height": 3
+    },
+    {
+      "id": "tree-038-trunk",
+      "minX": -144.28025,
+      "maxX": -143.71975,
+      "minZ": -196.28025,
+      "maxZ": -195.71975,
+      "height": 3
+    },
+    {
+      "id": "tree-039-trunk",
+      "minX": -144.27975,
+      "maxX": -143.72025,
+      "minZ": -180.27975,
+      "maxZ": -179.72025,
+      "height": 3
+    },
+    {
+      "id": "tree-040-trunk",
+      "minX": -144.2525,
+      "maxX": -143.7475,
+      "minZ": -164.2525,
+      "maxZ": -163.7475,
+      "height": 3
+    },
+    {
+      "id": "tree-041-trunk",
+      "minX": -144.241,
+      "maxX": -143.759,
+      "minZ": -148.241,
+      "maxZ": -147.759,
+      "height": 3
+    },
+    {
+      "id": "tree-042-trunk",
+      "minX": -144.239,
+      "maxX": -143.761,
+      "minZ": -132.239,
+      "maxZ": -131.761,
+      "height": 3
+    },
+    {
+      "id": "tree-043-trunk",
+      "minX": -144.2825,
+      "maxX": -143.7175,
+      "minZ": -84.2825,
+      "maxZ": -83.7175,
+      "height": 3
+    },
+    {
+      "id": "tree-044-trunk",
+      "minX": -144.253,
+      "maxX": -143.747,
+      "minZ": -68.253,
+      "maxZ": -67.747,
+      "height": 3
+    },
+    {
+      "id": "tree-045-trunk",
+      "minX": -144.22175,
+      "maxX": -143.77825,
+      "minZ": -52.22175,
+      "maxZ": -51.77825,
+      "height": 3
+    },
+    {
+      "id": "tree-046-trunk",
+      "minX": -144.265,
+      "maxX": -143.735,
+      "minZ": -36.265,
+      "maxZ": -35.735,
+      "height": 3
+    },
+    {
+      "id": "tree-047-trunk",
+      "minX": -144.231,
+      "maxX": -143.769,
+      "minZ": -20.231,
+      "maxZ": -19.769,
+      "height": 3
+    },
+    {
+      "id": "tree-048-trunk",
+      "minX": -122.23675,
+      "maxX": -121.76325,
+      "minZ": -340.23675,
+      "maxZ": -339.76325,
+      "height": 3
+    },
+    {
+      "id": "tree-049-trunk",
+      "minX": -122.22325,
+      "maxX": -121.77675,
+      "minZ": -324.22325,
+      "maxZ": -323.77675,
+      "height": 3
+    },
+    {
+      "id": "tree-050-trunk",
+      "minX": -122.236,
+      "maxX": -121.764,
+      "minZ": -308.236,
+      "maxZ": -307.764,
+      "height": 3
+    },
+    {
+      "id": "tree-051-trunk",
+      "minX": -122.2695,
+      "maxX": -121.7305,
+      "minZ": -292.2695,
+      "maxZ": -291.7305,
+      "height": 3
+    },
+    {
+      "id": "tree-052-trunk",
+      "minX": -122.2825,
+      "maxX": -121.7175,
+      "minZ": -276.2825,
+      "maxZ": -275.7175,
+      "height": 3
+    },
+    {
+      "id": "tree-053-trunk",
+      "minX": -122.21475,
+      "maxX": -121.78525,
+      "minZ": -260.21475,
+      "maxZ": -259.78525,
+      "height": 3
+    },
+    {
+      "id": "tree-054-trunk",
+      "minX": -122.24575,
+      "maxX": -121.75425,
+      "minZ": -244.24575,
+      "maxZ": -243.75425,
+      "height": 3
+    },
+    {
+      "id": "tree-055-trunk",
+      "minX": -122.2625,
+      "maxX": -121.7375,
+      "minZ": -228.2625,
+      "maxZ": -227.7375,
+      "height": 3
+    },
+    {
+      "id": "tree-056-trunk",
+      "minX": -122.2305,
+      "maxX": -121.7695,
+      "minZ": -196.2305,
+      "maxZ": -195.7695,
+      "height": 3
+    },
+    {
+      "id": "tree-057-trunk",
+      "minX": -122.28325,
+      "maxX": -121.71675,
+      "minZ": -180.28325,
+      "maxZ": -179.71675,
+      "height": 3
+    },
+    {
+      "id": "tree-058-trunk",
+      "minX": -122.2395,
+      "maxX": -121.7605,
+      "minZ": -164.2395,
+      "maxZ": -163.7605,
+      "height": 3
+    },
+    {
+      "id": "tree-059-trunk",
+      "minX": -122.2275,
+      "maxX": -121.7725,
+      "minZ": -148.2275,
+      "maxZ": -147.7725,
+      "height": 3
+    },
+    {
+      "id": "tree-060-trunk",
+      "minX": -122.229,
+      "maxX": -121.771,
+      "minZ": -132.229,
+      "maxZ": -131.771,
+      "height": 3
+    },
+    {
+      "id": "tree-061-trunk",
+      "minX": -122.25,
+      "maxX": -121.75,
+      "minZ": -84.25,
+      "maxZ": -83.75,
+      "height": 3
+    },
+    {
+      "id": "tree-062-trunk",
+      "minX": -122.22475,
+      "maxX": -121.77525,
+      "minZ": -68.22475,
+      "maxZ": -67.77525,
+      "height": 3
+    },
+    {
+      "id": "tree-063-trunk",
+      "minX": -225.258,
+      "maxX": -224.742,
+      "minZ": -340.258,
+      "maxZ": -339.742,
+      "height": 3
+    },
+    {
+      "id": "tree-064-trunk",
+      "minX": -225.23125,
+      "maxX": -224.76875,
+      "minZ": -324.23125,
+      "maxZ": -323.76875,
+      "height": 3
+    },
+    {
+      "id": "tree-065-trunk",
+      "minX": -225.2765,
+      "maxX": -224.7235,
+      "minZ": -308.2765,
+      "maxZ": -307.7235,
+      "height": 3
+    },
+    {
+      "id": "tree-066-trunk",
+      "minX": -225.2295,
+      "maxX": -224.7705,
+      "minZ": -292.2295,
+      "maxZ": -291.7705,
+      "height": 3
+    },
+    {
+      "id": "tree-067-trunk",
+      "minX": -225.2695,
+      "maxX": -224.7305,
+      "minZ": -276.2695,
+      "maxZ": -275.7305,
+      "height": 3
+    },
+    {
+      "id": "tree-068-trunk",
+      "minX": -225.263,
+      "maxX": -224.737,
+      "minZ": -260.263,
+      "maxZ": -259.737,
+      "height": 3
+    },
+    {
+      "id": "tree-069-trunk",
+      "minX": -225.2855,
+      "maxX": -224.7145,
+      "minZ": -244.2855,
+      "maxZ": -243.7145,
+      "height": 3
+    },
+    {
+      "id": "tree-070-trunk",
+      "minX": -225.2635,
+      "maxX": -224.7365,
+      "minZ": -228.2635,
+      "maxZ": -227.7365,
+      "height": 3
+    },
+    {
+      "id": "tree-071-trunk",
+      "minX": -225.2675,
+      "maxX": -224.7325,
+      "minZ": -196.2675,
+      "maxZ": -195.7325,
+      "height": 3
+    },
+    {
+      "id": "tree-072-trunk",
+      "minX": -225.25,
+      "maxX": -224.75,
+      "minZ": -180.25,
+      "maxZ": -179.75,
+      "height": 3
+    },
+    {
+      "id": "tree-073-trunk",
+      "minX": -225.2355,
+      "maxX": -224.7645,
+      "minZ": -164.2355,
+      "maxZ": -163.7645,
+      "height": 3
+    },
+    {
+      "id": "tree-074-trunk",
+      "minX": -225.2295,
+      "maxX": -224.7705,
+      "minZ": -148.2295,
+      "maxZ": -147.7705,
+      "height": 3
+    },
+    {
+      "id": "tree-075-trunk",
+      "minX": -225.2315,
+      "maxX": -224.7685,
+      "minZ": -132.2315,
+      "maxZ": -131.7685,
+      "height": 3
+    },
+    {
+      "id": "tree-076-trunk",
+      "minX": -225.27275,
+      "maxX": -224.72725,
+      "minZ": -84.27275,
+      "maxZ": -83.72725,
+      "height": 3
+    },
+    {
+      "id": "tree-077-trunk",
+      "minX": -225.28275,
+      "maxX": -224.71725,
+      "minZ": -68.28275,
+      "maxZ": -67.71725,
+      "height": 3
+    },
+    {
+      "id": "tree-078-trunk",
+      "minX": -225.24175,
+      "maxX": -224.75825,
+      "minZ": -52.24175,
+      "maxZ": -51.75825,
+      "height": 3
+    },
+    {
+      "id": "tree-079-trunk",
+      "minX": -225.27975,
+      "maxX": -224.72025,
+      "minZ": -36.27975,
+      "maxZ": -35.72025,
+      "height": 3
+    },
+    {
+      "id": "tree-080-trunk",
+      "minX": -225.222,
+      "maxX": -224.778,
+      "minZ": -20.222,
+      "maxZ": -19.778,
+      "height": 3
+    },
+    {
+      "id": "tree-081-trunk",
+      "minX": -203.27575,
+      "maxX": -202.72425,
+      "minZ": -292.27575,
+      "maxZ": -291.72425,
+      "height": 3
+    },
+    {
+      "id": "tree-082-trunk",
+      "minX": -203.27125,
+      "maxX": -202.72875,
+      "minZ": -228.27125,
+      "maxZ": -227.72875,
+      "height": 3
+    },
+    {
+      "id": "tree-083-trunk",
+      "minX": -203.25875,
+      "maxX": -202.74125,
+      "minZ": -196.25875,
+      "maxZ": -195.74125,
+      "height": 3
+    },
+    {
+      "id": "tree-084-trunk",
+      "minX": -203.243,
+      "maxX": -202.757,
+      "minZ": -180.243,
+      "maxZ": -179.757,
+      "height": 3
+    },
+    {
+      "id": "tree-085-trunk",
+      "minX": -203.24125,
+      "maxX": -202.75875,
+      "minZ": -132.24125,
+      "maxZ": -131.75875,
+      "height": 3
+    },
+    {
+      "id": "tree-086-trunk",
+      "minX": 121.727,
+      "maxX": 122.273,
+      "minZ": -340.273,
+      "maxZ": -339.727,
+      "height": 3
+    },
+    {
+      "id": "tree-087-trunk",
+      "minX": 121.772,
+      "maxX": 122.228,
+      "minZ": -324.228,
+      "maxZ": -323.772,
+      "height": 3
+    },
+    {
+      "id": "tree-088-trunk",
+      "minX": 121.71475,
+      "maxX": 122.28525,
+      "minZ": -308.28525,
+      "maxZ": -307.71475,
+      "height": 3
+    },
+    {
+      "id": "tree-089-trunk",
+      "minX": 121.7835,
+      "maxX": 122.2165,
+      "minZ": -292.2165,
+      "maxZ": -291.7835,
+      "height": 3
+    },
+    {
+      "id": "tree-090-trunk",
+      "minX": 121.722,
+      "maxX": 122.278,
+      "minZ": -276.278,
+      "maxZ": -275.722,
+      "height": 3
+    },
+    {
+      "id": "tree-091-trunk",
+      "minX": 121.7605,
+      "maxX": 122.2395,
+      "minZ": -260.2395,
+      "maxZ": -259.7605,
+      "height": 3
+    },
+    {
+      "id": "tree-092-trunk",
+      "minX": 121.7645,
+      "maxX": 122.2355,
+      "minZ": -244.2355,
+      "maxZ": -243.7645,
+      "height": 3
+    },
+    {
+      "id": "tree-093-trunk",
+      "minX": 121.7225,
+      "maxX": 122.2775,
+      "minZ": -228.2775,
+      "maxZ": -227.7225,
+      "height": 3
+    },
+    {
+      "id": "tree-094-trunk",
+      "minX": 121.77175,
+      "maxX": 122.22825,
+      "minZ": -196.22825,
+      "maxZ": -195.77175,
+      "height": 3
+    },
+    {
+      "id": "tree-095-trunk",
+      "minX": 121.78575,
+      "maxX": 122.21425,
+      "minZ": -180.21425,
+      "maxZ": -179.78575,
+      "height": 3
+    },
+    {
+      "id": "tree-096-trunk",
+      "minX": 121.7865,
+      "maxX": 122.2135,
+      "minZ": -164.2135,
+      "maxZ": -163.7865,
+      "height": 3
+    },
+    {
+      "id": "tree-097-trunk",
+      "minX": 121.77525,
+      "maxX": 122.22475,
+      "minZ": -148.22475,
+      "maxZ": -147.77525,
+      "height": 3
+    },
+    {
+      "id": "tree-098-trunk",
+      "minX": 121.76525,
+      "maxX": 122.23475,
+      "minZ": -132.23475,
+      "maxZ": -131.76525,
+      "height": 3
+    },
+    {
+      "id": "tree-099-trunk",
+      "minX": 121.77375,
+      "maxX": 122.22625,
+      "minZ": -84.22625,
+      "maxZ": -83.77375,
+      "height": 3
+    },
+    {
+      "id": "tree-100-trunk",
+      "minX": 121.72275,
+      "maxX": 122.27725,
+      "minZ": -68.27725,
+      "maxZ": -67.72275,
+      "height": 3
+    },
+    {
+      "id": "tree-101-trunk",
+      "minX": 121.77975,
+      "maxX": 122.22025,
+      "minZ": -52.22025,
+      "maxZ": -51.77975,
+      "height": 3
+    },
+    {
+      "id": "tree-102-trunk",
+      "minX": 121.74725,
+      "maxX": 122.25275,
+      "minZ": -36.25275,
+      "maxZ": -35.74725,
+      "height": 3
+    },
+    {
+      "id": "tree-103-trunk",
+      "minX": 121.748,
+      "maxX": 122.252,
+      "minZ": -20.252,
+      "maxZ": -19.748,
+      "height": 3
+    },
+    {
+      "id": "tree-104-trunk",
+      "minX": 143.7275,
+      "maxX": 144.2725,
+      "minZ": -340.2725,
+      "maxZ": -339.7275,
+      "height": 3
+    },
+    {
+      "id": "tree-105-trunk",
+      "minX": 143.73975,
+      "maxX": 144.26025,
+      "minZ": -324.26025,
+      "maxZ": -323.73975,
+      "height": 3
+    },
+    {
+      "id": "tree-106-trunk",
+      "minX": 143.74,
+      "maxX": 144.26,
+      "minZ": -308.26,
+      "maxZ": -307.74,
+      "height": 3
+    },
+    {
+      "id": "tree-107-trunk",
+      "minX": 143.7565,
+      "maxX": 144.2435,
+      "minZ": -292.2435,
+      "maxZ": -291.7565,
+      "height": 3
+    },
+    {
+      "id": "tree-108-trunk",
+      "minX": 143.73375,
+      "maxX": 144.26625,
+      "minZ": -276.26625,
+      "maxZ": -275.73375,
+      "height": 3
+    },
+    {
+      "id": "tree-109-trunk",
+      "minX": 143.71825,
+      "maxX": 144.28175,
+      "minZ": -228.28175,
+      "maxZ": -227.71825,
+      "height": 3
+    },
+    {
+      "id": "tree-110-trunk",
+      "minX": 143.72325,
+      "maxX": 144.27675,
+      "minZ": -196.27675,
+      "maxZ": -195.72325,
+      "height": 3
+    },
+    {
+      "id": "tree-111-trunk",
+      "minX": 143.71575,
+      "maxX": 144.28425,
+      "minZ": -180.28425,
+      "maxZ": -179.71575,
+      "height": 3
+    },
+    {
+      "id": "tree-112-trunk",
+      "minX": 143.7555,
+      "maxX": 144.2445,
+      "minZ": -164.2445,
+      "maxZ": -163.7555,
+      "height": 3
+    },
+    {
+      "id": "tree-113-trunk",
+      "minX": 143.742,
+      "maxX": 144.258,
+      "minZ": -148.258,
+      "maxZ": -147.742,
+      "height": 3
+    },
+    {
+      "id": "tree-114-trunk",
+      "minX": 143.7245,
+      "maxX": 144.2755,
+      "minZ": -132.2755,
+      "maxZ": -131.7245,
+      "height": 3
+    },
+    {
+      "id": "tree-115-trunk",
+      "minX": 143.78275,
+      "maxX": 144.21725,
+      "minZ": -84.21725,
+      "maxZ": -83.78275,
+      "height": 3
+    },
+    {
+      "id": "tree-116-trunk",
+      "minX": 143.78125,
+      "maxX": 144.21875,
+      "minZ": -68.21875,
+      "maxZ": -67.78125,
+      "height": 3
+    },
+    {
+      "id": "tree-117-trunk",
+      "minX": 143.78675,
+      "maxX": 144.21325,
+      "minZ": -52.21325,
+      "maxZ": -51.78675,
+      "height": 3
+    },
+    {
+      "id": "tree-118-trunk",
+      "minX": 143.779,
+      "maxX": 144.221,
+      "minZ": -36.221,
+      "maxZ": -35.779,
+      "height": 3
+    },
+    {
+      "id": "tree-119-trunk",
+      "minX": 143.74125,
+      "maxX": 144.25875,
+      "minZ": -20.25875,
+      "maxZ": -19.74125,
+      "height": 3
+    },
+    {
+      "id": "tree-120-trunk",
+      "minX": -44.19575,
+      "maxX": -43.80425,
+      "minZ": -65.19575,
+      "maxZ": -64.80425,
+      "height": 3
+    },
+    {
+      "id": "tree-121-trunk",
+      "minX": -31.2265,
+      "maxX": -30.7735,
+      "minZ": -66.2265,
+      "maxZ": -65.7735,
+      "height": 3
+    },
+    {
+      "id": "tree-122-trunk",
+      "minX": 26.744,
+      "maxX": 27.256,
+      "minZ": -64.256,
+      "maxZ": -63.744,
+      "height": 3
+    },
+    {
+      "id": "tree-123-trunk",
+      "minX": 43.72675,
+      "maxX": 44.27325,
+      "minZ": -70.27325,
+      "maxZ": -69.72675,
+      "height": 3
+    },
+    {
+      "id": "tree-124-trunk",
+      "minX": -52.2435,
+      "maxX": -51.7565,
+      "minZ": -92.2435,
+      "maxZ": -91.7565,
+      "height": 3
+    },
+    {
+      "id": "tree-125-trunk",
+      "minX": 54.7605,
+      "maxX": 55.2395,
+      "minZ": -95.2395,
+      "maxZ": -94.7605,
+      "height": 3
+    },
+    {
+      "id": "tree-126-trunk",
+      "minX": -30.2335,
+      "maxX": -29.7665,
+      "minZ": -106.2335,
+      "maxZ": -105.7665,
+      "height": 3
+    },
+    {
+      "id": "tree-127-trunk",
+      "minX": 30.73025,
+      "maxX": 31.26975,
+      "minZ": -104.26975,
+      "maxZ": -103.73025,
+      "height": 3
+    },
+    {
+      "id": "tree-128-trunk",
+      "minX": -30.229,
+      "maxX": -29.771,
+      "minZ": -40.229,
+      "maxZ": -39.771,
+      "height": 3
+    },
+    {
+      "id": "tree-129-trunk",
+      "minX": -35.26675,
+      "maxX": -34.73325,
+      "minZ": -22.26675,
+      "maxZ": -21.73325,
+      "height": 3
+    },
+    {
+      "id": "tree-130-trunk",
+      "minX": 32.7295,
+      "maxX": 33.2705,
+      "minZ": -27.2705,
+      "maxZ": -26.7295,
+      "height": 3
+    },
+    {
+      "id": "tree-131-trunk",
+      "minX": 43.73825,
+      "maxX": 44.26175,
+      "minZ": -23.26175,
+      "maxZ": -22.73825,
+      "height": 3
+    },
+    {
+      "id": "tree-132-trunk",
+      "minX": -68.214,
+      "maxX": -67.786,
+      "minZ": -215.214,
+      "maxZ": -214.786,
+      "height": 3
+    },
+    {
+      "id": "tree-133-trunk",
+      "minX": -81.2055,
+      "maxX": -80.7945,
+      "minZ": -217.2055,
+      "maxZ": -216.7945,
+      "height": 3
+    },
+    {
+      "id": "tree-134-trunk",
+      "minX": -95.22,
+      "maxX": -94.78,
+      "minZ": -217.22,
+      "maxZ": -216.78,
+      "height": 3
+    },
+    {
+      "id": "tree-135-trunk",
+      "minX": -111.2725,
+      "maxX": -110.7275,
+      "minZ": -217.2725,
+      "maxZ": -216.7275,
+      "height": 3
+    },
+    {
+      "id": "tree-136-trunk",
+      "minX": 25.7835,
+      "maxX": 26.2165,
+      "minZ": -218.2165,
+      "maxZ": -217.7835,
+      "height": 3
+    },
+    {
+      "id": "tree-137-trunk",
+      "minX": 81.7435,
+      "maxX": 82.2565,
+      "minZ": -216.2565,
+      "maxZ": -215.7435,
+      "height": 3
+    },
+    {
+      "id": "tree-138-trunk",
+      "minX": 114.7895,
+      "maxX": 115.2105,
+      "minZ": -243.2105,
+      "maxZ": -242.7895,
+      "height": 3
+    },
+    {
+      "id": "tree-139-trunk",
+      "minX": 116.7895,
+      "maxX": 117.2105,
+      "minZ": -261.2105,
+      "maxZ": -260.7895,
+      "height": 3
+    },
+    {
+      "id": "tree-140-trunk",
+      "minX": 116.778,
+      "maxX": 117.222,
+      "minZ": -305.222,
+      "maxZ": -304.778,
+      "height": 3
+    },
+    {
+      "id": "tree-141-trunk",
+      "minX": -330.2785,
+      "maxX": -329.7215,
+      "minZ": -221.2785,
+      "maxZ": -220.7215,
+      "height": 3
+    },
+    {
+      "id": "tree-142-trunk",
+      "minX": -317.208,
+      "maxX": -316.792,
+      "minZ": -220.208,
+      "maxZ": -219.792,
+      "height": 3
+    },
+    {
+      "id": "tree-143-trunk",
+      "minX": -302.22725,
+      "maxX": -301.77275,
+      "minZ": -220.22725,
+      "maxZ": -219.77275,
+      "height": 3
+    },
+    {
+      "id": "tree-144-trunk",
+      "minX": -287.213,
+      "maxX": -286.787,
+      "minZ": -219.213,
+      "maxZ": -218.787,
+      "height": 3
+    }
+  ],
+  "assets": {
+    "zones": [
+      {
+        "id": "core",
+        "url": "assets/campus/v2/core.glb"
+      },
+      {
+        "id": "academic",
+        "url": "assets/campus/v2/academic.glb"
+      },
+      {
+        "id": "residential",
+        "url": "assets/campus/v2/residential.glb"
+      },
+      {
+        "id": "sports",
+        "url": "assets/campus/v2/sports.glb"
+      }
+    ],
+    "student": "assets/campus/v2/character-student.glb",
+    "graduate": "assets/campus/v2/character-graduate.glb",
+    "principal": "assets/campus/v2/character-principal.glb",
+    "map": "assets/campus/campus-map.svg",
+    "realism": "assets/campus/v2/realism.json"
+  },
+  "animations": [
+    "Idle",
+    "Walk",
+    "Run",
+    "Wave"
+  ],
+  "character": {
+    "height": 1.38,
+    "forward": "+Z",
+    "footY": 0,
+    "animations": [
+      "Idle",
+      "Walk",
+      "Run",
+      "Wave"
+    ],
+    "rig": "NaiwaRig_v2",
+    "graduateHeight": 1.317,
+    "principalHeight": 1.4592,
+    "boneCount": 16
+  },
+  "principalPosition": {
+    "x": -20,
+    "y": 0,
+    "z": -35
+  },
+  "referenceDate": "2026-10-21",
+  "fidelity": "Reference-informed exterior reconstruction with estimated metric dimensions; enhanced v2 materials and mesh details; pond bridge and uncaptured sides remain interpretations.",
+  "referenceManifest": "modeling/sources.json",
+  "referenceComparison": ".local/modeling/reference-comparison.html"
+}

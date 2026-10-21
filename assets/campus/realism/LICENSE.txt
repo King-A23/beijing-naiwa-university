@@ -1,0 +1,3 @@
+Textures and HDRI: Poly Haven, CC0 1.0 Universal. https://polyhaven.com/license
+Source URLs, checksums and image optimization details: sources.json
+No paid services or runtime CDN dependencies.

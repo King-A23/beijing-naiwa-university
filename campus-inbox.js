@@ -1,0 +1,8 @@
+const esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+export const serviceLink=(value,fallback='student-services.html#inbox')=>/^(?:student-services|academic|campus|principal)\.html(?:[?#][A-Za-z0-9_/?=&%.-]*)?$/.test(String(value))?value:fallback;
+export const taskDetail=value=>String(value??'').replace(/\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(?:\.\d+)?Z/g,v=>new Date(v).toLocaleString('zh-CN',{timeZone:'Asia/Shanghai',hour12:false}));
+export async function mountInboxSummary(host,{api,isCurrent=()=>true,role='student'}){
+ if(!host)return;const current=()=>isCurrent()&&host.isConnected;
+ try{const d=await api('/inbox');if(!current())return;host.classList.add('inbox-preview');host.innerHTML=`<div class="service-headline"><h2>待办与通知</h2></div><div class="inbox-counts"><span><b>${Number(d.pendingCount)||0}</b>项待办</span><span><b>${Number(d.unreadCount)||0}</b>条未读</span></div>${d.tasks.slice(0,3).map(t=>`<div class="inbox-item"><a href="${esc(serviceLink(t.href))}">${esc(t.title)}</a><p class="muted">${esc(taskDetail(t.detail))}</p></div>`).join('')||'<p class="muted">当前没有需要处理的事项。</p>'}<div class="actions"><a class="button secondary" href="student-services.html#inbox">查看全部待办与通知</a>${['student','admin','principal'].includes(role)?`<a class="button secondary" href="student-services.html#leaves">${role==='student'?'请假与销假':role==='admin'?'请假审批':'请假督导'}</a>`:''}</div>`;
+ }catch(e){if(current()){host.innerHTML=`<h2>待办与通知</h2><p class="muted">${esc(e.message)}</p><button type="button" class="secondary" data-inbox-retry>重新获取待办</button>`;host.querySelector('[data-inbox-retry]').onclick=()=>mountInboxSummary(host,{api,isCurrent,role});}}
+}

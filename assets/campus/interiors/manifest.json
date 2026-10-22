@@ -1,0 +1,2178 @@
+{
+  "version": 1,
+  "coordinateSystem": "right-handed: x east, y up, z south; metres",
+  "fidelity": "Original functional layouts inspired by campus architecture; not surveyed real interiors.",
+  "portals": {
+    "url": "assets/campus/interiors/portals.glb",
+    "bytes": 89136,
+    "triangleCount": 1496,
+    "coordinates": "global campus coordinates, metres"
+  },
+  "buildings": [
+    {
+      "id": "library",
+      "name": "图书馆",
+      "w": 22,
+      "d": 24,
+      "h": 7.5,
+      "exterior": {
+        "x": 72,
+        "y": 0,
+        "z": -219.2,
+        "yaw": 3.141592653589793
+      },
+      "floors": [
+        {
+          "minX": -10.85,
+          "maxX": 10.85,
+          "minZ": -23.85,
+          "maxZ": 1.6,
+          "y": 0
+        },
+        {
+          "minX": -10.85,
+          "maxX": 6.65,
+          "minZ": -23.85,
+          "maxZ": -13.2,
+          "y": 3.8
+        },
+        {
+          "minX": 6.65,
+          "maxX": 10.85,
+          "minZ": -23.85,
+          "maxZ": -22.2,
+          "y": 3.8
+        }
+      ],
+      "ramps": [
+        {
+          "minX": 7.05,
+          "maxX": 10.25,
+          "minZ": -22.2,
+          "maxZ": -13.4,
+          "axis": "z",
+          "to": 0,
+          "from": 3.8
+        }
+      ],
+      "rooms": [
+        {
+          "name": "门厅与服务台",
+          "x": 0,
+          "y": 0,
+          "z": -4,
+          "action": "library",
+          "description": "可步行到达的门厅与服务台"
+        },
+        {
+          "name": "一层书库",
+          "x": -6.4,
+          "y": 0,
+          "z": -11.7,
+          "action": "library",
+          "description": "可步行到达的一层书库"
+        },
+        {
+          "name": "一层阅览区",
+          "x": 3.2,
+          "y": 0,
+          "z": -7.8,
+          "action": "library",
+          "description": "可步行到达的一层阅览区"
+        },
+        {
+          "name": "楼梯",
+          "x": 8.65,
+          "y": 0,
+          "z": -13,
+          "action": "library",
+          "description": "可步行到达的楼梯"
+        },
+        {
+          "name": "二层阅览区",
+          "x": -2.5,
+          "y": 3.8,
+          "z": -19,
+          "action": "library",
+          "description": "可步行到达的二层阅览区"
+        },
+        {
+          "name": "二层平台",
+          "x": 8.6,
+          "y": 3.8,
+          "z": -23.15,
+          "action": "library",
+          "description": "可步行到达的二层平台"
+        }
+      ],
+      "lights": [
+        {
+          "x": -5,
+          "y": 3.1,
+          "z": -5,
+          "intensity": 1.8
+        },
+        {
+          "x": 4,
+          "y": 3.1,
+          "z": -6,
+          "intensity": 1.8
+        },
+        {
+          "x": -5,
+          "y": 3.1,
+          "z": -15,
+          "intensity": 1.4
+        },
+        {
+          "x": 4,
+          "y": 3.1,
+          "z": -19,
+          "intensity": 1.5
+        },
+        {
+          "x": -5,
+          "y": 7,
+          "z": -18,
+          "intensity": 1.8
+        },
+        {
+          "x": 4,
+          "y": 7,
+          "z": -21,
+          "intensity": 1.8
+        }
+      ],
+      "entryBasis": "V2 library entry frames at z=-228.1; south steps terminate near -220.63. Arrival at x=72,z=-219.2 is beyond the lowest step and clear of library-shell colliders.",
+      "url": "assets/campus/interiors/library.glb",
+      "bounds": {
+        "minX": -11.2,
+        "maxX": 11.2,
+        "minZ": -24.2,
+        "maxZ": 1.6
+      },
+      "spawn": {
+        "x": 0,
+        "y": 0,
+        "z": -2,
+        "yaw": 3.141592653589793
+      },
+      "exit": {
+        "minX": -1.7,
+        "maxX": 1.7,
+        "minZ": -0.8,
+        "maxZ": 0.5
+      },
+      "colliders": [
+        {
+          "id": "partition",
+          "minX": -11.0,
+          "maxX": -1.7,
+          "minZ": -0.1,
+          "maxZ": 0.1,
+          "minY": 0,
+          "height": 7.5
+        },
+        {
+          "id": "partition",
+          "minX": 1.7,
+          "maxX": 11.0,
+          "minZ": -0.1,
+          "maxZ": 0.1,
+          "minY": 0,
+          "height": 7.5
+        },
+        {
+          "id": "open-entry-leaf",
+          "minX": -1.77,
+          "maxX": -1.67,
+          "minZ": -1.29,
+          "maxZ": 0.01,
+          "minY": 0,
+          "height": 2.3
+        },
+        {
+          "id": "open-entry-leaf",
+          "minX": 1.67,
+          "maxX": 1.77,
+          "minZ": -1.29,
+          "maxZ": 0.01,
+          "minY": 0,
+          "height": 2.3
+        },
+        {
+          "id": "outer-side",
+          "minX": -11.11,
+          "maxX": -10.89,
+          "minZ": -24.0,
+          "maxZ": 0.0,
+          "minY": 0,
+          "height": 7.5
+        },
+        {
+          "id": "outer-side",
+          "minX": 10.89,
+          "maxX": 11.11,
+          "minZ": -24.0,
+          "maxZ": 0.0,
+          "minY": 0,
+          "height": 7.5
+        },
+        {
+          "id": "partition",
+          "minX": -11.0,
+          "maxX": 11.0,
+          "minZ": -24.1,
+          "maxZ": -23.9,
+          "minY": 0,
+          "height": 7.5
+        },
+        {
+          "id": "service-desk",
+          "minX": -9.05,
+          "maxX": -4.55,
+          "minZ": -4.525,
+          "maxZ": -3.475,
+          "minY": 0,
+          "height": 1.2
+        },
+        {
+          "id": "planter",
+          "minX": -10.325,
+          "maxX": -9.675,
+          "minZ": -2.325,
+          "maxZ": -1.675,
+          "minY": 0,
+          "height": 1.25
+        },
+        {
+          "id": "planter",
+          "minX": 9.475,
+          "maxX": 10.125,
+          "minZ": -2.325,
+          "maxZ": -1.675,
+          "minY": 0,
+          "height": 1.25
+        },
+        {
+          "id": "bookcase",
+          "minX": -10.04,
+          "maxX": -4.76,
+          "minZ": -8.47,
+          "maxZ": -7.93,
+          "minY": 0,
+          "height": 2.05
+        },
+        {
+          "id": "bookcase",
+          "minX": -10.04,
+          "maxX": -4.76,
+          "minZ": -12.77,
+          "maxZ": -12.23,
+          "minY": 0,
+          "height": 2.05
+        },
+        {
+          "id": "bookcase",
+          "minX": -10.04,
+          "maxX": -4.76,
+          "minZ": -17.07,
+          "maxZ": -16.53,
+          "minY": 0,
+          "height": 2.05
+        },
+        {
+          "id": "reading-table",
+          "minX": 1.04,
+          "maxX": 4.96,
+          "minZ": -7.175,
+          "maxZ": -4.625,
+          "minY": 0,
+          "height": 0.94
+        },
+        {
+          "id": "reading-table",
+          "minX": 1.04,
+          "maxX": 4.96,
+          "minZ": -11.375,
+          "maxZ": -8.825,
+          "minY": 0,
+          "height": 0.94
+        },
+        {
+          "id": "column",
+          "minX": -9.07,
+          "maxX": -8.73,
+          "minZ": -13.82,
+          "maxZ": -13.48,
+          "minY": 0,
+          "height": 3.68
+        },
+        {
+          "id": "column",
+          "minX": -2.67,
+          "maxX": -2.33,
+          "minZ": -13.82,
+          "maxZ": -13.48,
+          "minY": 0,
+          "height": 3.68
+        },
+        {
+          "id": "column",
+          "minX": 5.53,
+          "maxX": 5.87,
+          "minZ": -13.82,
+          "maxZ": -13.48,
+          "minY": 0,
+          "height": 3.68
+        },
+        {
+          "id": "stair-side-guard",
+          "minX": 6.95,
+          "maxX": 7.05,
+          "minZ": -22.25,
+          "maxZ": -13.35,
+          "minY": 0,
+          "height": 4.92
+        },
+        {
+          "id": "stair-side-guard",
+          "minX": 10.25,
+          "maxX": 10.35,
+          "minZ": -22.25,
+          "maxZ": -13.35,
+          "minY": 0,
+          "height": 4.92
+        },
+        {
+          "id": "stair-solid-underside",
+          "minX": 7.075,
+          "maxX": 10.225,
+          "minZ": -22.075,
+          "maxZ": -18.525,
+          "minY": 0,
+          "height": 1.3
+        },
+        {
+          "id": "upper-guard",
+          "minX": -10.85,
+          "maxX": 6.65,
+          "minZ": -13.25,
+          "maxZ": -13.15,
+          "minY": 3.8,
+          "height": 4.95
+        },
+        {
+          "id": "upper-side-guard",
+          "minX": 6.6,
+          "maxX": 6.7,
+          "minZ": -22.15,
+          "maxZ": -13.2,
+          "minY": 3.8,
+          "height": 4.95
+        },
+        {
+          "id": "reading-table",
+          "minX": -8.36,
+          "maxX": -4.64,
+          "minZ": -20.075,
+          "maxZ": -17.525,
+          "minY": 3.8,
+          "height": 4.74
+        },
+        {
+          "id": "reading-table",
+          "minX": -1.16,
+          "maxX": 2.56,
+          "minZ": -20.075,
+          "maxZ": -17.525,
+          "minY": 3.8,
+          "height": 4.74
+        },
+        {
+          "id": "bookcase",
+          "minX": -9.34,
+          "maxX": -5.66,
+          "minZ": -23.79,
+          "maxZ": -23.25,
+          "minY": 3.8,
+          "height": 5.85
+        },
+        {
+          "id": "bookcase",
+          "minX": -3.84,
+          "maxX": -0.16,
+          "minZ": -23.79,
+          "maxZ": -23.25,
+          "minY": 3.8,
+          "height": 5.85
+        },
+        {
+          "id": "bookcase",
+          "minX": 1.76,
+          "maxX": 4.44,
+          "minZ": -23.79,
+          "maxZ": -23.25,
+          "minY": 3.8,
+          "height": 5.85
+        },
+        {
+          "id": "reading-table",
+          "minX": -3.36,
+          "maxX": 0.96,
+          "minZ": -21.975,
+          "maxZ": -19.425,
+          "minY": 0,
+          "height": 0.94
+        },
+        {
+          "id": "bookcase",
+          "minX": -10.04,
+          "maxX": -4.76,
+          "minZ": -23.81,
+          "maxZ": -23.27,
+          "minY": 0,
+          "height": 2.05
+        }
+      ],
+      "triangleCount": 47130,
+      "bytes": 2918752,
+      "waypoints": [
+        {
+          "name": "入口到书库",
+          "points": [
+            [
+              0,
+              0,
+              -2
+            ],
+            [
+              0,
+              0,
+              -6.1
+            ],
+            [
+              -4.0,
+              0,
+              -6.1
+            ],
+            [
+              -4.0,
+              0,
+              -10.2
+            ]
+          ]
+        },
+        {
+          "name": "入口到一层阅览",
+          "points": [
+            [
+              0,
+              0,
+              -2
+            ],
+            [
+              6,
+              0,
+              -2
+            ],
+            [
+              6,
+              0,
+              -7.8
+            ]
+          ]
+        },
+        {
+          "name": "真实楼梯到二层",
+          "points": [
+            [
+              0,
+              0,
+              -2
+            ],
+            [
+              6.3,
+              0,
+              -2
+            ],
+            [
+              6.3,
+              0,
+              -11.9
+            ],
+            [
+              8.65,
+              0,
+              -11.9
+            ],
+            [
+              8.65,
+              0,
+              -13.4
+            ],
+            [
+              8.65,
+              3.8,
+              -22.2
+            ],
+            [
+              8.65,
+              3.8,
+              -23.0
+            ],
+            [
+              5.4,
+              3.8,
+              -23.0
+            ],
+            [
+              5.4,
+              3.8,
+              -21.6
+            ],
+            [
+              1.0,
+              3.8,
+              -21.6
+            ]
+          ]
+        }
+      ],
+      "description": "参考校园风格的原创功能布局；未依据真实室内测绘。",
+      "portalPosition": {
+        "x": 72,
+        "y": 1.6,
+        "z": -227.75
+      }
+    },
+    {
+      "id": "teaching",
+      "name": "教学实验楼",
+      "w": 22,
+      "d": 22,
+      "h": 3.8,
+      "exterior": {
+        "x": 58,
+        "y": 0,
+        "z": -119.7,
+        "yaw": 3.141592653589793
+      },
+      "floors": [
+        {
+          "minX": -10.85,
+          "maxX": 10.85,
+          "minZ": -21.85,
+          "maxZ": 1.6,
+          "y": 0
+        }
+      ],
+      "ramps": [],
+      "rooms": [
+        {
+          "name": "教学走廊",
+          "x": 0,
+          "y": 0,
+          "z": -10,
+          "action": "courses",
+          "description": "可步行到达的教学走廊"
+        },
+        {
+          "name": "教学教室",
+          "x": -6.4,
+          "y": 0,
+          "z": -18.25,
+          "action": "courses",
+          "description": "可步行到达的教学教室"
+        },
+        {
+          "name": "实验教室",
+          "x": 6.4,
+          "y": 0,
+          "z": -11,
+          "action": "courses",
+          "description": "可步行到达的实验教室"
+        },
+        {
+          "name": "交流休息区",
+          "x": 0,
+          "y": 0,
+          "z": -19.5,
+          "action": "courses",
+          "description": "可步行到达的交流休息区"
+        }
+      ],
+      "lights": [
+        {
+          "x": -6,
+          "y": 3.15,
+          "z": -6,
+          "intensity": 1.5
+        },
+        {
+          "x": -6,
+          "y": 3.15,
+          "z": -16,
+          "intensity": 1.5
+        },
+        {
+          "x": 6,
+          "y": 3.15,
+          "z": -6,
+          "intensity": 1.5
+        },
+        {
+          "x": 6,
+          "y": 3.15,
+          "z": -16,
+          "intensity": 1.5
+        },
+        {
+          "x": 0,
+          "y": 3.15,
+          "z": -11,
+          "intensity": 1.5
+        }
+      ],
+      "entryBasis": "V2 S entrance doors at z=-121.85, beneath the existing canopy centred x=58; S-south-wing collider ends z=-122. Arrival 2.3m south of the facade.",
+      "url": "assets/campus/interiors/teaching.glb",
+      "bounds": {
+        "minX": -11.2,
+        "maxX": 11.2,
+        "minZ": -22.2,
+        "maxZ": 1.6
+      },
+      "spawn": {
+        "x": 0,
+        "y": 0,
+        "z": -2,
+        "yaw": 3.141592653589793
+      },
+      "exit": {
+        "minX": -1.7,
+        "maxX": 1.7,
+        "minZ": -0.8,
+        "maxZ": 0.5
+      },
+      "colliders": [
+        {
+          "id": "partition",
+          "minX": -11.0,
+          "maxX": -1.7,
+          "minZ": -0.1,
+          "maxZ": 0.1,
+          "minY": 0,
+          "height": 3.8
+        },
+        {
+          "id": "partition",
+          "minX": 1.7,
+          "maxX": 11.0,
+          "minZ": -0.1,
+          "maxZ": 0.1,
+          "minY": 0,
+          "height": 3.8
+        },
+        {
+          "id": "open-entry-leaf",
+          "minX": -1.77,
+          "maxX": -1.67,
+          "minZ": -1.29,
+          "maxZ": 0.01,
+          "minY": 0,
+          "height": 2.3
+        },
+        {
+          "id": "open-entry-leaf",
+          "minX": 1.67,
+          "maxX": 1.77,
+          "minZ": -1.29,
+          "maxZ": 0.01,
+          "minY": 0,
+          "height": 2.3
+        },
+        {
+          "id": "outer-side",
+          "minX": -11.11,
+          "maxX": -10.89,
+          "minZ": -22.0,
+          "maxZ": 0.0,
+          "minY": 0,
+          "height": 3.8
+        },
+        {
+          "id": "outer-side",
+          "minX": 10.89,
+          "maxX": 11.11,
+          "minZ": -22.0,
+          "maxZ": 0.0,
+          "minY": 0,
+          "height": 3.8
+        },
+        {
+          "id": "partition",
+          "minX": -11.0,
+          "maxX": 11.0,
+          "minZ": -22.1,
+          "maxZ": -21.9,
+          "minY": 0,
+          "height": 3.8
+        },
+        {
+          "id": "partition",
+          "minX": -2.1,
+          "maxX": -1.9,
+          "minZ": -22.0,
+          "maxZ": -18.0,
+          "minY": 0,
+          "height": 3.8
+        },
+        {
+          "id": "partition",
+          "minX": -2.1,
+          "maxX": -1.9,
+          "minZ": -15.9,
+          "maxZ": -7.2,
+          "minY": 0,
+          "height": 3.8
+        },
+        {
+          "id": "partition",
+          "minX": -2.1,
+          "maxX": -1.9,
+          "minZ": -5.1,
+          "maxZ": -2.7,
+          "minY": 0,
+          "height": 3.8
+        },
+        {
+          "id": "partition",
+          "minX": 1.9,
+          "maxX": 2.1,
+          "minZ": -22.0,
+          "maxZ": -18.0,
+          "minY": 0,
+          "height": 3.8
+        },
+        {
+          "id": "partition",
+          "minX": 1.9,
+          "maxX": 2.1,
+          "minZ": -15.9,
+          "maxZ": -7.2,
+          "minY": 0,
+          "height": 3.8
+        },
+        {
+          "id": "partition",
+          "minX": 1.9,
+          "maxX": 2.1,
+          "minZ": -5.1,
+          "maxZ": -2.7,
+          "minY": 0,
+          "height": 3.8
+        },
+        {
+          "id": "lectern",
+          "minX": -7.76,
+          "maxX": -5.24,
+          "minZ": -20.085,
+          "maxZ": -19.115,
+          "minY": 0,
+          "height": 0.94
+        },
+        {
+          "id": "podium",
+          "minX": -9.2,
+          "maxX": -8.4,
+          "minZ": -20.0,
+          "maxZ": -19.2,
+          "minY": 0,
+          "height": 1.35
+        },
+        {
+          "id": "student-desk",
+          "minX": -9.9,
+          "maxX": -8.4,
+          "minZ": -5.36,
+          "maxZ": -4.64,
+          "minY": 0,
+          "height": 0.94
+        },
+        {
+          "id": "student-chair",
+          "minX": -9.43,
+          "maxX": -8.87,
+          "minZ": -4.66,
+          "maxZ": -4.1,
+          "minY": 0,
+          "height": 0.9
+        },
+        {
+          "id": "student-desk",
+          "minX": -7.45,
+          "maxX": -5.95,
+          "minZ": -5.36,
+          "maxZ": -4.64,
+          "minY": 0,
+          "height": 0.94
+        },
+        {
+          "id": "student-chair",
+          "minX": -6.98,
+          "maxX": -6.42,
+          "minZ": -4.66,
+          "maxZ": -4.1,
+          "minY": 0,
+          "height": 0.9
+        },
+        {
+          "id": "student-desk",
+          "minX": -5.0,
+          "maxX": -3.5,
+          "minZ": -5.36,
+          "maxZ": -4.64,
+          "minY": 0,
+          "height": 0.94
+        },
+        {
+          "id": "student-chair",
+          "minX": -4.53,
+          "maxX": -3.97,
+          "minZ": -4.66,
+          "maxZ": -4.1,
+          "minY": 0,
+          "height": 0.9
+        },
+        {
+          "id": "student-desk",
+          "minX": -9.9,
+          "maxX": -8.4,
+          "minZ": -8.36,
+          "maxZ": -7.64,
+          "minY": 0,
+          "height": 0.94
+        },
+        {
+          "id": "student-chair",
+          "minX": -9.43,
+          "maxX": -8.87,
+          "minZ": -7.66,
+          "maxZ": -7.1,
+          "minY": 0,
+          "height": 0.9
+        },
+        {
+          "id": "student-desk",
+          "minX": -7.45,
+          "maxX": -5.95,
+          "minZ": -8.36,
+          "maxZ": -7.64,
+          "minY": 0,
+          "height": 0.94
+        },
+        {
+          "id": "student-chair",
+          "minX": -6.98,
+          "maxX": -6.42,
+          "minZ": -7.66,
+          "maxZ": -7.1,
+          "minY": 0,
+          "height": 0.9
+        },
+        {
+          "id": "student-desk",
+          "minX": -5.0,
+          "maxX": -3.5,
+          "minZ": -8.36,
+          "maxZ": -7.64,
+          "minY": 0,
+          "height": 0.94
+        },
+        {
+          "id": "student-chair",
+          "minX": -4.53,
+          "maxX": -3.97,
+          "minZ": -7.66,
+          "maxZ": -7.1,
+          "minY": 0,
+          "height": 0.9
+        },
+        {
+          "id": "student-desk",
+          "minX": -9.9,
+          "maxX": -8.4,
+          "minZ": -11.36,
+          "maxZ": -10.64,
+          "minY": 0,
+          "height": 0.94
+        },
+        {
+          "id": "student-chair",
+          "minX": -9.43,
+          "maxX": -8.87,
+          "minZ": -10.66,
+          "maxZ": -10.1,
+          "minY": 0,
+          "height": 0.9
+        },
+        {
+          "id": "student-desk",
+          "minX": -7.45,
+          "maxX": -5.95,
+          "minZ": -11.36,
+          "maxZ": -10.64,
+          "minY": 0,
+          "height": 0.94
+        },
+        {
+          "id": "student-chair",
+          "minX": -6.98,
+          "maxX": -6.42,
+          "minZ": -10.66,
+          "maxZ": -10.1,
+          "minY": 0,
+          "height": 0.9
+        },
+        {
+          "id": "student-desk",
+          "minX": -5.0,
+          "maxX": -3.5,
+          "minZ": -11.36,
+          "maxZ": -10.64,
+          "minY": 0,
+          "height": 0.94
+        },
+        {
+          "id": "student-chair",
+          "minX": -4.53,
+          "maxX": -3.97,
+          "minZ": -10.66,
+          "maxZ": -10.1,
+          "minY": 0,
+          "height": 0.9
+        },
+        {
+          "id": "student-desk",
+          "minX": -9.9,
+          "maxX": -8.4,
+          "minZ": -14.36,
+          "maxZ": -13.64,
+          "minY": 0,
+          "height": 0.94
+        },
+        {
+          "id": "student-chair",
+          "minX": -9.43,
+          "maxX": -8.87,
+          "minZ": -13.66,
+          "maxZ": -13.1,
+          "minY": 0,
+          "height": 0.9
+        },
+        {
+          "id": "student-desk",
+          "minX": -7.45,
+          "maxX": -5.95,
+          "minZ": -14.36,
+          "maxZ": -13.64,
+          "minY": 0,
+          "height": 0.94
+        },
+        {
+          "id": "student-chair",
+          "minX": -6.98,
+          "maxX": -6.42,
+          "minZ": -13.66,
+          "maxZ": -13.1,
+          "minY": 0,
+          "height": 0.9
+        },
+        {
+          "id": "student-desk",
+          "minX": -5.0,
+          "maxX": -3.5,
+          "minZ": -14.36,
+          "maxZ": -13.64,
+          "minY": 0,
+          "height": 0.94
+        },
+        {
+          "id": "student-chair",
+          "minX": -4.53,
+          "maxX": -3.97,
+          "minZ": -13.66,
+          "maxZ": -13.1,
+          "minY": 0,
+          "height": 0.9
+        },
+        {
+          "id": "student-desk",
+          "minX": -9.9,
+          "maxX": -8.4,
+          "minZ": -17.36,
+          "maxZ": -16.64,
+          "minY": 0,
+          "height": 0.94
+        },
+        {
+          "id": "student-chair",
+          "minX": -9.43,
+          "maxX": -8.87,
+          "minZ": -16.66,
+          "maxZ": -16.1,
+          "minY": 0,
+          "height": 0.9
+        },
+        {
+          "id": "student-desk",
+          "minX": -7.45,
+          "maxX": -5.95,
+          "minZ": -17.36,
+          "maxZ": -16.64,
+          "minY": 0,
+          "height": 0.94
+        },
+        {
+          "id": "student-chair",
+          "minX": -6.98,
+          "maxX": -6.42,
+          "minZ": -16.66,
+          "maxZ": -16.1,
+          "minY": 0,
+          "height": 0.9
+        },
+        {
+          "id": "student-desk",
+          "minX": -5.0,
+          "maxX": -3.5,
+          "minZ": -17.36,
+          "maxZ": -16.64,
+          "minY": 0,
+          "height": 0.94
+        },
+        {
+          "id": "student-chair",
+          "minX": -4.53,
+          "maxX": -3.97,
+          "minZ": -16.66,
+          "maxZ": -16.1,
+          "minY": 0,
+          "height": 0.9
+        },
+        {
+          "id": "laboratory-bench",
+          "minX": 3.34,
+          "maxX": 5.86,
+          "minZ": -6.8,
+          "maxZ": -5.6,
+          "minY": 0,
+          "height": 1.5
+        },
+        {
+          "id": "laboratory-bench",
+          "minX": 7.04,
+          "maxX": 9.56,
+          "minZ": -6.8,
+          "maxZ": -5.6,
+          "minY": 0,
+          "height": 1.5
+        },
+        {
+          "id": "lab-stools",
+          "minX": 4.7,
+          "maxX": 9.3,
+          "minZ": -5.31,
+          "maxZ": -4.69,
+          "minY": 0,
+          "height": 0.9
+        },
+        {
+          "id": "laboratory-bench",
+          "minX": 3.34,
+          "maxX": 5.86,
+          "minZ": -11.4,
+          "maxZ": -10.2,
+          "minY": 0,
+          "height": 1.5
+        },
+        {
+          "id": "laboratory-bench",
+          "minX": 7.04,
+          "maxX": 9.56,
+          "minZ": -11.4,
+          "maxZ": -10.2,
+          "minY": 0,
+          "height": 1.5
+        },
+        {
+          "id": "lab-stools",
+          "minX": 4.7,
+          "maxX": 9.3,
+          "minZ": -9.91,
+          "maxZ": -9.29,
+          "minY": 0,
+          "height": 0.9
+        },
+        {
+          "id": "laboratory-bench",
+          "minX": 3.34,
+          "maxX": 5.86,
+          "minZ": -16.0,
+          "maxZ": -14.8,
+          "minY": 0,
+          "height": 1.5
+        },
+        {
+          "id": "laboratory-bench",
+          "minX": 7.04,
+          "maxX": 9.56,
+          "minZ": -16.0,
+          "maxZ": -14.8,
+          "minY": 0,
+          "height": 1.5
+        },
+        {
+          "id": "lab-stools",
+          "minX": 4.7,
+          "maxX": 9.3,
+          "minZ": -14.51,
+          "maxZ": -13.89,
+          "minY": 0,
+          "height": 0.9
+        },
+        {
+          "id": "lab-storage",
+          "minX": 2.55,
+          "maxX": 10.55,
+          "minZ": -21.325,
+          "maxZ": -20.275,
+          "minY": 0,
+          "height": 1.3
+        },
+        {
+          "id": "planter",
+          "minX": -10.325,
+          "maxX": -9.675,
+          "minZ": -1.825,
+          "maxZ": -1.175,
+          "minY": 0,
+          "height": 1.25
+        },
+        {
+          "id": "planter",
+          "minX": 9.675,
+          "maxX": 10.325,
+          "minZ": -1.825,
+          "maxZ": -1.175,
+          "minY": 0,
+          "height": 1.25
+        }
+      ],
+      "triangleCount": 21111,
+      "bytes": 1430292,
+      "waypoints": [
+        {
+          "name": "教室",
+          "points": [
+            [
+              0,
+              0,
+              -2
+            ],
+            [
+              0,
+              0,
+              -6.15
+            ],
+            [
+              -2.8,
+              0,
+              -6.15
+            ],
+            [
+              -2.8,
+              0,
+              -18.25
+            ],
+            [
+              -6.5,
+              0,
+              -18.25
+            ]
+          ]
+        },
+        {
+          "name": "实验区",
+          "points": [
+            [
+              0,
+              0,
+              -2
+            ],
+            [
+              0,
+              0,
+              -16.95
+            ],
+            [
+              2.72,
+              0,
+              -16.95
+            ],
+            [
+              2.72,
+              0,
+              -18.3
+            ],
+            [
+              6.5,
+              0,
+              -18.3
+            ]
+          ]
+        }
+      ],
+      "description": "参考校园风格的原创功能布局；未依据真实室内测绘。",
+      "portalPosition": {
+        "x": 58,
+        "y": 0,
+        "z": -121.51
+      }
+    },
+    {
+      "id": "canteen",
+      "name": "学生餐厅",
+      "w": 24,
+      "d": 20,
+      "h": 4.2,
+      "exterior": {
+        "x": -92,
+        "y": 0,
+        "z": -16.2,
+        "yaw": 3.141592653589793
+      },
+      "floors": [
+        {
+          "minX": -11.85,
+          "maxX": 11.85,
+          "minZ": -19.85,
+          "maxZ": 1.6,
+          "y": 0
+        }
+      ],
+      "ramps": [],
+      "rooms": [
+        {
+          "name": "用餐区",
+          "x": 0,
+          "y": 0,
+          "z": -7,
+          "action": "canteen",
+          "description": "可步行到达的用餐区"
+        },
+        {
+          "name": "取餐档口",
+          "x": 0,
+          "y": 0,
+          "z": -14.4,
+          "action": "canteen",
+          "description": "可步行到达的取餐档口"
+        },
+        {
+          "name": "餐具回收区",
+          "x": 10.5,
+          "y": 0,
+          "z": -4.2,
+          "action": "canteen",
+          "description": "可步行到达的餐具回收区"
+        },
+        {
+          "name": "洗手与饮水",
+          "x": -10.5,
+          "y": 0,
+          "z": -4.2,
+          "action": "canteen",
+          "description": "可步行到达的洗手与饮水"
+        }
+      ],
+      "lights": [
+        {
+          "x": -7,
+          "y": 3.55,
+          "z": -6,
+          "intensity": 1.8
+        },
+        {
+          "x": 0,
+          "y": 3.55,
+          "z": -7,
+          "intensity": 1.8
+        },
+        {
+          "x": 7,
+          "y": 3.55,
+          "z": -6,
+          "intensity": 1.8
+        },
+        {
+          "x": -7,
+          "y": 3.55,
+          "z": -14,
+          "intensity": 1.8
+        },
+        {
+          "x": 0,
+          "y": 3.55,
+          "z": -14,
+          "intensity": 1.8
+        },
+        {
+          "x": 7,
+          "y": 3.55,
+          "z": -14,
+          "intensity": 1.8
+        }
+      ],
+      "entryBasis": "South-canteen facade/collider at z=-18.5, existing 7m canopy extends south. Portal is at z=-18.12, arrival x=-92,z=-16.2.",
+      "url": "assets/campus/interiors/canteen.glb",
+      "bounds": {
+        "minX": -12.2,
+        "maxX": 12.2,
+        "minZ": -20.2,
+        "maxZ": 1.6
+      },
+      "spawn": {
+        "x": 0,
+        "y": 0,
+        "z": -2,
+        "yaw": 3.141592653589793
+      },
+      "exit": {
+        "minX": -1.7,
+        "maxX": 1.7,
+        "minZ": -0.8,
+        "maxZ": 0.5
+      },
+      "colliders": [
+        {
+          "id": "partition",
+          "minX": -12.0,
+          "maxX": -1.7,
+          "minZ": -0.1,
+          "maxZ": 0.1,
+          "minY": 0,
+          "height": 4.2
+        },
+        {
+          "id": "partition",
+          "minX": 1.7,
+          "maxX": 12.0,
+          "minZ": -0.1,
+          "maxZ": 0.1,
+          "minY": 0,
+          "height": 4.2
+        },
+        {
+          "id": "open-entry-leaf",
+          "minX": -1.77,
+          "maxX": -1.67,
+          "minZ": -1.29,
+          "maxZ": 0.01,
+          "minY": 0,
+          "height": 2.3
+        },
+        {
+          "id": "open-entry-leaf",
+          "minX": 1.67,
+          "maxX": 1.77,
+          "minZ": -1.29,
+          "maxZ": 0.01,
+          "minY": 0,
+          "height": 2.3
+        },
+        {
+          "id": "outer-side",
+          "minX": -12.11,
+          "maxX": -11.89,
+          "minZ": -20.0,
+          "maxZ": 0.0,
+          "minY": 0,
+          "height": 4.2
+        },
+        {
+          "id": "outer-side",
+          "minX": 11.89,
+          "maxX": 12.11,
+          "minZ": -20.0,
+          "maxZ": 0.0,
+          "minY": 0,
+          "height": 4.2
+        },
+        {
+          "id": "partition",
+          "minX": -12.0,
+          "maxX": 12.0,
+          "minZ": -20.1,
+          "maxZ": -19.9,
+          "minY": 0,
+          "height": 4.2
+        },
+        {
+          "id": "dining-table",
+          "minX": -8.31,
+          "maxX": -5.89,
+          "minZ": -5.8,
+          "maxZ": -3.4,
+          "minY": 0,
+          "height": 0.94
+        },
+        {
+          "id": "dining-table",
+          "minX": -4.91,
+          "maxX": -2.49,
+          "minZ": -5.8,
+          "maxZ": -3.4,
+          "minY": 0,
+          "height": 0.94
+        },
+        {
+          "id": "dining-table",
+          "minX": 2.49,
+          "maxX": 4.91,
+          "minZ": -5.8,
+          "maxZ": -3.4,
+          "minY": 0,
+          "height": 0.94
+        },
+        {
+          "id": "dining-table",
+          "minX": 5.89,
+          "maxX": 8.31,
+          "minZ": -5.8,
+          "maxZ": -3.4,
+          "minY": 0,
+          "height": 0.94
+        },
+        {
+          "id": "dining-table",
+          "minX": -8.31,
+          "maxX": -5.89,
+          "minZ": -9.8,
+          "maxZ": -7.4,
+          "minY": 0,
+          "height": 0.94
+        },
+        {
+          "id": "dining-table",
+          "minX": -4.91,
+          "maxX": -2.49,
+          "minZ": -9.8,
+          "maxZ": -7.4,
+          "minY": 0,
+          "height": 0.94
+        },
+        {
+          "id": "dining-table",
+          "minX": 2.49,
+          "maxX": 4.91,
+          "minZ": -9.8,
+          "maxZ": -7.4,
+          "minY": 0,
+          "height": 0.94
+        },
+        {
+          "id": "dining-table",
+          "minX": 5.89,
+          "maxX": 8.31,
+          "minZ": -9.8,
+          "maxZ": -7.4,
+          "minY": 0,
+          "height": 0.94
+        },
+        {
+          "id": "dining-table",
+          "minX": -8.31,
+          "maxX": -5.89,
+          "minZ": -13.8,
+          "maxZ": -11.4,
+          "minY": 0,
+          "height": 0.94
+        },
+        {
+          "id": "dining-table",
+          "minX": -4.91,
+          "maxX": -2.49,
+          "minZ": -13.8,
+          "maxZ": -11.4,
+          "minY": 0,
+          "height": 0.94
+        },
+        {
+          "id": "dining-table",
+          "minX": 2.49,
+          "maxX": 4.91,
+          "minZ": -13.8,
+          "maxZ": -11.4,
+          "minY": 0,
+          "height": 0.94
+        },
+        {
+          "id": "dining-table",
+          "minX": 5.89,
+          "maxX": 8.31,
+          "minZ": -13.8,
+          "maxZ": -11.4,
+          "minY": 0,
+          "height": 0.94
+        },
+        {
+          "id": "serving-counter",
+          "minX": -10.65,
+          "maxX": 10.65,
+          "minZ": -17.95,
+          "maxZ": -16.45,
+          "minY": 0,
+          "height": 1.8
+        },
+        {
+          "id": "return-station",
+          "minX": 8.8,
+          "maxX": 11.2,
+          "minZ": -3.275,
+          "maxZ": -2.125,
+          "minY": 0,
+          "height": 1.3
+        },
+        {
+          "id": "wash-station",
+          "minX": -11.225,
+          "maxX": -8.775,
+          "minZ": -3.275,
+          "maxZ": -2.125,
+          "minY": 0,
+          "height": 1.4
+        },
+        {
+          "id": "planter",
+          "minX": -11.3438,
+          "maxX": -10.8562,
+          "minZ": -14.7438,
+          "maxZ": -14.2562,
+          "minY": 0,
+          "height": 0.9375
+        },
+        {
+          "id": "planter",
+          "minX": 10.8562,
+          "maxX": 11.3438,
+          "minZ": -14.7438,
+          "maxZ": -14.2562,
+          "minY": 0,
+          "height": 0.9375
+        }
+      ],
+      "triangleCount": 28685,
+      "bytes": 1698560,
+      "waypoints": [
+        {
+          "name": "取餐路线",
+          "points": [
+            [
+              0,
+              0,
+              -2
+            ],
+            [
+              0,
+              0,
+              -14.8
+            ],
+            [
+              -7,
+              0,
+              -14.8
+            ],
+            [
+              7,
+              0,
+              -14.8
+            ]
+          ]
+        },
+        {
+          "name": "用餐与回收",
+          "points": [
+            [
+              0,
+              0,
+              -2
+            ],
+            [
+              0,
+              0,
+              -6.6
+            ],
+            [
+              10.5,
+              0,
+              -6.6
+            ],
+            [
+              10.5,
+              0,
+              -4.2
+            ]
+          ]
+        }
+      ],
+      "description": "参考校园风格的原创功能布局；未依据真实室内测绘。",
+      "portalPosition": {
+        "x": -92,
+        "y": 0,
+        "z": -17.96
+      }
+    },
+    {
+      "id": "dorm",
+      "name": "学生公寓",
+      "w": 18,
+      "d": 22,
+      "h": 3.25,
+      "exterior": {
+        "x": -176.5,
+        "y": 0,
+        "z": -166.5,
+        "yaw": 3.141592653589793
+      },
+      "floors": [
+        {
+          "minX": -8.85,
+          "maxX": 8.85,
+          "minZ": -21.85,
+          "maxZ": 1.6,
+          "y": 0
+        }
+      ],
+      "ramps": [],
+      "rooms": [
+        {
+          "name": "公共走廊",
+          "x": 0,
+          "y": 0,
+          "z": -10,
+          "action": "dorm",
+          "description": "可步行到达的公共走廊"
+        },
+        {
+          "name": "四人宿舍 101",
+          "x": -5.2,
+          "y": 0,
+          "z": -15.8,
+          "action": "dorm",
+          "description": "可步行到达的四人宿舍 101"
+        },
+        {
+          "name": "公共学习室",
+          "x": 5.1,
+          "y": 0,
+          "z": -18.7,
+          "action": "dorm",
+          "description": "可步行到达的公共学习室"
+        },
+        {
+          "name": "休息与洗衣空间",
+          "x": 7.8,
+          "y": 0,
+          "z": -6.1,
+          "action": "dorm",
+          "description": "可步行到达的休息与洗衣空间"
+        },
+        {
+          "name": "宿舍门厅",
+          "x": 0,
+          "y": 0,
+          "z": -2.5,
+          "action": "dorm",
+          "description": "可步行到达的宿舍门厅"
+        }
+      ],
+      "lights": [
+        {
+          "x": 0,
+          "y": 2.8,
+          "z": -4,
+          "intensity": 1.2
+        },
+        {
+          "x": 0,
+          "y": 2.8,
+          "z": -11,
+          "intensity": 1.2
+        },
+        {
+          "x": 0,
+          "y": 2.8,
+          "z": -19,
+          "intensity": 1.2
+        },
+        {
+          "x": -5.3,
+          "y": 2.8,
+          "z": -15,
+          "intensity": 1.2
+        },
+        {
+          "x": 5.3,
+          "y": 2.8,
+          "z": -15,
+          "intensity": 1.2
+        },
+        {
+          "x": 5,
+          "y": 2.8,
+          "z": -5,
+          "intensity": 1.2
+        }
+      ],
+      "entryBasis": "V2 dorm-3 courtyard is open x=-192…-161; link-building south facade is z=-169. Original exterior has no door geometry here; an original glazed door portal is added at x=-176.5,z=-168.62.",
+      "url": "assets/campus/interiors/dorm.glb",
+      "bounds": {
+        "minX": -9.2,
+        "maxX": 9.2,
+        "minZ": -22.2,
+        "maxZ": 1.6
+      },
+      "spawn": {
+        "x": 0,
+        "y": 0,
+        "z": -2,
+        "yaw": 3.141592653589793
+      },
+      "exit": {
+        "minX": -1.7,
+        "maxX": 1.7,
+        "minZ": -0.8,
+        "maxZ": 0.5
+      },
+      "colliders": [
+        {
+          "id": "partition",
+          "minX": -9.0,
+          "maxX": -1.7,
+          "minZ": -0.1,
+          "maxZ": 0.1,
+          "minY": 0,
+          "height": 3.25
+        },
+        {
+          "id": "partition",
+          "minX": 1.7,
+          "maxX": 9.0,
+          "minZ": -0.1,
+          "maxZ": 0.1,
+          "minY": 0,
+          "height": 3.25
+        },
+        {
+          "id": "open-entry-leaf",
+          "minX": -1.77,
+          "maxX": -1.67,
+          "minZ": -1.29,
+          "maxZ": 0.01,
+          "minY": 0,
+          "height": 2.3
+        },
+        {
+          "id": "open-entry-leaf",
+          "minX": 1.67,
+          "maxX": 1.77,
+          "minZ": -1.29,
+          "maxZ": 0.01,
+          "minY": 0,
+          "height": 2.3
+        },
+        {
+          "id": "outer-side",
+          "minX": -9.11,
+          "maxX": -8.89,
+          "minZ": -22.0,
+          "maxZ": 0.0,
+          "minY": 0,
+          "height": 3.25
+        },
+        {
+          "id": "outer-side",
+          "minX": 8.89,
+          "maxX": 9.11,
+          "minZ": -22.0,
+          "maxZ": 0.0,
+          "minY": 0,
+          "height": 3.25
+        },
+        {
+          "id": "partition",
+          "minX": -9.0,
+          "maxX": 9.0,
+          "minZ": -22.1,
+          "maxZ": -21.9,
+          "minY": 0,
+          "height": 3.25
+        },
+        {
+          "id": "partition",
+          "minX": -1.8,
+          "maxX": -1.6,
+          "minZ": -22.0,
+          "maxZ": -13.3,
+          "minY": 0,
+          "height": 3.25
+        },
+        {
+          "id": "partition",
+          "minX": -1.8,
+          "maxX": -1.6,
+          "minZ": -11.5,
+          "maxZ": -6.5,
+          "minY": 0,
+          "height": 3.25
+        },
+        {
+          "id": "partition",
+          "minX": -1.8,
+          "maxX": -1.6,
+          "minZ": -4.7,
+          "maxZ": -2.6,
+          "minY": 0,
+          "height": 3.25
+        },
+        {
+          "id": "partition",
+          "minX": 1.6,
+          "maxX": 1.8,
+          "minZ": -22.0,
+          "maxZ": -13.3,
+          "minY": 0,
+          "height": 3.25
+        },
+        {
+          "id": "partition",
+          "minX": 1.6,
+          "maxX": 1.8,
+          "minZ": -11.5,
+          "maxZ": -6.5,
+          "minY": 0,
+          "height": 3.25
+        },
+        {
+          "id": "partition",
+          "minX": 1.6,
+          "maxX": 1.8,
+          "minZ": -4.7,
+          "maxZ": -2.6,
+          "minY": 0,
+          "height": 3.25
+        },
+        {
+          "id": "partition",
+          "minX": -9.0,
+          "maxX": -1.7,
+          "minZ": -9.1,
+          "maxZ": -8.9,
+          "minY": 0,
+          "height": 3.25
+        },
+        {
+          "id": "partition",
+          "minX": 1.7,
+          "maxX": 9.0,
+          "minZ": -9.1,
+          "maxZ": -8.9,
+          "minY": 0,
+          "height": 3.25
+        },
+        {
+          "id": "loft-bed",
+          "minX": -8.3,
+          "maxX": -7.0,
+          "minZ": -16.35,
+          "maxZ": -14.05,
+          "minY": 0,
+          "height": 2.5
+        },
+        {
+          "id": "loft-bed",
+          "minX": -8.3,
+          "maxX": -7.0,
+          "minZ": -20.5,
+          "maxZ": -18.2,
+          "minY": 0,
+          "height": 2.5
+        },
+        {
+          "id": "loft-bed",
+          "minX": -3.75,
+          "maxX": -2.45,
+          "minZ": -16.35,
+          "maxZ": -14.05,
+          "minY": 0,
+          "height": 2.5
+        },
+        {
+          "id": "loft-bed",
+          "minX": -3.75,
+          "maxX": -2.45,
+          "minZ": -20.5,
+          "maxZ": -18.2,
+          "minY": 0,
+          "height": 2.5
+        },
+        {
+          "id": "wardrobe",
+          "minX": -7.11,
+          "maxX": -5.89,
+          "minZ": -21.825,
+          "maxZ": -21.175,
+          "minY": 0,
+          "height": 2.3
+        },
+        {
+          "id": "wardrobe",
+          "minX": -5.81,
+          "maxX": -4.59,
+          "minZ": -21.825,
+          "maxZ": -21.175,
+          "minY": 0,
+          "height": 2.3
+        },
+        {
+          "id": "wardrobe",
+          "minX": -4.51,
+          "maxX": -3.29,
+          "minZ": -21.825,
+          "maxZ": -21.175,
+          "minY": 0,
+          "height": 2.3
+        },
+        {
+          "id": "shoe-storage",
+          "minX": -8.8,
+          "maxX": -6.6,
+          "minZ": -10.275,
+          "maxZ": -9.725,
+          "minY": 0,
+          "height": 0.95
+        },
+        {
+          "id": "reading-table",
+          "minX": 3.14,
+          "maxX": 7.26,
+          "minZ": -17.05,
+          "maxZ": -14.55,
+          "minY": 0,
+          "height": 0.94
+        },
+        {
+          "id": "bookcase",
+          "minX": 2.56,
+          "maxX": 8.04,
+          "minZ": -21.77,
+          "maxZ": -21.23,
+          "minY": 0,
+          "height": 2.05
+        },
+        {
+          "id": "sofa",
+          "minX": 3.3,
+          "maxX": 7.1,
+          "minZ": -3.65,
+          "maxZ": -2.55,
+          "minY": 0,
+          "height": 1.12
+        },
+        {
+          "id": "lounge-table",
+          "minX": 4.24,
+          "maxX": 6.16,
+          "minZ": -5.685,
+          "maxZ": -4.715,
+          "minY": 0,
+          "height": 0.94
+        },
+        {
+          "id": "washer",
+          "minX": 2.475,
+          "maxX": 3.525,
+          "minZ": -8.65,
+          "maxZ": -7.85,
+          "minY": 0,
+          "height": 0.95
+        },
+        {
+          "id": "washer",
+          "minX": 3.675,
+          "maxX": 4.725,
+          "minZ": -8.65,
+          "maxZ": -7.85,
+          "minY": 0,
+          "height": 0.95
+        },
+        {
+          "id": "washer",
+          "minX": 4.875,
+          "maxX": 5.925,
+          "minZ": -8.65,
+          "maxZ": -7.85,
+          "minY": 0,
+          "height": 0.95
+        },
+        {
+          "id": "dispenser",
+          "minX": 7.2,
+          "maxX": 8.4,
+          "minZ": -8.58,
+          "maxZ": -7.82,
+          "minY": 0,
+          "height": 2.05
+        },
+        {
+          "id": "lockers",
+          "minX": -8.35,
+          "maxX": -2.45,
+          "minZ": -8.875,
+          "maxZ": -8.325,
+          "minY": 0,
+          "height": 2.15
+        },
+        {
+          "id": "parcel-table",
+          "minX": -6.76,
+          "maxX": -3.64,
+          "minZ": -5.16,
+          "maxZ": -4.24,
+          "minY": 0,
+          "height": 0.94
+        },
+        {
+          "id": "planter",
+          "minX": -8.325,
+          "maxX": -7.675,
+          "minZ": -2.325,
+          "maxZ": -1.675,
+          "minY": 0,
+          "height": 1.25
+        },
+        {
+          "id": "planter",
+          "minX": 7.675,
+          "maxX": 8.325,
+          "minZ": -1.925,
+          "maxZ": -1.275,
+          "minY": 0,
+          "height": 1.25
+        }
+      ],
+      "triangleCount": 15599,
+      "bytes": 1171084,
+      "waypoints": [
+        {
+          "name": "四人宿舍",
+          "points": [
+            [
+              0,
+              0,
+              -2
+            ],
+            [
+              0,
+              0,
+              -12.4
+            ],
+            [
+              -5.3,
+              0,
+              -12.4
+            ],
+            [
+              -5.3,
+              0,
+              -19.7
+            ]
+          ]
+        },
+        {
+          "name": "公共学习与生活",
+          "points": [
+            [
+              0,
+              0,
+              -2
+            ],
+            [
+              0,
+              0,
+              -12.4
+            ],
+            [
+              5.2,
+              0,
+              -12.4
+            ],
+            [
+              7.8,
+              0,
+              -12.4
+            ],
+            [
+              7.8,
+              0,
+              -18.7
+            ]
+          ]
+        },
+        {
+          "name": "生活空间",
+          "points": [
+            [
+              0,
+              0,
+              -2
+            ],
+            [
+              0,
+              0,
+              -5.7
+            ],
+            [
+              2.6,
+              0,
+              -5.7
+            ],
+            [
+              2.6,
+              0,
+              -6.5
+            ],
+            [
+              7.8,
+              0,
+              -6.5
+            ],
+            [
+              7.8,
+              0,
+              -6.1
+            ]
+          ]
+        }
+      ],
+      "description": "参考校园风格的原创功能布局；未依据真实室内测绘。",
+      "portalPosition": {
+        "x": -176.5,
+        "y": 0,
+        "z": -168.58
+      }
+    }
+  ],
+  "portalUrl": "assets/campus/interiors/portals.glb"
+}

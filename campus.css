@@ -13,3 +13,14 @@
 .worldBasic{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:9px 14px;border:1px solid #b5c6da;background:white;color:var(--blue);font-size:13px;text-decoration:none}.campusLoad{gap:8px}.campusLoad small{font-size:12px;line-height:1.7}.campusLoad .worldBasic{justify-self:center;margin-top:12px}.campusLoad #loadElapsed{font-size:13px;font-variant-numeric:tabular-nums}
 
 .worldDeviceNote{font-size:13px;color:#526c85;background:#eef4fa;border-left:3px solid var(--gold);padding:10px 14px;line-height:1.8}
+
+/* Entry prompts stay clear of joystick and landmark actions on small screens. */
+.buildingDoor{position:absolute;left:50%;bottom:76px;transform:translateX(-50%);z-index:6;background:#063d7c;color:#fff5d5;border:2px solid #bb8b38;border-radius:9px;padding:12px 18px;box-shadow:0 5px 18px #001f3e55;max-width:80%;font-weight:700;white-space:normal}
+.buildingDoor[hidden],.interiorRoom[hidden]{display:none}
+.buildingDoor:disabled{opacity:.8}
+.interiorRoom{position:absolute;left:12px;top:108px;z-index:5;background:#fff8e8eb;color:#063d7c;border-left:3px solid #bb8b38;padding:6px 10px;border-radius:4px;max-width:75%;font-size:.8rem}
+@media(max-width:640px){.buildingDoor{bottom:68px;padding:10px 14px;font-size:.86rem}.interiorRoom{top:68px;left:8px;max-width:70%}}
+#worldHost[data-interior] .worldPrompt{left:auto;right:12px;bottom:120px;transform:none;font-size:12px;padding:9px 12px;max-width:155px}
+@media(max-width:700px){.interiorRoom{top:116px;max-width:calc(100% - 16px);font-size:11px;line-height:1.5}}
+
+.schoolNotices{margin-bottom:24px}.schoolNotice{padding:14px 0;border-bottom:1px solid var(--line)}.schoolNotice:first-child{padding-top:0}.schoolNotice:last-child{border-bottom:0}.officeText{white-space:pre-wrap;overflow-wrap:anywhere}.affairEvent{border-left:3px solid #d2b274;margin:12px 0;padding:4px 12px}.affairEvent small{display:block;color:#667b90}.affairRecord{margin-top:16px}.affairRecord details{padding:12px 0}.affairRecord textarea,#studentAffairForm textarea{display:block;width:100%;margin-top:7px}.affairRecord summary{cursor:pointer;color:var(--blue)}

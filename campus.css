@@ -26,3 +26,6 @@
 .schoolNotices{margin-bottom:24px}.schoolNotice{padding:14px 0;border-bottom:1px solid var(--line)}.schoolNotice:first-child{padding-top:0}.schoolNotice:last-child{border-bottom:0}.officeText{white-space:pre-wrap;overflow-wrap:anywhere}.affairEvent{border-left:3px solid #d2b274;margin:12px 0;padding:4px 12px}.affairEvent small{display:block;color:#667b90}.affairRecord{margin-top:16px}.affairRecord details{padding:12px 0}.affairRecord textarea,#studentAffairForm textarea{display:block;width:100%;margin-top:7px}.affairRecord summary{cursor:pointer;color:var(--blue)}
 
 .authCurrent{max-width:680px;margin:0 auto}.accountOption{padding:14px 0;border-bottom:1px solid var(--line)}.accountOption:last-child{border-bottom:0}.accountOption>summary{cursor:pointer;color:var(--blue);font-weight:600}.accountOption[open]>summary{margin-bottom:14px}
+
+/* Course scenarios keep generated observation and action plans readable. */
+.experiment .prose{white-space:pre-wrap;overflow-wrap:anywhere}.courseSources a{overflow-wrap:anywhere}

@@ -86,7 +86,7 @@ searchForm?.addEventListener('submit', e => {
 const slides = [
   ['hero-naiwa.jpg','BEIJING NAIWA UNIVERSITY · 2026','传蛙万里　与梦想同频','新蛙按时入塘，搭子记得回呱。','article.html?id=firstweek','领取入塘手册','校门前背着书包、侧身回眸的奶蛙'],
   ['avenue.jpg','LIFE IN THE POND · 3D校园','荷风起时　奶蛙出没','从南门走过湖桥，亲自看看这片校园。','campus.html#explore','开启3D巡塘','校园林荫道'],
-  ['campus.jpg','FOUR SCHOOLS · 四院合呱','一声呱起　四院同频','从“荷叶食堂见”，到同频搭子的一个 ACK。','campus.html#course/signal/encoding','翻开通信讲义','校园钟塔']
+  ['campus.jpg','EIGHT SCHOOLS · 八院合呱','一声呱起　八院同频','从“荷叶食堂见”，到同频搭子的一个 ACK。','campus.html#colleges','认识八院学科','校园钟塔']
 ];
 const hero = document.querySelector('.hero');
 if (hero) {
@@ -345,7 +345,7 @@ function renderWidget(kind,body) {
   }
   if(kind==='checklist') {
     panel.append(make('h2','新蛙入塘 · 四条基础链路'));
-    const tasks=['认塘：核对自己的课表与教室','试课：读一篇四院导读，选个想学的问题','同频：和室友约好作息、声音与公共空间','补给：给吃饭、散步和睡觉留出时间'];
+    const tasks=['认塘：核对自己的课表与教室','试课：读一篇学院导读，选个想学的问题','同频：和室友约好作息、声音与公共空间','补给：给吃饭、散步和睡觉留出时间'];
     const key='naiwa-firstweek-v1';let saved=[],stored=true;
     try {const parsed=JSON.parse(localStorage.getItem(key)||'[]');if(Array.isArray(parsed))saved=parsed.filter(i=>Number.isInteger(i)&&i>=0&&i<tasks.length);} catch {stored=false;}
     const group=make('div',undefined,'campusChecklist');

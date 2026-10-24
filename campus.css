@@ -29,3 +29,13 @@
 
 /* Course scenarios keep generated observation and action plans readable. */
 .experiment .prose{white-space:pre-wrap;overflow-wrap:anywhere}.courseSources a{overflow-wrap:anywhere}
+
+/* Curriculum keeps the blue, gold and paper surface language of the campus. */
+.directoryIntro{display:flex;align-items:center;justify-content:space-between;gap:24px}.directoryIntro>div:first-child{max-width:760px}.courseFilters{display:grid;grid-template-columns:minmax(220px,2fr) minmax(160px,1fr) minmax(140px,1fr) auto auto;align-items:end;gap:12px}.courseFilters label{margin-top:0}.courseFilters input,.courseFilters select{width:100%;min-width:0}.coursePagination{justify-content:center;margin:28px 0}.courseCard h2{overflow-wrap:anywhere}.courseCard .actions{flex-wrap:wrap}.programCourseList{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 28px}.programCourse{display:flex;gap:14px;align-items:center;justify-content:space-between;border-bottom:1px solid var(--line,#dbe3ec);padding:15px 0}.programCourse>div{min-width:0}.programCourse a{font-weight:700}.programCourse small{display:block;color:#637387;line-height:1.6;margin-top:5px}.programCourse .tag{flex-shrink:0}.courseSources{overflow-wrap:anywhere}
+@media(max-width:900px){.courseFilters{grid-template-columns:repeat(2,minmax(0,1fr))}.courseFilters>div:first-child{grid-column:1/-1}.directoryIntro{display:block}.programCourseList{grid-template-columns:1fr}}@media(max-width:480px){.courseFilters{grid-template-columns:1fr}.courseFilters>div:first-child{grid-column:auto}.programCourse{align-items:flex-start}.directoryIntro h2{font-size:23px}.courseCard h2{font-size:21px}}
+
+.programStats .stat b{white-space:nowrap;font-size:clamp(20px,5.2vw,32px)}.curriculumCreditTable th{white-space:nowrap}
+.lesson .actions a{color:#fff;text-decoration:none}.lesson .actions a.secondary,.lesson .actions a.textLink{color:var(--blue)}.lesson .actions a.textLink{text-decoration:underline}
+
+/* Course examples share the campus paper, blue and gold palette. */
+.naiwaCase{margin:24px 0;padding:18px 22px;border-left:3px solid var(--gold,#ba9047);background:#f3f7fa;overflow-wrap:anywhere}.naiwaCase h3{margin:0 0 10px;color:var(--blue,#063d7c);font-size:18px}.naiwaCase p{margin:10px 0;line-height:1.9}.naiwaCase p:last-child{margin-bottom:0}.naiwaCase details{margin-top:12px;border-top:1px solid #d6e1ea;padding-top:6px}.naiwaCase summary{cursor:pointer;color:var(--blue,#063d7c);min-height:44px;line-height:1.6;padding:10px 0}.naiwaCase summary:focus-visible{outline:2px solid var(--blue,#063d7c);outline-offset:3px}.naiwaCase details[open] summary{margin-bottom:6px}@media(max-width:700px){.naiwaCase{padding:16px;margin:20px 0}.naiwaCase h3{font-size:17px}}
